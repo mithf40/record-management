@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <!-- <script src="/src/js/getrequest.js"></script> -->
+  <script src="/static/js/postrequest.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Create a new record</h2>
+  <form class="form-horizontal" id="patientForm">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="fullname">Patient's full name</label>
+      <div class="col-sm-6">
+        <input type="text" class="form-control" id="fullname" placeholder="John Doe" name="fullname">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="ethaddr">Patient's Ethereum Address</label>
+      <div class="col-sm-6">
+        <input type="text" class="form-control" id="ethaddr" placeholder="Enter patient's Ethereum address" name="ethaddr">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="contact_info">Contact info:</label>
+      <div class="col-sm-6">          
+        <input type="text" class="form-control" id="contact_info" placeholder="Enter mobile no." name="contact_info">
+      </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="address">Address</label>
+        <div class="col-lg-6">
+            <textarea rows="4" col="5" type="text" class="form-control" id="address" placeholder="Enter address"></textarea>
+        </div>
+    </div>
+    
+    <!-- <div class="form-group">
+        <label class="control-label col-sm-2" for="dob">Date of Birth</label>
+        <div class="col-sm-2">
+            <input type="text" class="form-control" id="dob" placeholder="dd/mm/yyyy">
+        </div>
+        <label class="control-label col-sm-2" for="gender">Gender</label>
+        <div class="col-sm-2">
+            <select class="form-control" id="gender">
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="symptoms">Symtoms</label>
+        <div class="col-lg-6">
+            <textarea rows="4" col="5" type="text" class="form-control" id="symptoms" placeholder="Enter patient's symptoms"></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="disease">Disease</label>
+        <div class="col-lg-6">
+            <textarea rows="4" col="5" type="text" class="form-control" id="disease" placeholder="Enter patient's diagnosed disease(s)"></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="medication">Medications</label>
+        <div class="col-lg-6">
+            <textarea rows="4" col="5" type="text" class="form-control" id="medication" placeholder="Enter recommended medications"></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="history">Medical History</label>
+        <div class="col-lg-6">
+            <textarea rows="4" col="5" type="text" class="form-control" id="history" placeholder="Enter patient's previous medical conditions"></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="doc">Doctor's full name</label>
+      <div class="col-sm-6">
+        <input type="text" class="form-control" id="doc" placeholder="John Doe" name="doc">
+      </div>
+    </div> -->
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-default">Submit</button>
+      </div>
+    </div>
+  </form>
+</div>
+<div id="postResultDiv">
+</div>
+</body>
+</html>
+
