@@ -23,7 +23,7 @@ $( document ).ready(function() {
       $.ajax({
       type : "POST",
       contentType : "application/json",
-      url : window.location + "api/users/save",
+      url : window.location + "/api/users/save",
       data : JSON.stringify(formData),
       dataType : 'json',
       success : function(customer) {
@@ -32,7 +32,7 @@ $( document ).ready(function() {
           "--> " + customer.fullname + " " + customer.ethaddr + ", createdAt: " + customer.createdAt+  "</p>"); 
       },
       error : function(e) {
-        alert("Error!")
+        alert("Error!", window.location)
         console.log("ERROR: ", e);
       }
     });

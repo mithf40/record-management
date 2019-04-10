@@ -21,7 +21,7 @@ exports.save = (req, res) => {
 exports.findAll = (req, res) => {
   console.log("Get All Customers");
   User.findAll({
-    attributes: ['id', 'fullname', 'ethaddr', 'contact_info', 'address']
+    attributes: {include: ['id', 'fullname', 'ethaddr', 'contact_info', 'address']}
   }).then(users => {
      res.send(users);
   });
