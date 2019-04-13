@@ -13,6 +13,16 @@ module.exports = (sequelize, Sequelize) => {
     	type: Sequelize.STRING
     }
   });
-  
-  return User;
+  const register = sequelize.define('register',{
+    reg_addr: {
+      type: Sequelize.STRING
+    },
+    contract_addr: {
+      type: Sequelize.STRING
+    }
+  })
+  const tables = {}
+  tables.register = register;
+  tables.User =  User;
+  return tables;
 }

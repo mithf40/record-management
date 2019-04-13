@@ -1,4 +1,4 @@
-pragma solidity >=0.4.17;
+pragma solidity ^0.5.0;
 
 contract record
 {
@@ -7,13 +7,7 @@ contract record
     bytes32 public record_hash;
     bytes public provider_sign;
     
-    constructor(address pat, bytes32 rec_hash, bytes memory sig) public
-    {
-        provider = msg.sender;
-        patient = pat;
-        record_hash = rec_hash;
-        provider_sign = sig;
-    }
+    
     function gethash() public view returns(bytes32)
     {
         return record_hash;

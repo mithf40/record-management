@@ -1,6 +1,6 @@
 const db = require('../config/db.config.js');
 const User = db.user;
- 
+const register = db.register;
 // Save FormData - User to MySQL
 exports.save = (req, res) => {
   console.log('Post a Patient: ' + JSON.stringify(req.body));
@@ -24,5 +24,17 @@ exports.findAll = (req, res) => {
     attributes: {include: ['id', 'fullname', 'ethaddr', 'contact_info', 'address']}
   }).then(users => {
      res.send(users);
+  });
+};
+
+exports.register_user = (req, res) => {
+  console.log("Registering new patient");
+  register.create({
+    reg_addr: req.body.reg_addr,
+    contract_addr: req.body.contract_addr
+  },{
+    attributes: {include: ['reg_addr', 'contract_addr']}
+  }).then(new_user => {
+    res.send(new_user);
   });
 };
