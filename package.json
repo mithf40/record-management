@@ -17,6 +17,8 @@
   },
   "dependencies": {
     "body-parser": "^1.18.3",
+    "brfs": "^2.0.2",
+    "browserify-fs": "^1.0.0",
     "express": "^4.16.4",
     "mysql2": "^1.6.5",
     "sequelize": "^5.2.13",

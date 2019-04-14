@@ -30,11 +30,11 @@ module.exports = function(app) {
 	// Retrieve all Users
 	app.get('/patient/api/users/all', users.findAll);
 
-	app.get('register', (req,res) => {
+	app.get('/register', (req,res) => {
 		res.sendFile(path + "register.html");
 	});
 
-	app.post('register', users.register_user);
+	app.post('/register/create', users.register_user);
 	
 	app.use("/",router);
  

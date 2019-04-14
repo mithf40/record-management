@@ -1,10 +1,14 @@
-const fs = require('fs');
 
-const HDWalletProvider = require("truffle-hdwallet-provider");
-const Web3 = require("web3");
 // const { interface, bytecode } = require("./compile");
 module.exports = function(compiled_contract, account_addr, args){
-	const contract_data = fs.readFileSync(compiled_contract);
+
+	console.log("deploying " + compiled_contract + " using " + account_addr);
+	const fs = require('browserify-fs');
+
+	const HDWalletProvider = require("truffle-hdwallet-provider");
+	const Web3 = require("web3");
+	const contract_data = fs.readFileSync(compiled_contract, 'utf8');
+	// const compiled = require(compiled_contract);
 	const compiled = JSON.parse(contract_data);
 
 	const interface = compiled.abi;
