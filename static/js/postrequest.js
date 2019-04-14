@@ -1,13 +1,42 @@
 $( document ).ready(function() {
   
   // SUBMIT FORM
-    $("#patientForm").submit(function(event) {
+    $("#patientForm").submit(async function(event) {
     // Prevent the form from submitting via the browser.
     event.preventDefault();
-    console.log("postrequest called.")
+    console.log("postrequest called.");
+    // $("#btnsubmit").attr("disabled", true);
+    var valid = await checkValidity();
+    console.log(valid);
     ajaxPost();
   });
     
+  async function checkValidity(){
+    var req = {
+      ethaddr: $("#ethaddr").val(),
+    };
+    console.log(JSON.stringify(req));
+
+    var res = 0;
+
+    $.ajax({
+      type : "GET",
+      // contentType: "application/json",
+      url : "/patient/api/registers/contract",
+      data : req,
+      // dataType : 'json',
+      success: function(result){
+        res = 1;
+        console.log("Success: ", result[0].contract_addr);
+      },
+      error : function(e) {
+        alert("Error!", window.location);
+        console.log("ERROR: ", e);
+      }
+    });
+
+    return res;
+  }
     
     function ajaxPost(){
       
@@ -19,6 +48,8 @@ $( document ).ready(function() {
         address : $('#address').val()
       }
       
+
+
       // DO POST
       $.ajax({
       type : "POST",
@@ -41,6 +72,7 @@ $( document ).ready(function() {
       resetData();
  
     }
+
     
     function resetData(){
       $("#fullname").val("");

@@ -5,6 +5,7 @@ $(document).ready(function() {
 		var _contract_addr = await deploy();
 		ajaxPost(_contract_addr);
 		$('#btnsubmit').attr("disabled", false);
+
 	});
 	async function deploy(){
 		const args = [];
@@ -86,6 +87,7 @@ $(document).ready(function() {
 				dataType: 'json',
 				success : function(patient) {
 					$("#post_register").html("<p>"+patient.reg_addr+" added succcessfully.</p>");
+					window.location = "localhost:8081/patient.html";
 				},
 				error: function(e){
 					alert("ERROR", window.location);

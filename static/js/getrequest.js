@@ -8,9 +8,11 @@ $( document ).ready(function() {
   
   // DO GET
   function ajaxGet(){
+
     $.ajax({
       type : "GET",
       url : "/patient/api/users/all",
+      // data: {key: "value"},
       success: function(result){
         $('#getResultDiv ul').empty();
         var custList = "";
