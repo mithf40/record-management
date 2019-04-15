@@ -14,9 +14,10 @@ exports.save = (req, res) => {
     record_name: req.body.record_name,
     pat_addr: req.body.pat_addr,
     doc_addr: req.body.doc_addr,
-    note: req.body.note
+    note: req.body.note,
+    record_addr: req.body.record_addr
   },{
-    attributes: {include: ['fullname', 'record_name', 'pat_addr', 'doc_addr', 'note']}
+    attributes: {include: ['fullname', 'record_name', 'pat_addr', 'doc_addr', 'note', 'record_addr']}
   }).then(record => {
     res.send(record);
   })
