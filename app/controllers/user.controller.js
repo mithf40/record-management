@@ -41,7 +41,7 @@ exports.register_user = (req, res) => {
   },{
     attributes: {include: ['reg_addr', 'contract_addr']}
   }).then(new_user => {
-    console.log(new_user);
+    // console.log("registered "+new_user);
     res.send(new_user);
   });
 };

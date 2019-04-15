@@ -2,65 +2,62 @@ $(document).ready(function() {
 	$("#register_form").submit(async function(event) {
 		event.preventDefault();
 		$("#btnsubmit").attr("disabled", true);
-		var _contract_addr = await deploy();
-		ajaxPost(_contract_addr);
+		await deploy();
+		// ajaxPost(_contract_addr);
 		$('#btnsubmit').attr("disabled", false);
 
 	});
 	async function deploy(){
-		const args = [];
-		// const _contract_addr = require('./deploy.js')('../../build/contracts/patient.json',$("#reg_addr").val(),args);
 		console.log("deploying patient.sol using " + $("#reg_addr").val());
-		const fs = require('fs');
+		var web3Provider = null;
+	    if (window.ethereum) {
+	      web3Provider = window.ethereum;
+	      try {
+	        // Request account access
+	        await window.ethereum.enable();
+	      } catch (error) {
+	        // User denied account access...
+	        console.error("User denied account access")
+	      }
+	    }
+	    // Legacy dapp browsers...
+	    else if (window.web3) {
+	      web3Provider = window.web3.currentProvider;
+	    }
+	    // If no injected web3 instance is detected, fall back to Ganache
+	    else {
+	      web3Provider = new Web3.providers.HttpProvider('http://localhost:7545');
+	    }
+	    var fs = require('fs');
+	    var Web3 = require("web3");
+	    var web3 = new Web3(web3Provider);
 
-		const HDWalletProvider = require("truffle-hdwallet-provider");
-		const Web3 = require("web3");
-		const contract_data = fs.readFileSync('../../build/contracts/patient.json', 'utf8');
-		// const compiled = require(compiled_contract);
-		const compiled = JSON.parse(contract_data);
+	    const contract_data = fs.readFileSync('../../build/contracts/patient.json','utf8');
+	    const compiled = JSON.parse(contract_data);
+	    const abi = compiled.abi;
+	    const bytecode = compiled.evm.bytecode.object;
 
-		const interface = compiled.abi;
-		const bytecode = compiled.evm.bytecode.object;
-		// console.log(interface);
-		// console.log(JSON.parse(interface));
-
-		// console.log(typeof Web3);
-
-		const provider = new HDWalletProvider(
-			"cereal unfold keep grass caution purity scissors twin pioneer jewel enable shuffle",
-			"https://ropsten.infura.io/v3/e63294ce678346ddb5de54f863476e9c"
-		);
-		// console.log(provider);
-		const web3 = new Web3(provider);
-
-		// var _contract_addr;
-
-		// const deploy = async () => {
-		// async function deploy() {
-			try{
-					// const accounts = await web3.eth.getAccounts();
-				const accounts = [$("#reg_addr").val()];
-				console.log(accounts);
-				console.log("Attempting to deploy from account", accounts[0]);
-
-				const result = await new web3.eth.Contract(interface)
-				 .deploy({ data: "0x" + bytecode,
-									 arguments: args})
-				 .send({ gas: "1000000", from: accounts[0] });
-				 // console.log("lfsdlfkdsd");
-				console.log("Contract deployed to", result.options.address);
-
-				// _contract_addr = result.options.address;
-				return result.options.address;
-				// _callback();
-
-			} catch(e){
-				console.log(e);
-			}
-		// };
+	    const contract = new web3.eth.Contract(abi,$("#reg_addr").val());
+		contract.deploy({
+		    data: bytecode,
+		    arguments: []
+		})
+		.send({
+		    from: $("#reg_addr").val()
+		}, (error, transactionHash) => {  })
+		.on('error', (error) => { console.log(error); })
+		.on('transactionHash', (transactionHash) => { console.log("transaction hash : "+transactionHash); })
+		.on('receipt', (receipt) => {
+		   console.log("contract deployed to "+receipt.contractAddress) // contains the new contract address
+		})
+		.on('confirmation', (confirmationNumber, receipt) => {  })
+		.then((newContractInstance) => {
+		    console.log(newContractInstance.options.address) // instance with the new contract address
+		    ajaxPost(newContractInstance.options.address);
+		});
 	}
 	async function ajaxPost(_contract_addr){
-
+		console.log("debug "+$("#reg_addr").val());
 		var formData = {
 			reg_addr: $("#reg_addr").val(),
 			contract_addr: _contract_addr
