@@ -32,7 +32,7 @@ App = {
     handleProvider: function(){
         event.preventDefault();
 
-        window.location.href = "https://google.com";
+        window.location.href = "record.html";
     }
   
   

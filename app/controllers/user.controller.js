@@ -7,6 +7,7 @@ const Op = Sequelize.Op;
 // Save FormData - User to MySQL
 exports.save = (req, res) => {
   console.log('Post a Patient: ' + JSON.stringify(req.body));
+  // console.log(req.body);
   
   User.create({
     fullname: req.body.fullname,
@@ -23,6 +24,7 @@ exports.save = (req, res) => {
 // Fetch all Users
 exports.findAll = (req, res) => {
   console.log("Get All Customers");
+  // console.log(req.query);
   User.findAll({
     attributes: {include: ['id', 'fullname', 'ethaddr', 'contact_info', 'address']}
   }).then(users => {
@@ -43,11 +45,17 @@ exports.register_user = (req, res) => {
   });
 };
 
-// exports.get_contract = (req, res) => {
-//   console.log("getting contract_addr");
-//   register.findAll({
-//     where: {
-//       reg_addr: 
-//     }
-//   })
-// };
+exports.findContractAddress = (req, res) => {
+  console.log(req.query);
+  console.log("I am alive!!");
+  register.findAll({
+    attributes : {include: ['contract_addr']},
+    where: {
+      reg_addr : req.query.ethaddr
+    }
+    }).then(users =>{
+    console.log(users[0].contract_addr);
+    res.send(users);
+  });
+
+};
