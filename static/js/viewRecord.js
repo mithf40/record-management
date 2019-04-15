@@ -28,19 +28,22 @@ $( document ).ready(function() {
                     $('#getResultDiv .list-group').append(num);
                     $.each(result, function(i, item){
                         // let rec = customer.id + ". " + customer.fullname + " " + customer.ethaddr + "<br>";
+                        // var ct = 1;
+                        console.log(i, item);
+                        // console.log(ct);
                         let rec = "<div class='panel panel-default'>" + "<div class='panel-heading'>" + 
                               "<h4 class='panel-title'>" + 
-                                "<a data-toggle='collapse' data-parent='#getResultDiv' href=#" + item.id + ">" + item.fullname + "</a>" + 
+                                "<a data-toggle='collapse' data-parent='#getResultDiv' href=#" + item.id + ">" + item.record_name + "</a>" + 
                               "</h4>" + 
                             "</div>" +
                             "<div id=" + item.id + " class='panel-collapse collapse'>" + 
-                              "<div class='panel-body'>" + item.ethaddr + " <br>  " + item.contact_info + " <br> " + item.address + " " + "</div>" + 
-                              "<div class='panel-body'> <button id='btn'"+i+ "type='button' class='btn btn-default' onclick='whichButton(this)'>Check</button>"+ 
-                                "<div id='hidden" + i + "'> </div>" +
+                              "<div class='panel-body'> Record of: " + item.fullname + " <br> Created By: " + item.doc_addr + " <br> Created at:" + item.createdAt + " " + "</div>" + 
+                              "<div class='panel-body'> <button  id='btn"+ item.id + "' type='button' class='btn btn-default' onclick='whichButton(this)'>Check</button>"+ 
+                                "<div id='hidden" + item.id + "'> Patien't encrypted note:" + item.note + "</div>" +
                               "</div>" + 
                             "</div>" + 
                           "</div>";
-                        
+                        // ct = ct + 1;
                         $('#getResultDiv .list-group').append(rec);
                       });
                 },

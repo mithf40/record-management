@@ -166,12 +166,12 @@ $( document ).ready(function() {
 		.on('confirmation', (confirmationNumber, receipt) => {  })
 		.then((newContractInstance) => {
 		    console.log(newContractInstance.options.address) // instance with the new contract address
-		    ajaxPost();
+		    ajaxPost(newContractInstance.options.address);
 		});
     // console.log("contract deployed to : "+deployed.options.address);
   }
 
-  function ajaxPost(){
+  function ajaxPost(_record_addr){
     const Cryptr = require('cryptr');
     console.log("secret key ",key);
 		const cryptr = new Cryptr(key);
@@ -187,7 +187,8 @@ $( document ).ready(function() {
       record_name: $("#record_name").val(),
       pat_addr :  $("#pat_addr").val(),
       doc_addr : $('#doc_addr').val(),
-      note : encrypted_data
+      note : encrypted_data,
+      record_addr: _record_addr
     }
 
     // DO POST
