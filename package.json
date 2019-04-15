@@ -20,6 +20,8 @@
     "brfs": "^2.0.2",
     "browserify": "^16.2.3",
     "browserify-fs": "^1.0.0",
+    "crypto": "^1.0.1",
+    "cryptr": "^4.0.2",
     "express": "^4.16.4",
     "mysql2": "^1.6.5",
     "sequelize": "^5.2.13",

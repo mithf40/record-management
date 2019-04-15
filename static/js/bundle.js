@@ -55089,8 +55089,12 @@ $(document).ready(function() {
 				url: window.location + "/create",
 				data: JSON.stringify(formData),
 				dataType: 'json',
-				success : function(patient) {
-					$("#post_register").html("<p>"+patient.reg_addr+" added succcessfully.</p>");
+				success : function(_data) {
+					// window.location = data.redirectURL;
+					// $("#patient_addr").html("<h3>"+data.info.reg_addr+"</h3>");
+					$.get('localhost:8081/patient',{data: _data.info.reg_addr},function(res){
+						console.log(res);
+					});
 				},
 				error: function(e){
 					alert("ERROR", window.location);

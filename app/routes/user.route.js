@@ -2,6 +2,7 @@ module.exports = function(app) {
  
 	var express = require("express");
 	var router = express.Router();
+	var fs = require('fs');
 	
 	const users = require('../controllers/user.controller.js');
 	
@@ -17,7 +18,8 @@ module.exports = function(app) {
 	});
 
 	app.get('/patient', (req,res) => {
-	res.sendFile(path + "patient.html");
+		console.log("######"+req);
+		res.sendFile(path + "patient.html");
 	});
 
 	app.get('/record', (req,res) => {
@@ -40,7 +42,13 @@ module.exports = function(app) {
 		res.sendFile(path + "register.html");
 	});
 
-	app.post('/register/create', users.register_user);
+	// app.post('/register/create', users.register_user);
+	app.post('/register/create', function(req, res) {
+		console.log(req.body.reg_addr);
+		res.send({err:0, info: req.body, redirectURL: "/patient"})
+	});
+
+	// app.get('/patient/get_contract', users.get_contract);
 	
 	app.use("/",router);
  

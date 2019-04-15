@@ -1,31 +1,35 @@
 const db = require('../config/db.config.js');
-const User = db.user;
+const records = db.records;
 const register = db.register;
+
+const Sequelize = require('sequelize');
+const Op = Sequelize.Op;
 // Save FormData - User to MySQL
 exports.save = (req, res) => {
-  console.log('Post a Patient: ' + JSON.stringify(req.body));
+  console.log('Saving Record: ' + JSON.stringify(req.body));
   // console.log(req.body);
   
-  User.create({
+  records.create({
     fullname: req.body.fullname,
-    ethaddr: req.body.ethaddr,
-    contact_info: req.body.contact_info,
-    address: req.body.address
+    record_name: req.body.record_name,
+    pat_addr: req.body.pat_addr,
+    doc_addr: req.body.doc_addr,
+    note: req.body.note
   },{
-    attributes: {include: ['fullname', 'ethaddr', 'contact_info', 'address']}
-  }).then(user => {
-    res.send(user);
+    attributes: {include: ['fullname', 'record_name', 'pat_addr', 'doc_addr', 'note']}
+  }).then(record => {
+    res.send(record);
   })
 };
  
 // Fetch all Users
 exports.findAll = (req, res) => {
-  console.log("Get All Customers");
+  console.log("Get All patients");
   // console.log(req.query);
-  User.findAll({
-    attributes: {include: ['id', 'fullname', 'ethaddr', 'contact_info', 'address']}
-  }).then(users => {
-     res.send(users);
+  records.findAll({
+    attributes: {include: ['id', 'fullname', 'record_name', 'pat_addr', 'doc_addr', 'note']}
+  }).then(record => {
+     res.send(record);
   });
 };
 
@@ -48,6 +52,7 @@ exports.register_user = (req, res) => {
   },{
     attributes: {include: ['reg_addr', 'contract_addr']}
   }).then(new_user => {
+    console.log(new_user);
     res.send(new_user);
   });
 };
@@ -58,7 +63,7 @@ exports.findContractAddress = (req, res) => {
   register.findAll({
     attributes : {include: ['contract_addr']},
     where: {
-      reg_addr : req.query.ethaddr
+      reg_addr : req.query.pat_addr
     }
     }).then(users =>{
     console.log(users[0].contract_addr);

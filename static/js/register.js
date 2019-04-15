@@ -60,41 +60,28 @@ $(document).ready(function() {
 		// };
 	}
 	async function ajaxPost(_contract_addr){
-		
 
-		// const _contract_addr = deploy();
-		// await deploy();
-		// console.log(_contract_addr);
+		var formData = {
+			reg_addr: $("#reg_addr").val(),
+			contract_addr: _contract_addr
+		}
 
-		// _contract_addr.then(function(req){
-		// 	console.log(req);
-		// });
-
-		// async function post(){
-			// deploy(() => console.log("Contract deployed."));
-			// await deploy();
-
-			var formData = {
-				reg_addr: $("#reg_addr").val(),
-				contract_addr: _contract_addr
+		$.ajax({
+			type: "POST",
+			contentType: "application/json",
+			url: window.location + "/create",
+			data: JSON.stringify(formData),
+			dataType: 'json',
+			success : function(patient) {
+				$("#post_register").html("<p>"+patient.reg_addr+" added succcessfully.</p>");
+				window.location = "localhost:8081/patient.html";
+			},
+			error: function(e){
+				alert("ERROR", window.location);
+				console.log("ERROR: ", e);
 			}
-
-			$.ajax({
-				type: "POST",
-				contentType: "application/json",
-				url: window.location + "/create",
-				data: JSON.stringify(formData),
-				dataType: 'json',
-				success : function(patient) {
-					$("#post_register").html("<p>"+patient.reg_addr+" added succcessfully.</p>");
-					window.location = "localhost:8081/patient.html";
-				},
-				error: function(e){
-					alert("ERROR", window.location);
-					console.log("ERROR: ", e);
-				}
-			});
-			$("#reg_addr").val("");	}
+		});
+		$("#reg_addr").val("");	}
 		// };
 		// post();
 })

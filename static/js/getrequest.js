@@ -5,6 +5,12 @@ $( document ).ready(function() {
     event.preventDefault();
     ajaxGet();
   });
+
+  $("#provider_form").submit(async function(event){
+    event.preventDefault();
+    await get_contract();
+    // add_provider();
+  })
   
   // DO GET
   function ajaxGet(){
@@ -36,5 +42,36 @@ $( document ).ready(function() {
         console.log("ERROR: ", e);
       }
     });  
+  }
+
+  async function get_contract(address){
+    $.ajax({
+      type: "GET",
+      url: "/patient/get_contract",
+      success: function(result){
+        console.log(result);
+      },
+      error: function(e){
+        console.log(e);
+      }
+    })
+  }
+
+  function add_provider(){
+    // console.log("called");
+    const Web3 = require('web3');
+    const HDWalletProvider = require("truffle-hdwallet-provider");
+    const provider = new HDWalletProvider(
+      "cereal unfold keep grass caution purity scissors twin pioneer jewel enable shuffle",
+      "https://ropsten.infura.io/v3/e63294ce678346ddb5de54f863476e9c"
+    );
+    const web3 = new Web3(provider);
+    const fs = require('fs');
+    const contract_data = fs.readFileSync('../../build/contracts/patient.json', 'utf8');
+
+    const compiled = JSON.parse(contract_data);
+
+    const abi = compiled.abi;
+    // const address = 
   }
 })

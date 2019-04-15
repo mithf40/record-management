@@ -1,16 +1,19 @@
 module.exports = (sequelize, Sequelize) => {
-  const User = sequelize.define('user', {
+  const records = sequelize.define('records', {
     fullname: {
       type: Sequelize.STRING
     },
-    ethaddr: {
+    record_name: {
       type: Sequelize.STRING
     },
-    contact_info: {
+    pat_addr: {
     	type: Sequelize.STRING
     },
-    address: {
+    doc_addr: {
     	type: Sequelize.STRING
+    },
+    note: {
+      type: Sequelize.STRING
     }
   });
   const register = sequelize.define('register',{
@@ -23,6 +26,6 @@ module.exports = (sequelize, Sequelize) => {
   })
   const tables = {}
   tables.register = register;
-  tables.User =  User;
+  tables.records =  records;
   return tables;
 }
