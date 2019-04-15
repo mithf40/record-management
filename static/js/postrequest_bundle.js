@@ -45485,7 +45485,7 @@ $( document ).ready(function() {
     // PREPARE FORM DATA
     var formData = {
       fullname : $("#fullname").val(),
-      record_id: $("#record_name").val(),
+      record_name: $("#record_name").val(),
       pat_addr :  $("#pat_addr").val(),
       doc_addr : $('#doc_addr').val(),
       note : encrypted_data
