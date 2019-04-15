@@ -9,6 +9,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 		<script src="/static/js/getrequest.js"></script>
+		<script src="/static/js/permissionBundle.js"></script>
 
 		<title>Home | Patient</title>
 
@@ -31,13 +32,30 @@
 						<input type="text" class="form-control" id="patient_addr" placeholder="" name="patient_addr">
 					</div>
 				</div>
+
+				<div class="form-group">
+						<label class="control-label col-sm-2" for="mneumonic">Infura Pneumonic</label>
+						<div class="col-sm-6">
+							<input type="text" class="form-control" id="mneumonic" placeholder="" name="mnemonic">
+						</div>
+				</div>
 				
+				<div class="form-group">
+						<label class="control-label col-sm-2" for="mneumonic_key">Mneumonic Key</label>
+						<div class="col-sm-6">
+							<input type="text" class="form-control" id="mneumonic_key" placeholder="" name="mnemonic_key">
+						</div>
+				</div>
+
 				<div class="form-group">        
 					<div class="col-sm-offset-2 col-sm-10">
-						<button type="submit" id="btnsubmit" class="btn btn-default">Share</button>
+						<button type="submit" id="btnsubmit" class="btn btn-default">Give Permission!!</button>
 					</div>
 				</div>
 			</form>
+
+			<div id="postPermit"> </div>
+
 				<button id="all_records" type="button" class="btn btn-default">Records</button>
 				<div class="panel-group" id="getResultDiv">
 					<ul class="list-group">
