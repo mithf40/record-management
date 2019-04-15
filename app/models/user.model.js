@@ -14,7 +14,10 @@ module.exports = (sequelize, Sequelize) => {
     },
     note: {
       type: Sequelize.STRING
-    }
+    },
+    record_addr: {
+      type: Sequelize.STRING
+    } 
   });
   const register = sequelize.define('register',{
     reg_addr: {

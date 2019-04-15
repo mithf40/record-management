@@ -31,15 +31,20 @@ $( document ).ready(function() {
                         // var ct = 1;
                         console.log(i, item);
                         // console.log(ct);
+                        // console.log(item.record_addr);
+                        // console.log( typeof item.record_addr);
                         let rec = "<div class='panel panel-default'>" + "<div class='panel-heading'>" + 
                               "<h4 class='panel-title'>" + 
                                 "<a data-toggle='collapse' data-parent='#getResultDiv' href=#" + item.id + ">" + item.record_name + "</a>" + 
                               "</h4>" + 
                             "</div>" +
                             "<div id=" + item.id + " class='panel-collapse collapse'>" + 
-                              "<div class='panel-body'> Record of: " + item.fullname + " <br> Created By: " + item.doc_addr + " <br> Created at:" + item.createdAt + " " + "</div>" + 
+                              "<div class='panel-body'> Record of: " + item.fullname + " <br> Created By: " + item.doc_addr + " <br> Created at:" + item.createdAt + " " + "</div>" +
+                              "<div id='secret"+item.id+"' hidden>" + item.record_addr + "</div>" +
+                              "<div id='note"+item.id+"' hidden>" + item.note + "</div>" +
+                              "<div id='account"+item.id+"' hidden>" + item.pat_addr + "</div>" +
                               "<div class='panel-body'> <button  id='btn"+ item.id + "' type='button' class='btn btn-default' onclick='whichButton(this)'>Check</button>"+ 
-                                "<div id='hidden" + item.id + "'> Patien't encrypted note:" + item.note + "</div>" +
+                                "<div id='answer" + item.id + "'> </div>" +
                               "</div>" + 
                             "</div>" + 
                           "</div>";

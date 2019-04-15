@@ -201,7 +201,7 @@ $( document ).ready(function() {
     success : function(customer) {
       $("#postResultDiv").html("<p>" + 
         "Post Successfully! <br>" +
-        "--> " + customer.fullname + " " + customer.ethaddr + ", createdAt: " + customer.createdAt+  "</p>"); 
+        "--> " + customer.fullname + " " + customer.pat_addr + ", createdAt: " + customer.createdAt+  "</p>"); 
     },
     error : function(e) {
       alert("Error!", window.location)
