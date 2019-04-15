@@ -5,14 +5,14 @@ contract record {
     address ownerPatient;
     address creatorDoctor;
     
-    bytes32 recordId;
-    bytes32 decryptionKey;
-    bytes32 doctorSign;
+    bytes recordId;
+    bytes decryptionKey;
+    bytes doctorSign;
     
     mapping (address => bool) canView;
     mapping (address => bool) canCreate;
 
-    constructor(bytes32 _recordId, address _patient, address _doctor, bytes32 _key, bytes32 _sign) public{
+    constructor(bytes memory _recordId, address _patient, address _doctor, bytes memory _key, bytes memory _sign) public{
         ownerPatient = _patient;
         recordId = _recordId;
         creatorDoctor = _doctor;
@@ -34,7 +34,7 @@ contract record {
         canView[viewer] = false;
     }
     
-    function getDecryptionKey() public view returns(bytes32){
+    function getDecryptionKey() public view returns(bytes memory){
         require(canView[msg.sender] == true, "You do not have viewing rights!!");
         return decryptionKey;
     }

@@ -51,7 +51,7 @@ exports.findContractAddress = (req, res) => {
   register.findAll({
     attributes : {include: ['contract_addr']},
     where: {
-      reg_addr : req.query.ethaddr
+      reg_addr : req.query.pat_addr
     }
     }).then(users =>{
     console.log(users[0].contract_addr);
