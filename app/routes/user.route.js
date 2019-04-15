@@ -42,11 +42,7 @@ module.exports = function(app) {
 		res.sendFile(path + "register.html");
 	});
 
-	// app.post('/register/create', users.register_user);
-	app.post('/register/create', function(req, res) {
-		console.log(req.body.reg_addr);
-		res.send({err:0, info: req.body, redirectURL: "/patient"})
-	});
+	app.post('/register/create', users.register_user);
 
 	// app.get('/patient/get_contract', users.get_contract);
 	
