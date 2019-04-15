@@ -1,25 +1,17 @@
 $( document ).ready(function() {
-  
+  var key;
   // SUBMIT FORM
-    $("#patientForm").submit(async function(event) {
-    // Prevent the form from submitting via the browser.
-    event.preventDefault();
-    console.log("postrequest called.");
-    // $("#btnsubmit").attr("disabled", true);
-    
-  //   const Cryptr = require('cryptr');
-		// const cryptr = new Cryptr('myTotalySecretKey');
-		 
-		// const encryptedString = cryptr.encrypt('bacon');
-		// const decryptedString = cryptr.decrypt(encryptedString);
-		 
-		// console.log(encryptedString); // 5590fd6409be2494de0226f5d7
-		// console.log(decryptedString); // bacon
+  $("#patientForm").submit(async function(event) {
+	  // Prevent the form from submitting via the browser.
+	  event.preventDefault();
+	  console.log("postrequest called.");
+	  // $("#btnsubmit").attr("disabled", true);
 
-    await validate_deploy();
-    // console.log("contract_addr found: "+_contract_addr);
-    // var valid =  checkValidity(_contract_addr);
-    // ajaxPost();
+	  await validate_deploy();
+	  // console.log("contract_addr found: "+_contract_addr);
+	  // var valid =  checkValidity(_contract_addr);
+
+	  // ajaxPost();
   });
     
   async function validate_deploy(){
@@ -136,13 +128,17 @@ $( document ).ready(function() {
     const _doctor = $("#doc_addr").val();
 
     var crypto = require('crypto');
-    var key;
-		var _key = await crypto.randomBytes(64, async (err, buf) => {
-		  if (err) throw err;
-		  console.log("random ",buf.toString('hex'));
-		  // return buf.toString('hex');
-		  key = web3.utils.fromAscii(buf.toString('hex'));
-		});
+    key = crypto.randomBytes(64).toString('hex');
+    console.log(typeof key);
+    // const key_bytes = Buffer.from(key,'hex')[0];
+    const key_bytes = web3.utils.asciiToHex(key);
+    console.log(typeof key_bytes);
+		// var _key = await crypto.randomBytes(64, async (err, buf) => {
+		//   if (err) throw err;
+		//   console.log("random ",buf.toString('hex'));
+		//   // return buf.toString('hex');
+		//   key = web3.utils.fromAscii(buf.toString('hex'));
+		// });
 		// console.log(key);
 		// key = web3.utils.fromAscii(key);
 		console.log("key "+key);
@@ -157,7 +153,7 @@ $( document ).ready(function() {
     // const deployed = await contract.deploy({data: bytecode, arguments: [recordId, _patient, _doctor, key, signature]});
     contract.deploy({
 		    data: bytecode,
-		    arguments: [recordId, _patient, _doctor, key, signature]
+		    arguments: [recordId, _patient, _doctor, key_bytes, signature]
 		})
 		.send({
 		    from: $("#doc_addr").val()
@@ -170,21 +166,29 @@ $( document ).ready(function() {
 		.on('confirmation', (confirmationNumber, receipt) => {  })
 		.then((newContractInstance) => {
 		    console.log(newContractInstance.options.address) // instance with the new contract address
+		    ajaxPost();
 		});
     // console.log("contract deployed to : "+deployed.options.address);
   }
 
   function ajaxPost(){
-    
+    const Cryptr = require('cryptr');
+    console.log("secret key ",key);
+		const cryptr = new Cryptr(key);
+		 
+		const encrypted_data = cryptr.encrypt($("#note").val());
+		const decrypted_data = cryptr.decrypt(encrypted_data);
+	
+		console.log(encrypted_data); // 5590fd6409be2494de0226f5d7
+		console.log(decrypted_data); // bacon
     // PREPARE FORM DATA
     var formData = {
       fullname : $("#fullname").val(),
-      ethaddr :  $("#ethaddr").val(),
-      contact_info : $('#contact_info').val(),
-      address : $('#address').val()
+      record_id: $("#record_name").val(),
+      pat_addr :  $("#pat_addr").val(),
+      doc_addr : $('#doc_addr').val(),
+      note : encrypted_data
     }
-    
-
 
     // DO POST
     $.ajax({
@@ -212,8 +216,9 @@ $( document ).ready(function() {
     
     function resetData(){
       $("#fullname").val("");
-      $("#ethaddr").val("");
-      $("#contact_info").val("");
-      $("#address").val("");
+      $("#record_name").val("");
+      $("#pat_addr").val("");
+      $("#doc_addr").val("");
+      $("#note").val("");
     }
 })

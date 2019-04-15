@@ -21,7 +21,7 @@ const db = {};
 db.Sequelize = Sequelize;
 db.sequelize = sequelize;
  
-db.user = require('../models/user.model.js')(sequelize, Sequelize).User;
+db.records = require('../models/user.model.js')(sequelize, Sequelize).records;
 db.register = require('../models/user.model.js')(sequelize, Sequelize).register;
  
  
