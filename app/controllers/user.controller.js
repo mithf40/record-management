@@ -29,6 +29,17 @@ exports.findAll = (req, res) => {
   });
 };
 
+//Fetch all records of a user
+exports.findSelected = (req, res) => {
+  console.log("Get all records of a user");
+  User.findAll({
+    where : {ethaddr : req.query.patient}
+  }).then(users => {
+    // console.log(users);
+    res.send(users);
+  });
+};
+
 exports.register_user = (req, res) => {
   console.log("Registering new patient");
   register.create({

@@ -30,6 +30,9 @@ module.exports = function(app) {
 	// Retrieve all Users
 	app.get('/patient/api/users/all', users.findAll);
 
+	//Retrieve all records of a particular user
+	app.get('/patient/api/users/selected', users.findSelected);
+
 	//Retrieve contract address
 	app.get('/patient/api/registers/contract', users.findContractAddress);
 

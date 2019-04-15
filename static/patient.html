@@ -9,14 +9,27 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 		<script src="/static/js/getrequest.js"></script>
+		<script src="/static/js/viewRecord.js"></script>
+		<script src="/static/js/collapsiblButtonHandler.js"></script>
 		<script src="/static/js/permissionBundle.js"></script>
 
 		<title>Home | Patient</title>
 
 	</head>
 	<body>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<div class="container-fluid">
+					<div class="collapse navbar-collapse" id="myNavbar">
+						<ul class="nav navbar-nav navbar-right">
+						  <li class="active"><a href="#create_permission">Give Create Permission</a></li>
+						  <li><a href="#view_form">View Records</a></li>
+						</ul>
+					  </div>
+					</div>
+			</nav>
+
 		<div class="container">
-			<div class="row"><h3>Give Create Permission</h3></div>
+			<div class="row" id="create_permission"><h3>Give Create Permission</h3></div>
 			<hr>
 			<form class="form-horizontal" id="register_form" >
 				<div class="form-group">
@@ -33,20 +46,6 @@
 					</div>
 				</div>
 
-				<div class="form-group">
-						<label class="control-label col-sm-2" for="mneumonic">Infura Pneumonic</label>
-						<div class="col-sm-6">
-							<input type="text" class="form-control" id="mneumonic" placeholder="" name="mnemonic">
-						</div>
-				</div>
-				
-				<div class="form-group">
-						<label class="control-label col-sm-2" for="mneumonic_key">Mneumonic Key</label>
-						<div class="col-sm-6">
-							<input type="text" class="form-control" id="mneumonic_key" placeholder="" name="mnemonic_key">
-						</div>
-				</div>
-
 				<div class="form-group">        
 					<div class="col-sm-offset-2 col-sm-10">
 						<button type="submit" id="btnsubmit" class="btn btn-default">Give Permission!!</button>
@@ -56,10 +55,34 @@
 
 			<div id="postPermit"> </div>
 
-				<button id="all_records" type="button" class="btn btn-default">Records</button>
+			<div class="row" id="view_permission"><h3>View Records</h3></div>
+			<hr>
+			<form class="form-horizontal" id="view_form" >
+				<div class="form-group">
+					<label class="control-label col-sm-2" for="viewer_addr">Your Ethereum address</label>
+						<div class="col-sm-6">
+							<input type="text" class="form-control" id="viewer_addr" placeholder="" name="viewer_addr">
+						</div>
+					</div>
+	
+					<div class="form-group">
+						<label class="control-label col-sm-2" for="viewee_addr">Friend's Ethereum address</label>
+						<div class="col-sm-6">
+							<input type="text" class="form-control" id="viewee_addr" placeholder="" name="viewee_addr">
+						</div>
+					</div>
+	
+					<div class="form-group">        
+						<div class="col-sm-offset-2 col-sm-10">
+							<button type="submit" id="btnsubmit" class="btn btn-default">View!!</button>
+						</div>
+					</div>
+				</form>
+
+				<!-- <button id="all_records" type="button" class="btn btn-default">Records</button> -->
 				<div class="panel-group" id="getResultDiv">
 					<ul class="list-group">
-						<!-- <div class="panel panel-default">
+						 <!-- <div class="panel panel-default">
 							<div class="panel-heading">
 								<h4 class="panel-title">
 									<a data-toggle="collapse" data-parent="#getResultDiv" href="#collapse3">Collapsible Group 3</a>
