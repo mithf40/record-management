@@ -14,7 +14,7 @@ $( document ).ready(function() {
 		var req = {
 			pat_addr: $("#patient_addr").val(),
 		};
-		console.log(JSON.stringify(req));
+		// console.log(JSON.stringify(req));
 
 		$.ajax({
 			type : "GET",
@@ -85,14 +85,20 @@ $( document ).ready(function() {
 			gas: "1000000",
 			from: patientAddr
 		};
-		// contract.methods.giveWritePermission(doctorAddr).send(txObject, (err, res) => {
-  //             if(err) console.log(err);
-  //             else console.log(res);
-  //         })
-		contract.methods.canCreateRecords(doctorAddr).call((err, res) => {
-			if(err) console.log(err);
-			else console.log(res);
-		})
+		contract.methods.giveWritePermission(doctorAddr).send(txObject, (err, res) => {
+              if(err) {
+                console.log(err);
+                $('#postPermit').html("Something went wrong :(");
+              }
+              else{ 
+                console.log(res);
+                $('#postPermit').html("Successfully gave create permission to " + doctorAddr);
+              }
+          })
+		// contract.methods.canCreateRecords(doctorAddr).call((err, res) => {
+		// 	if(err) console.log(err);
+		// 	else console.log(res);
+		// })
 	}
 		
 })
