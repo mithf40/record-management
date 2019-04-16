@@ -44,6 +44,10 @@ module.exports = function(app) {
 		res.sendFile(path + "view.html");
 	});
 
+	app.get('/share', (req,res) => {
+		res.sendFile(path + "share.html");
+	});
+
 	app.get('/register', (req,res) => {
 		res.sendFile(path + "register.html");
 	});

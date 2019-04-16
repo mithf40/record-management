@@ -24,7 +24,7 @@ contract record {
     
     function giveViewPermission(address viewer) public{
         require(msg.sender == ownerPatient, "Only patient can give permission!!");
-        require(canView[viewer] == false, "Already has viewing rights!!");
+        //require(canView[viewer] == false, "Already has viewing rights!!");
         canView[viewer] = true;
     }
     
