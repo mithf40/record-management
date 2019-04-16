@@ -32,8 +32,17 @@ module.exports = function(app) {
 	// Retrieve all Users
 	app.get('/patient/api/users/all', users.findAll);
 
+	//Retrieve all records of a particular user
+	app.get('/patient/api/users/selected', users.findSelected);
+
 	//Retrieve contract address
 	app.get('/patient/api/registers/contract', users.findContractAddress);
+
+	app.get('/patient/api/records/view',users.find_record_addr);
+
+	app.get('/view', (req,res) => {
+		res.sendFile(path + "view.html");
+	});
 
 	app.get('/register', (req,res) => {
 		res.sendFile(path + "register.html");

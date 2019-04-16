@@ -34,6 +34,17 @@ exports.findAll = (req, res) => {
   });
 };
 
+//Fetch all records of a user
+exports.findSelected = (req, res) => {
+  console.log("Get all records of a user");
+  records.findAll({
+    where : {pat_addr : req.query.patient}
+  }).then(users => {
+    // console.log(users);
+    res.send(users);
+  });
+};
+
 exports.register_user = (req, res) => {
   console.log("Registering new patient");
   register.create({
@@ -60,4 +71,14 @@ exports.findContractAddress = (req, res) => {
     res.send(users);
   });
 
+};
+
+exports.find_record_addr = (req, res) => {
+  records.findAll({
+    attributes: {include: ['fullname', 'record_name', 'pat_addr', 'doc_addr', 'note', 'record_addr']},
+    where: {record_name: req.query.record_name}
+  }).then(rec => {
+    console.log("record found "+rec);
+    res.send(rec);
+  });
 };

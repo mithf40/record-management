@@ -1,0 +1,71 @@
+[
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "viewer",
+				"type": "address"
+			}
+		],
+		"name": "revokeViewPermission",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "getDecryptionKey",
+		"outputs": [
+			{
+				"name": "",
+				"type": "string"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "viewer",
+				"type": "address"
+			}
+		],
+		"name": "giveViewPermission",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"name": "_recordId",
+				"type": "bytes"
+			},
+			{
+				"name": "_patient",
+				"type": "address"
+			},
+			{
+				"name": "_doctor",
+				"type": "address"
+			},
+			{
+				"name": "_key",
+				"type": "string"
+			},
+			{
+				"name": "_sign",
+				"type": "bytes"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	}
+]

@@ -59,8 +59,8 @@ $( document ).ready(function() {
 			web3Provider = new Web3.providers.HttpProvider('http://localhost:7545');
 			}
 		// const _contract_addr = require('./deploy.js')('../../build/contracts/patient.json',$("#reg_addr").val(),args);
-		console.log("Interacting patient contract at " + contractAddr);
-		const fs = require('fs');
+		  console.log("Interacting patient contract at " + contractAddr);
+		  const fs = require('fs');
 
 		// const HDWalletProvider = require("truffle-hdwallet-provider");
 		const Web3 = require("web3");
@@ -85,14 +85,14 @@ $( document ).ready(function() {
 			gas: "1000000",
 			from: patientAddr
 		};
-		// contract.methods.giveWritePermission(doctorAddr).send(txObject, (err, res) => {
-  //             if(err) console.log(err);
-  //             else console.log(res);
-  //         })
-		contract.methods.canCreateRecords(doctorAddr).call((err, res) => {
-			if(err) console.log(err);
-			else console.log(res);
-		})
+		contract.methods.giveWritePermission(doctorAddr).send(txObject, (err, res) => {
+              if(err) console.log(err);
+              else console.log(res);
+          })
+		// contract.methods.canCreateRecords(doctorAddr).call((err, res) => {
+		// 	if(err) console.log(err);
+		// 	else console.log(res);
+		// })
 	}
 		
 })
