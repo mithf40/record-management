@@ -72,7 +72,7 @@ $( document ).ready(function() {
 								if(err) console.log(err);
 								else console.log("record shared!! "+res);
 						}).on('error', (error) => { console.log("dffkadfhlkahs "+error); }).on('confirmation',  (confirmationNumber, receipt) => {  });
-		$("#post_share").html("<p>Record shared successfully with "+$("share_addr").val()+"</p>");
+		$("#post_share").html("<p>Record shared successfully.</p>");
 	}
 
 	async function share() {

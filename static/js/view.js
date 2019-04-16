@@ -54,11 +54,11 @@ $( document ).ready(function() {
     // const _contract_addr = require('./deploy.js')('../../build/contracts/patient.json',$("#reg_addr").val(),args);
     console.log("Interacting with record contract at " + record.record_addr);
     
-    const contract_data = fs.readFileSync('../../build/contracts/test.abi', 'utf8');
+    const contract_data = fs.readFileSync('../../build/contracts/record.json', 'utf8');
     // const compiled = require(compiled_contract);
     const compiled = JSON.parse(contract_data);
 
-    const interface = compiled;
+    const interface = compiled.abi;
     // console.log(interface);
     var key;
     const contract = new web3.eth.Contract(interface, record.record_addr);
@@ -69,15 +69,16 @@ $( document ).ready(function() {
     		console.log("got key "+ res);
     		// key = web3.utils.bytesToHex(res);
     		key = res;
+    		const Cryptr = require('cryptr');
+		    const cryptr = new Cryptr(key);
+		    const decrypted_data = cryptr.decrypt(record.note);
+		    console.log("record decrypted!! : "+decrypted_data);
+
+		    $("#post_view").html("<p>Record found.<br> Patient name: "+record.fullname+"<br>Record name: "+record.record_name+"<br>Patient address: "+record.pat_addr+"<br>Doctor's address: "+record.doc_addr+"<br>Doctor's note: "+decrypted_data+"</p>");
     	}
     });
 
-    const Cryptr = require('cryptr');
-    const cryptr = new Cryptr(key);
-    const decrypted_data = cryptr.decrypt(record.note);
-    console.log("record decrypted!! : "+decrypted_data);
-
-    $("#post_view").html("<p>Record found.<br> Patient name: "+record.fullname+"<br>Record name: "+record.record_name+"<br>Patient address: "+record.pat_addr+"<br>Doctor's address: "+record.doc_addr+"<br>Doctor's note: "+decrypted_data+"</p>");
+    
     	// <form class='form-horizontal' id='share_form'><div class='form-group'><label class='control-label col-sm-2' for='share'>Share</label><div class='col-sm-6'><input type='text' class='form-control' id='share_addr' name='share_addr'></div></div><div class='form-group'><div class='col-sm-offset-2 col-sm-10'><button type='submit' id='share_submit' class='btn btn-default'>Share</button></div></div></form>");
 
 	}
