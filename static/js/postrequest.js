@@ -34,7 +34,10 @@ $( document ).ready(function() {
         // return contract_addr;
         valid = await checkValidity(contract_addr);
         console.log("Doctor's permission : "+valid);
-        deploy();
+        if(valid)
+          deploy();
+        else
+          console.log("permission denied.")
       },
       error : function(e) {
         alert("Error!", window.location);
@@ -129,10 +132,14 @@ $( document ).ready(function() {
 
     var crypto = require('crypto');
     key = crypto.randomBytes(64).toString('hex');
+    // key = crypto.randomBytes(64);
     console.log(typeof key);
+    console.log(key);
     // const key_bytes = Buffer.from(key,'hex')[0];
-    const key_bytes = web3.utils.asciiToHex(key);
+    // const key_bytes = web3.utils.hexToBytes("0x"+key);
+    const key_bytes = key;
     console.log(typeof key_bytes);
+    // console.log(key_bytes[0]);
 		// var _key = await crypto.randomBytes(64, async (err, buf) => {
 		//   if (err) throw err;
 		//   console.log("random ",buf.toString('hex'));

@@ -23986,59 +23986,59 @@ function loadImplementation(){
 arguments[4][1][0].apply(exports,arguments)
 },{"./asn1/api":165,"./asn1/base":167,"./asn1/constants":171,"./asn1/decoders":173,"./asn1/encoders":176,"bn.js":178,"dup":1}],165:[function(require,module,exports){
 arguments[4][2][0].apply(exports,arguments)
-},{"../asn1":164,"dup":2,"inherits":277,"vm":160}],166:[function(require,module,exports){
+},{"../asn1":164,"dup":2,"inherits":278,"vm":160}],166:[function(require,module,exports){
 arguments[4][3][0].apply(exports,arguments)
-},{"../base":167,"buffer":47,"dup":3,"inherits":277}],167:[function(require,module,exports){
+},{"../base":167,"buffer":47,"dup":3,"inherits":278}],167:[function(require,module,exports){
 arguments[4][4][0].apply(exports,arguments)
 },{"./buffer":166,"./node":168,"./reporter":169,"dup":4}],168:[function(require,module,exports){
 arguments[4][5][0].apply(exports,arguments)
-},{"../base":167,"dup":5,"minimalistic-assert":283}],169:[function(require,module,exports){
+},{"../base":167,"dup":5,"minimalistic-assert":284}],169:[function(require,module,exports){
 arguments[4][6][0].apply(exports,arguments)
-},{"dup":6,"inherits":277}],170:[function(require,module,exports){
+},{"dup":6,"inherits":278}],170:[function(require,module,exports){
 arguments[4][7][0].apply(exports,arguments)
 },{"../constants":171,"dup":7}],171:[function(require,module,exports){
 arguments[4][8][0].apply(exports,arguments)
 },{"./der":170,"dup":8}],172:[function(require,module,exports){
 arguments[4][9][0].apply(exports,arguments)
-},{"../../asn1":164,"dup":9,"inherits":277}],173:[function(require,module,exports){
+},{"../../asn1":164,"dup":9,"inherits":278}],173:[function(require,module,exports){
 arguments[4][10][0].apply(exports,arguments)
 },{"./der":172,"./pem":174,"dup":10}],174:[function(require,module,exports){
 arguments[4][11][0].apply(exports,arguments)
-},{"./der":172,"buffer":47,"dup":11,"inherits":277}],175:[function(require,module,exports){
+},{"./der":172,"buffer":47,"dup":11,"inherits":278}],175:[function(require,module,exports){
 arguments[4][12][0].apply(exports,arguments)
-},{"../../asn1":164,"buffer":47,"dup":12,"inherits":277}],176:[function(require,module,exports){
+},{"../../asn1":164,"buffer":47,"dup":12,"inherits":278}],176:[function(require,module,exports){
 arguments[4][13][0].apply(exports,arguments)
 },{"./der":175,"./pem":177,"dup":13}],177:[function(require,module,exports){
 arguments[4][14][0].apply(exports,arguments)
-},{"./der":175,"dup":14,"inherits":277}],178:[function(require,module,exports){
+},{"./der":175,"dup":14,"inherits":278}],178:[function(require,module,exports){
 arguments[4][16][0].apply(exports,arguments)
 },{"buffer":18,"dup":16}],179:[function(require,module,exports){
 arguments[4][17][0].apply(exports,arguments)
 },{"crypto":18,"dup":17}],180:[function(require,module,exports){
 arguments[4][19][0].apply(exports,arguments)
-},{"dup":19,"safe-buffer":316}],181:[function(require,module,exports){
+},{"dup":19,"safe-buffer":317}],181:[function(require,module,exports){
 arguments[4][20][0].apply(exports,arguments)
-},{"./aes":180,"./ghash":185,"./incr32":186,"buffer-xor":207,"cipher-base":208,"dup":20,"inherits":277,"safe-buffer":316}],182:[function(require,module,exports){
+},{"./aes":180,"./ghash":185,"./incr32":186,"buffer-xor":207,"cipher-base":208,"dup":20,"inherits":278,"safe-buffer":317}],182:[function(require,module,exports){
 arguments[4][21][0].apply(exports,arguments)
 },{"./decrypter":183,"./encrypter":184,"./modes/list.json":194,"dup":21}],183:[function(require,module,exports){
 arguments[4][22][0].apply(exports,arguments)
-},{"./aes":180,"./authCipher":181,"./modes":193,"./streamCipher":196,"cipher-base":208,"dup":22,"evp_bytestokey":257,"inherits":277,"safe-buffer":316}],184:[function(require,module,exports){
+},{"./aes":180,"./authCipher":181,"./modes":193,"./streamCipher":196,"cipher-base":208,"dup":22,"evp_bytestokey":258,"inherits":278,"safe-buffer":317}],184:[function(require,module,exports){
 arguments[4][23][0].apply(exports,arguments)
-},{"./aes":180,"./authCipher":181,"./modes":193,"./streamCipher":196,"cipher-base":208,"dup":23,"evp_bytestokey":257,"inherits":277,"safe-buffer":316}],185:[function(require,module,exports){
+},{"./aes":180,"./authCipher":181,"./modes":193,"./streamCipher":196,"cipher-base":208,"dup":23,"evp_bytestokey":258,"inherits":278,"safe-buffer":317}],185:[function(require,module,exports){
 arguments[4][24][0].apply(exports,arguments)
-},{"dup":24,"safe-buffer":316}],186:[function(require,module,exports){
+},{"dup":24,"safe-buffer":317}],186:[function(require,module,exports){
 arguments[4][25][0].apply(exports,arguments)
 },{"dup":25}],187:[function(require,module,exports){
 arguments[4][26][0].apply(exports,arguments)
 },{"buffer-xor":207,"dup":26}],188:[function(require,module,exports){
 arguments[4][27][0].apply(exports,arguments)
-},{"buffer-xor":207,"dup":27,"safe-buffer":316}],189:[function(require,module,exports){
+},{"buffer-xor":207,"dup":27,"safe-buffer":317}],189:[function(require,module,exports){
 arguments[4][28][0].apply(exports,arguments)
-},{"dup":28,"safe-buffer":316}],190:[function(require,module,exports){
+},{"dup":28,"safe-buffer":317}],190:[function(require,module,exports){
 arguments[4][29][0].apply(exports,arguments)
-},{"dup":29,"safe-buffer":316}],191:[function(require,module,exports){
+},{"dup":29,"safe-buffer":317}],191:[function(require,module,exports){
 arguments[4][30][0].apply(exports,arguments)
-},{"../incr32":186,"buffer-xor":207,"dup":30,"safe-buffer":316}],192:[function(require,module,exports){
+},{"../incr32":186,"buffer-xor":207,"dup":30,"safe-buffer":317}],192:[function(require,module,exports){
 arguments[4][31][0].apply(exports,arguments)
 },{"dup":31}],193:[function(require,module,exports){
 arguments[4][32][0].apply(exports,arguments)
@@ -24048,15 +24048,15 @@ arguments[4][33][0].apply(exports,arguments)
 arguments[4][34][0].apply(exports,arguments)
 },{"buffer":47,"buffer-xor":207,"dup":34}],196:[function(require,module,exports){
 arguments[4][35][0].apply(exports,arguments)
-},{"./aes":180,"cipher-base":208,"dup":35,"inherits":277,"safe-buffer":316}],197:[function(require,module,exports){
+},{"./aes":180,"cipher-base":208,"dup":35,"inherits":278,"safe-buffer":317}],197:[function(require,module,exports){
 arguments[4][36][0].apply(exports,arguments)
-},{"browserify-aes/browser":182,"browserify-aes/modes":193,"browserify-des":198,"browserify-des/modes":199,"dup":36,"evp_bytestokey":257}],198:[function(require,module,exports){
+},{"browserify-aes/browser":182,"browserify-aes/modes":193,"browserify-des":198,"browserify-des/modes":199,"dup":36,"evp_bytestokey":258}],198:[function(require,module,exports){
 arguments[4][37][0].apply(exports,arguments)
-},{"cipher-base":208,"des.js":217,"dup":37,"inherits":277,"safe-buffer":316}],199:[function(require,module,exports){
+},{"cipher-base":208,"des.js":218,"dup":37,"inherits":278,"safe-buffer":317}],199:[function(require,module,exports){
 arguments[4][38][0].apply(exports,arguments)
 },{"dup":38}],200:[function(require,module,exports){
 arguments[4][39][0].apply(exports,arguments)
-},{"bn.js":178,"buffer":47,"dup":39,"randombytes":310}],201:[function(require,module,exports){
+},{"bn.js":178,"buffer":47,"dup":39,"randombytes":311}],201:[function(require,module,exports){
 arguments[4][40][0].apply(exports,arguments)
 },{"./browser/algorithms.json":202,"dup":40}],202:[function(require,module,exports){
 arguments[4][41][0].apply(exports,arguments)
@@ -24064,27 +24064,90 @@ arguments[4][41][0].apply(exports,arguments)
 arguments[4][42][0].apply(exports,arguments)
 },{"dup":42}],204:[function(require,module,exports){
 arguments[4][43][0].apply(exports,arguments)
-},{"./algorithms.json":202,"./sign":205,"./verify":206,"buffer":47,"create-hash":210,"dup":43,"inherits":277,"stream":154}],205:[function(require,module,exports){
+},{"./algorithms.json":202,"./sign":205,"./verify":206,"buffer":47,"create-hash":210,"dup":43,"inherits":278,"stream":154}],205:[function(require,module,exports){
 arguments[4][44][0].apply(exports,arguments)
-},{"./curves.json":203,"bn.js":178,"browserify-rsa":200,"buffer":47,"create-hmac":212,"dup":44,"elliptic":227,"parse-asn1":296}],206:[function(require,module,exports){
+},{"./curves.json":203,"bn.js":178,"browserify-rsa":200,"buffer":47,"create-hmac":212,"dup":44,"elliptic":228,"parse-asn1":297}],206:[function(require,module,exports){
 arguments[4][45][0].apply(exports,arguments)
-},{"./curves.json":203,"bn.js":178,"buffer":47,"dup":45,"elliptic":227,"parse-asn1":296}],207:[function(require,module,exports){
+},{"./curves.json":203,"bn.js":178,"buffer":47,"dup":45,"elliptic":228,"parse-asn1":297}],207:[function(require,module,exports){
 arguments[4][46][0].apply(exports,arguments)
 },{"buffer":47,"dup":46}],208:[function(require,module,exports){
 arguments[4][48][0].apply(exports,arguments)
-},{"dup":48,"inherits":277,"safe-buffer":316,"stream":154,"string_decoder":155}],209:[function(require,module,exports){
+},{"dup":48,"inherits":278,"safe-buffer":317,"stream":154,"string_decoder":155}],209:[function(require,module,exports){
 arguments[4][50][0].apply(exports,arguments)
-},{"bn.js":178,"buffer":47,"dup":50,"elliptic":227}],210:[function(require,module,exports){
+},{"bn.js":178,"buffer":47,"dup":50,"elliptic":228}],210:[function(require,module,exports){
 arguments[4][51][0].apply(exports,arguments)
-},{"cipher-base":208,"dup":51,"inherits":277,"md5.js":281,"ripemd160":315,"sha.js":320}],211:[function(require,module,exports){
+},{"cipher-base":208,"dup":51,"inherits":278,"md5.js":282,"ripemd160":316,"sha.js":321}],211:[function(require,module,exports){
 arguments[4][52][0].apply(exports,arguments)
-},{"dup":52,"md5.js":281}],212:[function(require,module,exports){
+},{"dup":52,"md5.js":282}],212:[function(require,module,exports){
 arguments[4][53][0].apply(exports,arguments)
-},{"./legacy":213,"cipher-base":208,"create-hash/md5":211,"dup":53,"inherits":277,"ripemd160":315,"safe-buffer":316,"sha.js":320}],213:[function(require,module,exports){
+},{"./legacy":213,"cipher-base":208,"create-hash/md5":211,"dup":53,"inherits":278,"ripemd160":316,"safe-buffer":317,"sha.js":321}],213:[function(require,module,exports){
 arguments[4][54][0].apply(exports,arguments)
-},{"cipher-base":208,"dup":54,"inherits":277,"safe-buffer":316}],214:[function(require,module,exports){
+},{"cipher-base":208,"dup":54,"inherits":278,"safe-buffer":317}],214:[function(require,module,exports){
 arguments[4][55][0].apply(exports,arguments)
-},{"browserify-cipher":197,"browserify-sign":204,"browserify-sign/algos":201,"create-ecdh":209,"create-hash":210,"create-hmac":212,"diffie-hellman":223,"dup":55,"pbkdf2":298,"public-encrypt":303,"randombytes":310,"randomfill":311}],215:[function(require,module,exports){
+},{"browserify-cipher":197,"browserify-sign":204,"browserify-sign/algos":201,"create-ecdh":209,"create-hash":210,"create-hmac":212,"diffie-hellman":224,"dup":55,"pbkdf2":299,"public-encrypt":304,"randombytes":311,"randomfill":312}],215:[function(require,module,exports){
+(function (Buffer){
+const crypto = require('crypto');
+
+const algorithm = 'aes-256-ctr';
+
+function Cryptr(secret) {
+    if (!secret || typeof secret !== 'string') {
+        throw new Error('Cryptr: secret must be a non-0-length string');
+    }
+
+    const key = crypto
+        .createHash('sha256')
+        .update(String(secret))
+        .digest();
+
+    this.encrypt = function encrypt(value) {
+        if (value == null) {
+            throw new Error('value must not be null or undefined');
+        }
+
+        const iv = crypto.randomBytes(16);
+        const cipher = crypto.createCipheriv(algorithm, key, iv);
+        const encrypted = cipher.update(String(value), 'utf8', 'hex') + cipher.final('hex');
+
+        return iv.toString('hex') + encrypted;
+    };
+
+    this.decrypt = function decrypt(value) {
+        if (value == null) {
+            throw new Error('value must not be null or undefined');
+        }
+
+        const stringValue = String(value);
+        const iv = Buffer.from(stringValue.slice(0, 32), 'hex');
+        const encrypted = stringValue.slice(32);
+        let legacyValue = false;
+        let decipher;
+
+        try {
+            decipher = crypto.createDecipheriv(algorithm, key, iv);
+        } catch (exception) {
+            if (exception.message === 'Invalid IV length') {
+                legacyValue = true;
+            } else {
+                throw exception;
+            }
+        }
+
+        if (!legacyValue) {
+            return decipher.update(encrypted, 'hex', 'utf8') + decipher.final('utf8');
+        }
+
+        const legacyIv = stringValue.slice(0, 16);
+        const legacyEncrypted = stringValue.slice(16);
+        decipher = crypto.createDecipheriv(algorithm, key, legacyIv);
+        return decipher.update(legacyEncrypted, 'hex', 'utf8') + decipher.final('utf8');
+    };
+}
+
+module.exports = Cryptr;
+
+}).call(this,require("buffer").Buffer)
+},{"buffer":47,"crypto":55}],216:[function(require,module,exports){
 'use strict';
 var token = '%[a-f0-9]{2}';
 var singleMatcher = new RegExp(token, 'gi');
@@ -24180,7 +24243,7 @@ module.exports = function (encodedURI) {
 	}
 };
 
-},{}],216:[function(require,module,exports){
+},{}],217:[function(require,module,exports){
 'use strict';
 
 var keys = require('object-keys');
@@ -24240,57 +24303,57 @@ defineProperties.supportsDescriptors = !!supportsDescriptors;
 
 module.exports = defineProperties;
 
-},{"object-keys":289}],217:[function(require,module,exports){
+},{"object-keys":290}],218:[function(require,module,exports){
 arguments[4][56][0].apply(exports,arguments)
-},{"./des/cbc":218,"./des/cipher":219,"./des/des":220,"./des/ede":221,"./des/utils":222,"dup":56}],218:[function(require,module,exports){
+},{"./des/cbc":219,"./des/cipher":220,"./des/des":221,"./des/ede":222,"./des/utils":223,"dup":56}],219:[function(require,module,exports){
 arguments[4][57][0].apply(exports,arguments)
-},{"dup":57,"inherits":277,"minimalistic-assert":283}],219:[function(require,module,exports){
+},{"dup":57,"inherits":278,"minimalistic-assert":284}],220:[function(require,module,exports){
 arguments[4][58][0].apply(exports,arguments)
-},{"dup":58,"minimalistic-assert":283}],220:[function(require,module,exports){
+},{"dup":58,"minimalistic-assert":284}],221:[function(require,module,exports){
 arguments[4][59][0].apply(exports,arguments)
-},{"../des":217,"dup":59,"inherits":277,"minimalistic-assert":283}],221:[function(require,module,exports){
+},{"../des":218,"dup":59,"inherits":278,"minimalistic-assert":284}],222:[function(require,module,exports){
 arguments[4][60][0].apply(exports,arguments)
-},{"../des":217,"dup":60,"inherits":277,"minimalistic-assert":283}],222:[function(require,module,exports){
+},{"../des":218,"dup":60,"inherits":278,"minimalistic-assert":284}],223:[function(require,module,exports){
 arguments[4][61][0].apply(exports,arguments)
-},{"dup":61}],223:[function(require,module,exports){
+},{"dup":61}],224:[function(require,module,exports){
 arguments[4][62][0].apply(exports,arguments)
-},{"./lib/dh":224,"./lib/generatePrime":225,"./lib/primes.json":226,"buffer":47,"dup":62}],224:[function(require,module,exports){
+},{"./lib/dh":225,"./lib/generatePrime":226,"./lib/primes.json":227,"buffer":47,"dup":62}],225:[function(require,module,exports){
 arguments[4][63][0].apply(exports,arguments)
-},{"./generatePrime":225,"bn.js":178,"buffer":47,"dup":63,"miller-rabin":282,"randombytes":310}],225:[function(require,module,exports){
+},{"./generatePrime":226,"bn.js":178,"buffer":47,"dup":63,"miller-rabin":283,"randombytes":311}],226:[function(require,module,exports){
 arguments[4][64][0].apply(exports,arguments)
-},{"bn.js":178,"dup":64,"miller-rabin":282,"randombytes":310}],226:[function(require,module,exports){
+},{"bn.js":178,"dup":64,"miller-rabin":283,"randombytes":311}],227:[function(require,module,exports){
 arguments[4][65][0].apply(exports,arguments)
-},{"dup":65}],227:[function(require,module,exports){
+},{"dup":65}],228:[function(require,module,exports){
 arguments[4][66][0].apply(exports,arguments)
-},{"../package.json":242,"./elliptic/curve":230,"./elliptic/curves":233,"./elliptic/ec":234,"./elliptic/eddsa":237,"./elliptic/utils":241,"brorand":179,"dup":66}],228:[function(require,module,exports){
+},{"../package.json":243,"./elliptic/curve":231,"./elliptic/curves":234,"./elliptic/ec":235,"./elliptic/eddsa":238,"./elliptic/utils":242,"brorand":179,"dup":66}],229:[function(require,module,exports){
 arguments[4][67][0].apply(exports,arguments)
-},{"../../elliptic":227,"bn.js":178,"dup":67}],229:[function(require,module,exports){
+},{"../../elliptic":228,"bn.js":178,"dup":67}],230:[function(require,module,exports){
 arguments[4][68][0].apply(exports,arguments)
-},{"../../elliptic":227,"../curve":230,"bn.js":178,"dup":68,"inherits":277}],230:[function(require,module,exports){
+},{"../../elliptic":228,"../curve":231,"bn.js":178,"dup":68,"inherits":278}],231:[function(require,module,exports){
 arguments[4][69][0].apply(exports,arguments)
-},{"./base":228,"./edwards":229,"./mont":231,"./short":232,"dup":69}],231:[function(require,module,exports){
+},{"./base":229,"./edwards":230,"./mont":232,"./short":233,"dup":69}],232:[function(require,module,exports){
 arguments[4][70][0].apply(exports,arguments)
-},{"../../elliptic":227,"../curve":230,"bn.js":178,"dup":70,"inherits":277}],232:[function(require,module,exports){
+},{"../../elliptic":228,"../curve":231,"bn.js":178,"dup":70,"inherits":278}],233:[function(require,module,exports){
 arguments[4][71][0].apply(exports,arguments)
-},{"../../elliptic":227,"../curve":230,"bn.js":178,"dup":71,"inherits":277}],233:[function(require,module,exports){
+},{"../../elliptic":228,"../curve":231,"bn.js":178,"dup":71,"inherits":278}],234:[function(require,module,exports){
 arguments[4][72][0].apply(exports,arguments)
-},{"../elliptic":227,"./precomputed/secp256k1":240,"dup":72,"hash.js":264}],234:[function(require,module,exports){
+},{"../elliptic":228,"./precomputed/secp256k1":241,"dup":72,"hash.js":265}],235:[function(require,module,exports){
 arguments[4][73][0].apply(exports,arguments)
-},{"../../elliptic":227,"./key":235,"./signature":236,"bn.js":178,"dup":73,"hmac-drbg":276}],235:[function(require,module,exports){
+},{"../../elliptic":228,"./key":236,"./signature":237,"bn.js":178,"dup":73,"hmac-drbg":277}],236:[function(require,module,exports){
 arguments[4][74][0].apply(exports,arguments)
-},{"../../elliptic":227,"bn.js":178,"dup":74}],236:[function(require,module,exports){
+},{"../../elliptic":228,"bn.js":178,"dup":74}],237:[function(require,module,exports){
 arguments[4][75][0].apply(exports,arguments)
-},{"../../elliptic":227,"bn.js":178,"dup":75}],237:[function(require,module,exports){
+},{"../../elliptic":228,"bn.js":178,"dup":75}],238:[function(require,module,exports){
 arguments[4][76][0].apply(exports,arguments)
-},{"../../elliptic":227,"./key":238,"./signature":239,"dup":76,"hash.js":264}],238:[function(require,module,exports){
+},{"../../elliptic":228,"./key":239,"./signature":240,"dup":76,"hash.js":265}],239:[function(require,module,exports){
 arguments[4][77][0].apply(exports,arguments)
-},{"../../elliptic":227,"dup":77}],239:[function(require,module,exports){
+},{"../../elliptic":228,"dup":77}],240:[function(require,module,exports){
 arguments[4][78][0].apply(exports,arguments)
-},{"../../elliptic":227,"bn.js":178,"dup":78}],240:[function(require,module,exports){
+},{"../../elliptic":228,"bn.js":178,"dup":78}],241:[function(require,module,exports){
 arguments[4][79][0].apply(exports,arguments)
-},{"dup":79}],241:[function(require,module,exports){
+},{"dup":79}],242:[function(require,module,exports){
 arguments[4][80][0].apply(exports,arguments)
-},{"bn.js":178,"dup":80,"minimalistic-assert":283,"minimalistic-crypto-utils":284}],242:[function(require,module,exports){
+},{"bn.js":178,"dup":80,"minimalistic-assert":284,"minimalistic-crypto-utils":285}],243:[function(require,module,exports){
 module.exports={
   "_from": "elliptic@^6.4.0",
   "_id": "elliptic@6.4.1",
@@ -24383,7 +24446,7 @@ module.exports={
   "version": "6.4.1"
 }
 
-},{}],243:[function(require,module,exports){
+},{}],244:[function(require,module,exports){
 'use strict';
 
 /* globals
@@ -24562,7 +24625,7 @@ module.exports = function GetIntrinsic(name, allowMissing) {
 	return INTRINSICS[key];
 };
 
-},{}],244:[function(require,module,exports){
+},{}],245:[function(require,module,exports){
 'use strict';
 
 var GetIntrinsic = require('./GetIntrinsic');
@@ -24799,7 +24862,7 @@ var ES5 = {
 
 module.exports = ES5;
 
-},{"./GetIntrinsic":243,"./helpers/assertRecord":245,"./helpers/isFinite":246,"./helpers/isNaN":247,"./helpers/mod":248,"./helpers/sign":249,"es-to-primitive/es5":250,"has":262,"is-callable":278}],245:[function(require,module,exports){
+},{"./GetIntrinsic":244,"./helpers/assertRecord":246,"./helpers/isFinite":247,"./helpers/isNaN":248,"./helpers/mod":249,"./helpers/sign":250,"es-to-primitive/es5":251,"has":263,"is-callable":279}],246:[function(require,module,exports){
 'use strict';
 
 var GetIntrinsic = require('../GetIntrinsic');
@@ -24850,28 +24913,28 @@ module.exports = function assertRecord(ES, recordType, argumentName, value) {
   console.log(predicate(ES, value), value);
 };
 
-},{"../GetIntrinsic":243,"has":262}],246:[function(require,module,exports){
+},{"../GetIntrinsic":244,"has":263}],247:[function(require,module,exports){
 var $isNaN = Number.isNaN || function (a) { return a !== a; };
 
 module.exports = Number.isFinite || function (x) { return typeof x === 'number' && !$isNaN(x) && x !== Infinity && x !== -Infinity; };
 
-},{}],247:[function(require,module,exports){
+},{}],248:[function(require,module,exports){
 module.exports = Number.isNaN || function isNaN(a) {
 	return a !== a;
 };
 
-},{}],248:[function(require,module,exports){
+},{}],249:[function(require,module,exports){
 module.exports = function mod(number, modulo) {
 	var remain = number % modulo;
 	return Math.floor(remain >= 0 ? remain : remain + modulo);
 };
 
-},{}],249:[function(require,module,exports){
+},{}],250:[function(require,module,exports){
 module.exports = function sign(number) {
 	return number >= 0 ? 1 : -1;
 };
 
-},{}],250:[function(require,module,exports){
+},{}],251:[function(require,module,exports){
 'use strict';
 
 var toStr = Object.prototype.toString;
@@ -24918,12 +24981,12 @@ module.exports = function ToPrimitive(input) {
 	return ES5internalSlots['[[DefaultValue]]'](input);
 };
 
-},{"./helpers/isPrimitive":251,"is-callable":278}],251:[function(require,module,exports){
+},{"./helpers/isPrimitive":252,"is-callable":279}],252:[function(require,module,exports){
 module.exports = function isPrimitive(value) {
 	return value === null || (typeof value !== 'function' && typeof value !== 'object');
 };
 
-},{}],252:[function(require,module,exports){
+},{}],253:[function(require,module,exports){
 var generate = function generate(num, fn) {
   var a = [];
   for (var i = 0; i < num; ++i) {
@@ -24964,7 +25027,7 @@ module.exports = {
   flatten: flatten,
   chunksOf: chunksOf
 };
-},{}],253:[function(require,module,exports){
+},{}],254:[function(require,module,exports){
 var A = require("./array.js");
 
 var at = function at(bytes, index) {
@@ -25153,7 +25216,7 @@ module.exports = {
   fromUint8Array: fromUint8Array,
   toUint8Array: toUint8Array
 };
-},{"./array.js":252}],254:[function(require,module,exports){
+},{"./array.js":253}],255:[function(require,module,exports){
 // This was ported from https://github.com/emn178/js-sha3, with some minor
 // modifications and pruning. It is licensed under MIT:
 //
@@ -25493,7 +25556,7 @@ module.exports = {
   keccak256s: keccak(256),
   keccak512s: keccak(512)
 };
-},{}],255:[function(require,module,exports){
+},{}],256:[function(require,module,exports){
 'use strict';
 
 var BN = require('bn.js');
@@ -25662,7 +25725,7 @@ module.exports = {
   fromWei: fromWei,
   toWei: toWei
 };
-},{"bn.js":256,"number-to-bn":286}],256:[function(require,module,exports){
+},{"bn.js":257,"number-to-bn":287}],257:[function(require,module,exports){
 (function (module, exports) {
   'use strict';
 
@@ -29091,9 +29154,9 @@ module.exports = {
   };
 })(typeof module === 'undefined' || module, this);
 
-},{}],257:[function(require,module,exports){
+},{}],258:[function(require,module,exports){
 arguments[4][83][0].apply(exports,arguments)
-},{"dup":83,"md5.js":281,"safe-buffer":316}],258:[function(require,module,exports){
+},{"dup":83,"md5.js":282,"safe-buffer":317}],259:[function(require,module,exports){
 'use strict';
 
 var isCallable = require('is-callable');
@@ -29157,7 +29220,7 @@ var forEach = function forEach(list, iterator, thisArg) {
 
 module.exports = forEach;
 
-},{"is-callable":278}],259:[function(require,module,exports){
+},{"is-callable":279}],260:[function(require,module,exports){
 'use strict';
 
 /* eslint no-invalid-this: 1 */
@@ -29211,14 +29274,14 @@ module.exports = function bind(that) {
     return bound;
 };
 
-},{}],260:[function(require,module,exports){
+},{}],261:[function(require,module,exports){
 'use strict';
 
 var implementation = require('./implementation');
 
 module.exports = Function.prototype.bind || implementation;
 
-},{"./implementation":259}],261:[function(require,module,exports){
+},{"./implementation":260}],262:[function(require,module,exports){
 (function (global){
 var win;
 
@@ -29235,44 +29298,44 @@ if (typeof window !== "undefined") {
 module.exports = win;
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],262:[function(require,module,exports){
+},{}],263:[function(require,module,exports){
 'use strict';
 
 var bind = require('function-bind');
 
 module.exports = bind.call(Function.call, Object.prototype.hasOwnProperty);
 
-},{"function-bind":260}],263:[function(require,module,exports){
+},{"function-bind":261}],264:[function(require,module,exports){
 arguments[4][84][0].apply(exports,arguments)
-},{"dup":84,"inherits":277,"safe-buffer":316,"stream":154}],264:[function(require,module,exports){
+},{"dup":84,"inherits":278,"safe-buffer":317,"stream":154}],265:[function(require,module,exports){
 arguments[4][85][0].apply(exports,arguments)
-},{"./hash/common":265,"./hash/hmac":266,"./hash/ripemd":267,"./hash/sha":268,"./hash/utils":275,"dup":85}],265:[function(require,module,exports){
+},{"./hash/common":266,"./hash/hmac":267,"./hash/ripemd":268,"./hash/sha":269,"./hash/utils":276,"dup":85}],266:[function(require,module,exports){
 arguments[4][86][0].apply(exports,arguments)
-},{"./utils":275,"dup":86,"minimalistic-assert":283}],266:[function(require,module,exports){
+},{"./utils":276,"dup":86,"minimalistic-assert":284}],267:[function(require,module,exports){
 arguments[4][87][0].apply(exports,arguments)
-},{"./utils":275,"dup":87,"minimalistic-assert":283}],267:[function(require,module,exports){
+},{"./utils":276,"dup":87,"minimalistic-assert":284}],268:[function(require,module,exports){
 arguments[4][88][0].apply(exports,arguments)
-},{"./common":265,"./utils":275,"dup":88}],268:[function(require,module,exports){
+},{"./common":266,"./utils":276,"dup":88}],269:[function(require,module,exports){
 arguments[4][89][0].apply(exports,arguments)
-},{"./sha/1":269,"./sha/224":270,"./sha/256":271,"./sha/384":272,"./sha/512":273,"dup":89}],269:[function(require,module,exports){
+},{"./sha/1":270,"./sha/224":271,"./sha/256":272,"./sha/384":273,"./sha/512":274,"dup":89}],270:[function(require,module,exports){
 arguments[4][90][0].apply(exports,arguments)
-},{"../common":265,"../utils":275,"./common":274,"dup":90}],270:[function(require,module,exports){
+},{"../common":266,"../utils":276,"./common":275,"dup":90}],271:[function(require,module,exports){
 arguments[4][91][0].apply(exports,arguments)
-},{"../utils":275,"./256":271,"dup":91}],271:[function(require,module,exports){
+},{"../utils":276,"./256":272,"dup":91}],272:[function(require,module,exports){
 arguments[4][92][0].apply(exports,arguments)
-},{"../common":265,"../utils":275,"./common":274,"dup":92,"minimalistic-assert":283}],272:[function(require,module,exports){
+},{"../common":266,"../utils":276,"./common":275,"dup":92,"minimalistic-assert":284}],273:[function(require,module,exports){
 arguments[4][93][0].apply(exports,arguments)
-},{"../utils":275,"./512":273,"dup":93}],273:[function(require,module,exports){
+},{"../utils":276,"./512":274,"dup":93}],274:[function(require,module,exports){
 arguments[4][94][0].apply(exports,arguments)
-},{"../common":265,"../utils":275,"dup":94,"minimalistic-assert":283}],274:[function(require,module,exports){
+},{"../common":266,"../utils":276,"dup":94,"minimalistic-assert":284}],275:[function(require,module,exports){
 arguments[4][95][0].apply(exports,arguments)
-},{"../utils":275,"dup":95}],275:[function(require,module,exports){
+},{"../utils":276,"dup":95}],276:[function(require,module,exports){
 arguments[4][96][0].apply(exports,arguments)
-},{"dup":96,"inherits":277,"minimalistic-assert":283}],276:[function(require,module,exports){
+},{"dup":96,"inherits":278,"minimalistic-assert":284}],277:[function(require,module,exports){
 arguments[4][97][0].apply(exports,arguments)
-},{"dup":97,"hash.js":264,"minimalistic-assert":283,"minimalistic-crypto-utils":284}],277:[function(require,module,exports){
+},{"dup":97,"hash.js":265,"minimalistic-assert":284,"minimalistic-crypto-utils":285}],278:[function(require,module,exports){
 arguments[4][99][0].apply(exports,arguments)
-},{"dup":99}],278:[function(require,module,exports){
+},{"dup":99}],279:[function(require,module,exports){
 'use strict';
 
 var fnToStr = Function.prototype.toString;
@@ -29311,7 +29374,7 @@ module.exports = function isCallable(value) {
 	return strClass === fnClass || strClass === genClass;
 };
 
-},{}],279:[function(require,module,exports){
+},{}],280:[function(require,module,exports){
 module.exports = isFunction
 
 var toString = Object.prototype.toString
@@ -29328,7 +29391,7 @@ function isFunction (fn) {
       fn === window.prompt))
 };
 
-},{}],280:[function(require,module,exports){
+},{}],281:[function(require,module,exports){
 /**
  * Returns a `Boolean` on whether or not the a `String` starts with '0x'
  * @param {String} str the string input value
@@ -29343,17 +29406,17 @@ module.exports = function isHexPrefixed(str) {
   return str.slice(0, 2) === '0x';
 }
 
-},{}],281:[function(require,module,exports){
+},{}],282:[function(require,module,exports){
 arguments[4][102][0].apply(exports,arguments)
-},{"dup":102,"hash-base":263,"inherits":277,"safe-buffer":316}],282:[function(require,module,exports){
+},{"dup":102,"hash-base":264,"inherits":278,"safe-buffer":317}],283:[function(require,module,exports){
 arguments[4][103][0].apply(exports,arguments)
-},{"bn.js":178,"brorand":179,"dup":103}],283:[function(require,module,exports){
+},{"bn.js":178,"brorand":179,"dup":103}],284:[function(require,module,exports){
 arguments[4][104][0].apply(exports,arguments)
-},{"dup":104}],284:[function(require,module,exports){
+},{"dup":104}],285:[function(require,module,exports){
 arguments[4][105][0].apply(exports,arguments)
-},{"dup":105}],285:[function(require,module,exports){
-arguments[4][256][0].apply(exports,arguments)
-},{"dup":256}],286:[function(require,module,exports){
+},{"dup":105}],286:[function(require,module,exports){
+arguments[4][257][0].apply(exports,arguments)
+},{"dup":257}],287:[function(require,module,exports){
 var BN = require('bn.js');
 var stripHexPrefix = require('strip-hex-prefix');
 
@@ -29393,7 +29456,7 @@ module.exports = function numberToBN(arg) {
   throw new Error('[number-to-bn] while converting number ' + JSON.stringify(arg) + ' to BN.js instance, error: invalid number value. Value must be an integer, hex string, BN or BigNumber instance. Note, decimals are not supported.');
 }
 
-},{"bn.js":285,"strip-hex-prefix":332}],287:[function(require,module,exports){
+},{"bn.js":286,"strip-hex-prefix":333}],288:[function(require,module,exports){
 /*
 object-assign
 (c) Sindre Sorhus
@@ -29485,7 +29548,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 	return to;
 };
 
-},{}],288:[function(require,module,exports){
+},{}],289:[function(require,module,exports){
 'use strict';
 
 var keysShim;
@@ -29609,7 +29672,7 @@ if (!Object.keys) {
 }
 module.exports = keysShim;
 
-},{"./isArguments":290}],289:[function(require,module,exports){
+},{"./isArguments":291}],290:[function(require,module,exports){
 'use strict';
 
 var slice = Array.prototype.slice;
@@ -29643,7 +29706,7 @@ keysShim.shim = function shimObjectKeys() {
 
 module.exports = keysShim;
 
-},{"./implementation":288,"./isArguments":290}],290:[function(require,module,exports){
+},{"./implementation":289,"./isArguments":291}],291:[function(require,module,exports){
 'use strict';
 
 var toStr = Object.prototype.toString;
@@ -29662,7 +29725,7 @@ module.exports = function isArguments(value) {
 	return isArgs;
 };
 
-},{}],291:[function(require,module,exports){
+},{}],292:[function(require,module,exports){
 // This file is the concatenation of many js files.
 // See http://github.com/jimhigson/oboe.js for the raw source
 
@@ -32366,17 +32429,17 @@ oboe.drop = function() {
       }
    }()), Object, Array, Error, JSON);
 
-},{}],292:[function(require,module,exports){
+},{}],293:[function(require,module,exports){
 arguments[4][106][0].apply(exports,arguments)
-},{"dup":106}],293:[function(require,module,exports){
+},{"dup":106}],294:[function(require,module,exports){
 arguments[4][107][0].apply(exports,arguments)
-},{"./certificate":294,"asn1.js":164,"dup":107}],294:[function(require,module,exports){
+},{"./certificate":295,"asn1.js":164,"dup":107}],295:[function(require,module,exports){
 arguments[4][108][0].apply(exports,arguments)
-},{"asn1.js":164,"dup":108}],295:[function(require,module,exports){
+},{"asn1.js":164,"dup":108}],296:[function(require,module,exports){
 arguments[4][109][0].apply(exports,arguments)
-},{"browserify-aes":182,"dup":109,"evp_bytestokey":257,"safe-buffer":316}],296:[function(require,module,exports){
+},{"browserify-aes":182,"dup":109,"evp_bytestokey":258,"safe-buffer":317}],297:[function(require,module,exports){
 arguments[4][110][0].apply(exports,arguments)
-},{"./aesid.json":292,"./asn1":293,"./fixProc":295,"browserify-aes":182,"dup":110,"pbkdf2":298,"safe-buffer":316}],297:[function(require,module,exports){
+},{"./aesid.json":293,"./asn1":294,"./fixProc":296,"browserify-aes":182,"dup":110,"pbkdf2":299,"safe-buffer":317}],298:[function(require,module,exports){
 var trim = require('string.prototype.trim')
   , forEach = require('for-each')
   , isArray = function(arg) {
@@ -32409,13 +32472,13 @@ module.exports = function (headers) {
   return result
 }
 
-},{"for-each":258,"string.prototype.trim":329}],298:[function(require,module,exports){
+},{"for-each":259,"string.prototype.trim":330}],299:[function(require,module,exports){
 arguments[4][111][0].apply(exports,arguments)
-},{"./lib/async":299,"./lib/sync":302,"dup":111}],299:[function(require,module,exports){
+},{"./lib/async":300,"./lib/sync":303,"dup":111}],300:[function(require,module,exports){
 arguments[4][112][0].apply(exports,arguments)
-},{"./default-encoding":300,"./precondition":301,"./sync":302,"_process":117,"dup":112,"safe-buffer":316}],300:[function(require,module,exports){
+},{"./default-encoding":301,"./precondition":302,"./sync":303,"_process":117,"dup":112,"safe-buffer":317}],301:[function(require,module,exports){
 arguments[4][113][0].apply(exports,arguments)
-},{"_process":117,"dup":113}],301:[function(require,module,exports){
+},{"_process":117,"dup":113}],302:[function(require,module,exports){
 (function (Buffer){
 var MAX_ALLOC = Math.pow(2, 30) - 1 // default in iojs
 
@@ -32447,21 +32510,21 @@ module.exports = function (password, salt, iterations, keylen) {
 }
 
 }).call(this,{"isBuffer":require("../../../../../../../.nvm/versions/node/v11.13.0/lib/node_modules/browserify/node_modules/is-buffer/index.js")})
-},{"../../../../../../../.nvm/versions/node/v11.13.0/lib/node_modules/browserify/node_modules/is-buffer/index.js":100}],302:[function(require,module,exports){
+},{"../../../../../../../.nvm/versions/node/v11.13.0/lib/node_modules/browserify/node_modules/is-buffer/index.js":100}],303:[function(require,module,exports){
 arguments[4][115][0].apply(exports,arguments)
-},{"./default-encoding":300,"./precondition":301,"create-hash/md5":211,"dup":115,"ripemd160":315,"safe-buffer":316,"sha.js":320}],303:[function(require,module,exports){
+},{"./default-encoding":301,"./precondition":302,"create-hash/md5":211,"dup":115,"ripemd160":316,"safe-buffer":317,"sha.js":321}],304:[function(require,module,exports){
 arguments[4][118][0].apply(exports,arguments)
-},{"./privateDecrypt":305,"./publicEncrypt":306,"dup":118}],304:[function(require,module,exports){
+},{"./privateDecrypt":306,"./publicEncrypt":307,"dup":118}],305:[function(require,module,exports){
 arguments[4][119][0].apply(exports,arguments)
-},{"create-hash":210,"dup":119,"safe-buffer":316}],305:[function(require,module,exports){
+},{"create-hash":210,"dup":119,"safe-buffer":317}],306:[function(require,module,exports){
 arguments[4][120][0].apply(exports,arguments)
-},{"./mgf":304,"./withPublic":307,"./xor":308,"bn.js":178,"browserify-rsa":200,"create-hash":210,"dup":120,"parse-asn1":296,"safe-buffer":316}],306:[function(require,module,exports){
+},{"./mgf":305,"./withPublic":308,"./xor":309,"bn.js":178,"browserify-rsa":200,"create-hash":210,"dup":120,"parse-asn1":297,"safe-buffer":317}],307:[function(require,module,exports){
 arguments[4][121][0].apply(exports,arguments)
-},{"./mgf":304,"./withPublic":307,"./xor":308,"bn.js":178,"browserify-rsa":200,"create-hash":210,"dup":121,"parse-asn1":296,"randombytes":310,"safe-buffer":316}],307:[function(require,module,exports){
+},{"./mgf":305,"./withPublic":308,"./xor":309,"bn.js":178,"browserify-rsa":200,"create-hash":210,"dup":121,"parse-asn1":297,"randombytes":311,"safe-buffer":317}],308:[function(require,module,exports){
 arguments[4][122][0].apply(exports,arguments)
-},{"bn.js":178,"dup":122,"safe-buffer":316}],308:[function(require,module,exports){
+},{"bn.js":178,"dup":122,"safe-buffer":317}],309:[function(require,module,exports){
 arguments[4][123][0].apply(exports,arguments)
-},{"dup":123}],309:[function(require,module,exports){
+},{"dup":123}],310:[function(require,module,exports){
 'use strict';
 var strictUriEncode = require('strict-uri-encode');
 var objectAssign = require('object-assign');
@@ -32687,15 +32750,15 @@ exports.parseUrl = function (str, opts) {
 	};
 };
 
-},{"decode-uri-component":215,"object-assign":287,"strict-uri-encode":327}],310:[function(require,module,exports){
+},{"decode-uri-component":216,"object-assign":288,"strict-uri-encode":328}],311:[function(require,module,exports){
 arguments[4][128][0].apply(exports,arguments)
-},{"_process":117,"dup":128,"safe-buffer":316}],311:[function(require,module,exports){
+},{"_process":117,"dup":128,"safe-buffer":317}],312:[function(require,module,exports){
 arguments[4][129][0].apply(exports,arguments)
-},{"_process":117,"dup":129,"randombytes":310,"safe-buffer":316}],312:[function(require,module,exports){
+},{"_process":117,"dup":129,"randombytes":311,"safe-buffer":317}],313:[function(require,module,exports){
 module.exports = window.crypto;
-},{}],313:[function(require,module,exports){
+},{}],314:[function(require,module,exports){
 module.exports = require('crypto');
-},{"crypto":312}],314:[function(require,module,exports){
+},{"crypto":313}],315:[function(require,module,exports){
 var randomHex = function(size, callback) {
     var crypto = require('./crypto.js');
     var isCallback = (typeof callback === 'function');
@@ -32761,14 +32824,14 @@ var randomHex = function(size, callback) {
 
 module.exports = randomHex;
 
-},{"./crypto.js":313}],315:[function(require,module,exports){
+},{"./crypto.js":314}],316:[function(require,module,exports){
 arguments[4][144][0].apply(exports,arguments)
-},{"buffer":47,"dup":144,"hash-base":263,"inherits":277}],316:[function(require,module,exports){
+},{"buffer":47,"dup":144,"hash-base":264,"inherits":278}],317:[function(require,module,exports){
 arguments[4][145][0].apply(exports,arguments)
-},{"buffer":47,"dup":145}],317:[function(require,module,exports){
+},{"buffer":47,"dup":145}],318:[function(require,module,exports){
 module.exports = require('scryptsy')
 
-},{"scryptsy":318}],318:[function(require,module,exports){
+},{"scryptsy":319}],319:[function(require,module,exports){
 (function (Buffer){
 var pbkdf2Sync = require('pbkdf2').pbkdf2Sync
 
@@ -32951,23 +33014,23 @@ function arraycopy (src, srcPos, dest, destPos, length) {
 module.exports = scrypt
 
 }).call(this,require("buffer").Buffer)
-},{"buffer":47,"pbkdf2":298}],319:[function(require,module,exports){
+},{"buffer":47,"pbkdf2":299}],320:[function(require,module,exports){
 arguments[4][146][0].apply(exports,arguments)
-},{"dup":146,"safe-buffer":316}],320:[function(require,module,exports){
+},{"dup":146,"safe-buffer":317}],321:[function(require,module,exports){
 arguments[4][147][0].apply(exports,arguments)
-},{"./sha":321,"./sha1":322,"./sha224":323,"./sha256":324,"./sha384":325,"./sha512":326,"dup":147}],321:[function(require,module,exports){
+},{"./sha":322,"./sha1":323,"./sha224":324,"./sha256":325,"./sha384":326,"./sha512":327,"dup":147}],322:[function(require,module,exports){
 arguments[4][148][0].apply(exports,arguments)
-},{"./hash":319,"dup":148,"inherits":277,"safe-buffer":316}],322:[function(require,module,exports){
+},{"./hash":320,"dup":148,"inherits":278,"safe-buffer":317}],323:[function(require,module,exports){
 arguments[4][149][0].apply(exports,arguments)
-},{"./hash":319,"dup":149,"inherits":277,"safe-buffer":316}],323:[function(require,module,exports){
+},{"./hash":320,"dup":149,"inherits":278,"safe-buffer":317}],324:[function(require,module,exports){
 arguments[4][150][0].apply(exports,arguments)
-},{"./hash":319,"./sha256":324,"dup":150,"inherits":277,"safe-buffer":316}],324:[function(require,module,exports){
+},{"./hash":320,"./sha256":325,"dup":150,"inherits":278,"safe-buffer":317}],325:[function(require,module,exports){
 arguments[4][151][0].apply(exports,arguments)
-},{"./hash":319,"dup":151,"inherits":277,"safe-buffer":316}],325:[function(require,module,exports){
+},{"./hash":320,"dup":151,"inherits":278,"safe-buffer":317}],326:[function(require,module,exports){
 arguments[4][152][0].apply(exports,arguments)
-},{"./hash":319,"./sha512":326,"dup":152,"inherits":277,"safe-buffer":316}],326:[function(require,module,exports){
+},{"./hash":320,"./sha512":327,"dup":152,"inherits":278,"safe-buffer":317}],327:[function(require,module,exports){
 arguments[4][153][0].apply(exports,arguments)
-},{"./hash":319,"dup":153,"inherits":277,"safe-buffer":316}],327:[function(require,module,exports){
+},{"./hash":320,"dup":153,"inherits":278,"safe-buffer":317}],328:[function(require,module,exports){
 'use strict';
 module.exports = function (str) {
 	return encodeURIComponent(str).replace(/[!'()*]/g, function (c) {
@@ -32975,7 +33038,7 @@ module.exports = function (str) {
 	});
 };
 
-},{}],328:[function(require,module,exports){
+},{}],329:[function(require,module,exports){
 'use strict';
 
 var bind = require('function-bind');
@@ -32990,7 +33053,7 @@ module.exports = function trim() {
 	return replace(replace(S, leftWhitespace, ''), rightWhitespace, '');
 };
 
-},{"es-abstract/es5":244,"function-bind":260}],329:[function(require,module,exports){
+},{"es-abstract/es5":245,"function-bind":261}],330:[function(require,module,exports){
 'use strict';
 
 var bind = require('function-bind');
@@ -33010,7 +33073,7 @@ define(boundTrim, {
 
 module.exports = boundTrim;
 
-},{"./implementation":328,"./polyfill":330,"./shim":331,"define-properties":216,"function-bind":260}],330:[function(require,module,exports){
+},{"./implementation":329,"./polyfill":331,"./shim":332,"define-properties":217,"function-bind":261}],331:[function(require,module,exports){
 'use strict';
 
 var implementation = require('./implementation');
@@ -33024,7 +33087,7 @@ module.exports = function getPolyfill() {
 	return implementation;
 };
 
-},{"./implementation":328}],331:[function(require,module,exports){
+},{"./implementation":329}],332:[function(require,module,exports){
 'use strict';
 
 var define = require('define-properties');
@@ -33036,7 +33099,7 @@ module.exports = function shimStringTrim() {
 	return polyfill;
 };
 
-},{"./polyfill":330,"define-properties":216}],332:[function(require,module,exports){
+},{"./polyfill":331,"define-properties":217}],333:[function(require,module,exports){
 var isHexPrefixed = require('is-hex-prefixed');
 
 /**
@@ -33052,7 +33115,7 @@ module.exports = function stripHexPrefix(str) {
   return isHexPrefixed(str) ? str.slice(2) : str;
 }
 
-},{"is-hex-prefixed":280}],333:[function(require,module,exports){
+},{"is-hex-prefixed":281}],334:[function(require,module,exports){
 var unavailable = function unavailable() {
   throw "This swarm.js function isn't available on the browser.";
 };
@@ -33085,7 +33148,7 @@ module.exports = swarm({
   hash: hash,
   pick: pick
 });
-},{"./pick.js":334,"./swarm":336,"./swarm-hash.js":335,"eth-lib/lib/bytes":253,"xhr-request-promise":397}],334:[function(require,module,exports){
+},{"./pick.js":335,"./swarm":337,"./swarm-hash.js":336,"eth-lib/lib/bytes":254,"xhr-request-promise":398}],335:[function(require,module,exports){
 var picker = function picker(type) {
   return function () {
     return new Promise(function (resolve, reject) {
@@ -33143,7 +33206,7 @@ module.exports = {
   file: picker("file"),
   directory: picker("directory")
 };
-},{}],335:[function(require,module,exports){
+},{}],336:[function(require,module,exports){
 // Thanks https://github.com/axic/swarmhash
 
 var keccak = require("eth-lib/lib/hash").keccak256;
@@ -33184,7 +33247,7 @@ var swarmHash = function swarmHash(data) {
 };
 
 module.exports = swarmHash;
-},{"eth-lib/lib/bytes":253,"eth-lib/lib/hash":254}],336:[function(require,module,exports){
+},{"eth-lib/lib/bytes":254,"eth-lib/lib/hash":255}],337:[function(require,module,exports){
 // TODO: this is a temporary fix to hide those libraries from the browser. A
 // slightly better long-term solution would be to split this file into two,
 // separating the functions that are used on Node.js from the functions that
@@ -33811,7 +33874,7 @@ module.exports = function (_ref) {
   };
 };
 
-},{}],337:[function(require,module,exports){
+},{}],338:[function(require,module,exports){
 //     Underscore.js 1.8.3
 //     http://underscorejs.org
 //     (c) 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
@@ -35361,7 +35424,7 @@ module.exports = function (_ref) {
   }
 }.call(this));
 
-},{}],338:[function(require,module,exports){
+},{}],339:[function(require,module,exports){
 module.exports = urlSetQuery
 function urlSetQuery (url, query) {
   if (query) {
@@ -35386,7 +35449,7 @@ function urlSetQuery (url, query) {
   return url
 }
 
-},{}],339:[function(require,module,exports){
+},{}],340:[function(require,module,exports){
 (function (global){
 /*! https://mths.be/utf8js v2.0.0 by @mathias */
 ;(function(root) {
@@ -35634,7 +35697,7 @@ function urlSetQuery (url, query) {
 }(this));
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],340:[function(require,module,exports){
+},{}],341:[function(require,module,exports){
 /*
     This file is part of web3.js.
 
@@ -35724,7 +35787,7 @@ Bzz.prototype.setProvider = function(provider) {
 module.exports = Bzz;
 
 
-},{"swarm-js":333,"underscore":337}],341:[function(require,module,exports){
+},{"swarm-js":334,"underscore":338}],342:[function(require,module,exports){
 /*
     This file is part of web3.js.
 
@@ -35773,7 +35836,7 @@ module.exports = {
     }
 };
 
-},{}],342:[function(require,module,exports){
+},{}],343:[function(require,module,exports){
 /*
     This file is part of web3.js.
 
@@ -36211,7 +36274,7 @@ module.exports = {
 };
 
 
-},{"underscore":337,"web3-eth-iban":379,"web3-utils":392}],343:[function(require,module,exports){
+},{"underscore":338,"web3-eth-iban":380,"web3-utils":393}],344:[function(require,module,exports){
 /*
     This file is part of web3.js.
 
@@ -36245,7 +36308,7 @@ module.exports = {
 };
 
 
-},{"./errors":341,"./formatters":342}],344:[function(require,module,exports){
+},{"./errors":342,"./formatters":343}],345:[function(require,module,exports){
 /*
     This file is part of web3.js.
 
@@ -36856,7 +36919,7 @@ Method.prototype.request = function () {
 
 module.exports = Method;
 
-},{"underscore":337,"web3-core-helpers":343,"web3-core-promievent":346,"web3-core-subscriptions":352,"web3-utils":392}],345:[function(require,module,exports){
+},{"underscore":338,"web3-core-helpers":344,"web3-core-promievent":347,"web3-core-subscriptions":353,"web3-utils":393}],346:[function(require,module,exports){
 'use strict';
 
 //
@@ -37120,7 +37183,7 @@ if ('undefined' !== typeof module) {
   module.exports = EventEmitter;
 }
 
-},{}],346:[function(require,module,exports){
+},{}],347:[function(require,module,exports){
 /*
  This file is part of web3.js.
 
@@ -37197,7 +37260,7 @@ PromiEvent.resolve = function(value) {
 
 module.exports = PromiEvent;
 
-},{"any-promise":161,"eventemitter3":345}],347:[function(require,module,exports){
+},{"any-promise":161,"eventemitter3":346}],348:[function(require,module,exports){
 /*
     This file is part of web3.js.
 
@@ -37271,7 +37334,7 @@ Batch.prototype.execute = function () {
 module.exports = Batch;
 
 
-},{"./jsonrpc":350,"web3-core-helpers":343}],348:[function(require,module,exports){
+},{"./jsonrpc":351,"web3-core-helpers":344}],349:[function(require,module,exports){
 /*
  This file is part of web3.js.
 
@@ -37359,7 +37422,7 @@ if(typeof global.ethereumProvider !== 'undefined') {
 
 module.exports = givenProvider;
 
-},{}],349:[function(require,module,exports){
+},{}],350:[function(require,module,exports){
 /*
     This file is part of web3.js.
 
@@ -37607,7 +37670,7 @@ module.exports = {
     BatchManager: BatchManager
 };
 
-},{"./batch.js":347,"./givenProvider.js":348,"./jsonrpc.js":350,"underscore":337,"web3-core-helpers":343,"web3-providers-http":384,"web3-providers-ipc":385,"web3-providers-ws":389}],350:[function(require,module,exports){
+},{"./batch.js":348,"./givenProvider.js":349,"./jsonrpc.js":351,"underscore":338,"web3-core-helpers":344,"web3-providers-http":385,"web3-providers-ipc":386,"web3-providers-ws":390}],351:[function(require,module,exports){
 /*
     This file is part of web3.js.
 
@@ -37698,9 +37761,9 @@ Jsonrpc.toBatchPayload = function (messages) {
 module.exports = Jsonrpc;
 
 
-},{}],351:[function(require,module,exports){
-arguments[4][345][0].apply(exports,arguments)
-},{"dup":345}],352:[function(require,module,exports){
+},{}],352:[function(require,module,exports){
+arguments[4][346][0].apply(exports,arguments)
+},{"dup":346}],353:[function(require,module,exports){
 /*
     This file is part of web3.js.
 
@@ -37778,7 +37841,7 @@ module.exports = {
     subscription: Subscription
 };
 
-},{"./subscription.js":353}],353:[function(require,module,exports){
+},{"./subscription.js":354}],354:[function(require,module,exports){
 /*
     This file is part of web3.js.
 
@@ -38095,7 +38158,7 @@ Subscription.prototype.subscribe = function() {
 
 module.exports = Subscription;
 
-},{"eventemitter3":351,"underscore":337,"web3-core-helpers":343}],354:[function(require,module,exports){
+},{"eventemitter3":352,"underscore":338,"web3-core-helpers":344}],355:[function(require,module,exports){
 /*
  This file is part of web3.js.
 
@@ -38166,7 +38229,7 @@ var extend = function (pckg) {
 module.exports = extend;
 
 
-},{"web3-core-helpers":343,"web3-core-method":344,"web3-utils":392}],355:[function(require,module,exports){
+},{"web3-core-helpers":344,"web3-core-method":345,"web3-utils":393}],356:[function(require,module,exports){
 /*
     This file is part of web3.js.
 
@@ -38254,9 +38317,9 @@ module.exports = {
 };
 
 
-},{"./extend.js":354,"web3-core-requestmanager":349}],356:[function(require,module,exports){
-arguments[4][256][0].apply(exports,arguments)
-},{"dup":256}],357:[function(require,module,exports){
+},{"./extend.js":355,"web3-core-requestmanager":350}],357:[function(require,module,exports){
+arguments[4][257][0].apply(exports,arguments)
+},{"dup":257}],358:[function(require,module,exports){
 /*
     This file is part of web3.js.
 
@@ -38546,7 +38609,7 @@ module.exports = {
     toTwosComplement: utils.toTwosComplement
 };
 
-},{"./param":359,"bn.js":356,"underscore":337,"web3-utils":392}],358:[function(require,module,exports){
+},{"./param":360,"bn.js":357,"underscore":338,"web3-utils":393}],359:[function(require,module,exports){
 /*
  This file is part of web3.js.
 
@@ -38956,7 +39019,7 @@ var coder = new ABICoder([
 
 module.exports = coder;
 
-},{"./formatters":357,"./types/address":361,"./types/bool":362,"./types/bytes":363,"./types/dynamicbytes":364,"./types/int":365,"./types/string":366,"./types/uint":367,"underscore":337,"web3-utils":392}],359:[function(require,module,exports){
+},{"./formatters":358,"./types/address":362,"./types/bool":363,"./types/bytes":364,"./types/dynamicbytes":365,"./types/int":366,"./types/string":367,"./types/uint":368,"underscore":338,"web3-utils":393}],360:[function(require,module,exports){
 /*
     This file is part of web3.js.
 
@@ -39111,7 +39174,7 @@ SolidityParam.encodeList = function (params) {
 module.exports = SolidityParam;
 
 
-},{"./formatters.js":357}],360:[function(require,module,exports){
+},{"./formatters.js":358}],361:[function(require,module,exports){
 var f = require('./formatters');
 var SolidityParam = require('./param');
 
@@ -39368,7 +39431,7 @@ SolidityType.prototype.decode = function (bytes, offset, name) {
 
 module.exports = SolidityType;
 
-},{"./formatters":357,"./param":359}],361:[function(require,module,exports){
+},{"./formatters":358,"./param":360}],362:[function(require,module,exports){
 var f = require('../formatters');
 var formatters = require('web3-core-helpers').formatters;
 var SolidityType = require('../type');
@@ -39401,7 +39464,7 @@ SolidityTypeAddress.prototype.isType = function (name) {
 
 module.exports = SolidityTypeAddress;
 
-},{"../formatters":357,"../type":360,"web3-core-helpers":343}],362:[function(require,module,exports){
+},{"../formatters":358,"../type":361,"web3-core-helpers":344}],363:[function(require,module,exports){
 var f = require('../formatters');
 var SolidityType = require('../type');
 
@@ -39429,7 +39492,7 @@ SolidityTypeBool.prototype.isType = function (name) {
 
 module.exports = SolidityTypeBool;
 
-},{"../formatters":357,"../type":360}],363:[function(require,module,exports){
+},{"../formatters":358,"../type":361}],364:[function(require,module,exports){
 var f = require('../formatters');
 var SolidityType = require('../type');
 
@@ -39460,7 +39523,7 @@ SolidityTypeBytes.prototype.isType = function (name) {
 
 module.exports = SolidityTypeBytes;
 
-},{"../formatters":357,"../type":360}],364:[function(require,module,exports){
+},{"../formatters":358,"../type":361}],365:[function(require,module,exports){
 var f = require('../formatters');
 var SolidityType = require('../type');
 
@@ -39482,7 +39545,7 @@ SolidityTypeDynamicBytes.prototype.isDynamicType = function () {
 
 module.exports = SolidityTypeDynamicBytes;
 
-},{"../formatters":357,"../type":360}],365:[function(require,module,exports){
+},{"../formatters":358,"../type":361}],366:[function(require,module,exports){
 var f = require('../formatters');
 var SolidityType = require('../type');
 
@@ -39516,7 +39579,7 @@ SolidityTypeInt.prototype.isType = function (name) {
 
 module.exports = SolidityTypeInt;
 
-},{"../formatters":357,"../type":360}],366:[function(require,module,exports){
+},{"../formatters":358,"../type":361}],367:[function(require,module,exports){
 var f = require('../formatters');
 var SolidityType = require('../type');
 
@@ -39538,7 +39601,7 @@ SolidityTypeString.prototype.isDynamicType = function () {
 
 module.exports = SolidityTypeString;
 
-},{"../formatters":357,"../type":360}],367:[function(require,module,exports){
+},{"../formatters":358,"../type":361}],368:[function(require,module,exports){
 var f = require('../formatters');
 var SolidityType = require('../type');
 
@@ -39572,7 +39635,7 @@ SolidityTypeUInt.prototype.isType = function (name) {
 
 module.exports = SolidityTypeUInt;
 
-},{"../formatters":357,"../type":360}],368:[function(require,module,exports){
+},{"../formatters":358,"../type":361}],369:[function(require,module,exports){
 (function (Buffer){
 var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
 
@@ -39656,13 +39719,13 @@ module.exports = {
   decodeSignature: decodeSignature
 };
 }).call(this,require("buffer").Buffer)
-},{"./bytes":370,"./hash":371,"./nat":372,"./rlp":373,"buffer":47,"elliptic":227}],369:[function(require,module,exports){
-arguments[4][252][0].apply(exports,arguments)
-},{"dup":252}],370:[function(require,module,exports){
+},{"./bytes":371,"./hash":372,"./nat":373,"./rlp":374,"buffer":47,"elliptic":228}],370:[function(require,module,exports){
 arguments[4][253][0].apply(exports,arguments)
-},{"./array.js":369,"dup":253}],371:[function(require,module,exports){
+},{"dup":253}],371:[function(require,module,exports){
 arguments[4][254][0].apply(exports,arguments)
-},{"dup":254}],372:[function(require,module,exports){
+},{"./array.js":370,"dup":254}],372:[function(require,module,exports){
+arguments[4][255][0].apply(exports,arguments)
+},{"dup":255}],373:[function(require,module,exports){
 var BN = require("bn.js");
 var Bytes = require("./bytes");
 
@@ -39727,7 +39790,7 @@ module.exports = {
   div: div,
   sub: sub
 };
-},{"./bytes":370,"bn.js":178}],373:[function(require,module,exports){
+},{"./bytes":371,"bn.js":178}],374:[function(require,module,exports){
 // The RLP format
 // Serialization and deserialization for the BytesTree type, under the following grammar:
 // | First byte | Meaning                                                                    |
@@ -39801,7 +39864,7 @@ var decode = function decode(hex) {
 };
 
 module.exports = { encode: encode, decode: decode };
-},{}],374:[function(require,module,exports){
+},{}],375:[function(require,module,exports){
 (function (global){
 
 var rng;
@@ -39836,7 +39899,7 @@ module.exports = rng;
 
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],375:[function(require,module,exports){
+},{}],376:[function(require,module,exports){
 //     uuid.js
 //
 //     Copyright (c) 2010-2012 Robert Kieffer
@@ -40021,7 +40084,7 @@ uuid.unparse = unparse;
 
 module.exports = uuid;
 
-},{"./rng":374}],376:[function(require,module,exports){
+},{"./rng":375}],377:[function(require,module,exports){
 (function (global,Buffer){
 /*
  This file is part of web3.js.
@@ -40559,7 +40622,7 @@ if (typeof localStorage === 'undefined') {
 module.exports = Accounts;
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer)
-},{"any-promise":161,"buffer":47,"crypto":55,"crypto-browserify":214,"eth-lib/lib/account":368,"eth-lib/lib/bytes":370,"eth-lib/lib/hash":371,"eth-lib/lib/nat":372,"eth-lib/lib/rlp":373,"scrypt.js":317,"underscore":337,"uuid":375,"web3-core":355,"web3-core-helpers":343,"web3-core-method":344,"web3-utils":392}],377:[function(require,module,exports){
+},{"any-promise":161,"buffer":47,"crypto":55,"crypto-browserify":214,"eth-lib/lib/account":369,"eth-lib/lib/bytes":371,"eth-lib/lib/hash":372,"eth-lib/lib/nat":373,"eth-lib/lib/rlp":374,"scrypt.js":318,"underscore":338,"uuid":376,"web3-core":356,"web3-core-helpers":344,"web3-core-method":345,"web3-utils":393}],378:[function(require,module,exports){
 /*
     This file is part of web3.js.
 
@@ -41460,9 +41523,9 @@ Contract.prototype._executeMethod = function _executeMethod(){
 
 module.exports = Contract;
 
-},{"underscore":337,"web3-core":355,"web3-core-helpers":343,"web3-core-method":344,"web3-core-promievent":346,"web3-core-subscriptions":352,"web3-eth-abi":358,"web3-utils":392}],378:[function(require,module,exports){
-arguments[4][256][0].apply(exports,arguments)
-},{"dup":256}],379:[function(require,module,exports){
+},{"underscore":338,"web3-core":356,"web3-core-helpers":344,"web3-core-method":345,"web3-core-promievent":347,"web3-core-subscriptions":353,"web3-eth-abi":359,"web3-utils":393}],379:[function(require,module,exports){
+arguments[4][257][0].apply(exports,arguments)
+},{"dup":257}],380:[function(require,module,exports){
 /*
     This file is part of web3.js.
 
@@ -41731,7 +41794,7 @@ Iban.prototype.toString = function () {
 
 module.exports = Iban;
 
-},{"bn.js":378,"web3-utils":392}],380:[function(require,module,exports){
+},{"bn.js":379,"web3-utils":393}],381:[function(require,module,exports){
 /*
     This file is part of web3.js.
 
@@ -41883,7 +41946,7 @@ module.exports = Personal;
 
 
 
-},{"web3-core":355,"web3-core-helpers":343,"web3-core-method":344,"web3-net":383,"web3-utils":392}],381:[function(require,module,exports){
+},{"web3-core":356,"web3-core-helpers":344,"web3-core-method":345,"web3-net":384,"web3-utils":393}],382:[function(require,module,exports){
 /*
  This file is part of web3.js.
 
@@ -41963,7 +42026,7 @@ var getNetworkType = function (callback) {
 
 module.exports = getNetworkType;
 
-},{"underscore":337}],382:[function(require,module,exports){
+},{"underscore":338}],383:[function(require,module,exports){
 /*
  This file is part of web3.js.
 
@@ -42436,7 +42499,7 @@ core.addProviders(Eth);
 module.exports = Eth;
 
 
-},{"./getNetworkType.js":381,"underscore":337,"web3-core":355,"web3-core-helpers":343,"web3-core-method":344,"web3-core-subscriptions":352,"web3-eth-abi":358,"web3-eth-accounts":376,"web3-eth-contract":377,"web3-eth-iban":379,"web3-eth-personal":380,"web3-net":383,"web3-utils":392}],383:[function(require,module,exports){
+},{"./getNetworkType.js":382,"underscore":338,"web3-core":356,"web3-core-helpers":344,"web3-core-method":345,"web3-core-subscriptions":353,"web3-eth-abi":359,"web3-eth-accounts":377,"web3-eth-contract":378,"web3-eth-iban":380,"web3-eth-personal":381,"web3-net":384,"web3-utils":393}],384:[function(require,module,exports){
 /*
     This file is part of web3.js.
 
@@ -42505,7 +42568,7 @@ module.exports = Net;
 
 
 
-},{"web3-core":355,"web3-core-method":344,"web3-utils":392}],384:[function(require,module,exports){
+},{"web3-core":356,"web3-core-method":345,"web3-utils":393}],385:[function(require,module,exports){
 /*
     This file is part of web3.js.
 
@@ -42602,7 +42665,7 @@ HttpProvider.prototype.send = function (payload, callback) {
 
 module.exports = HttpProvider;
 
-},{"web3-core-helpers":343,"xhr2":403}],385:[function(require,module,exports){
+},{"web3-core-helpers":344,"xhr2":404}],386:[function(require,module,exports){
 /*
     This file is part of web3.js.
 
@@ -42913,7 +42976,7 @@ IpcProvider.prototype.reset = function () {
 module.exports = IpcProvider;
 
 
-},{"oboe":291,"underscore":337,"web3-core-helpers":343}],386:[function(require,module,exports){
+},{"oboe":292,"underscore":338,"web3-core-helpers":344}],387:[function(require,module,exports){
 var _global = (function() { return this || {}; })();
 var NativeWebSocket = _global.WebSocket || _global.MozWebSocket;
 var websocket_version = require('./version');
@@ -42957,10 +43020,10 @@ module.exports = {
     'version'      : websocket_version
 };
 
-},{"./version":387}],387:[function(require,module,exports){
+},{"./version":388}],388:[function(require,module,exports){
 module.exports = require('../package.json').version;
 
-},{"../package.json":388}],388:[function(require,module,exports){
+},{"../package.json":389}],389:[function(require,module,exports){
 module.exports={
   "_from": "git://github.com/frozeman/WebSocket-Node.git#browserifyCompatible",
   "_id": "websocket@1.0.26",
@@ -43055,7 +43118,7 @@ module.exports={
   "version": "1.0.26"
 }
 
-},{}],389:[function(require,module,exports){
+},{}],390:[function(require,module,exports){
 (function (Buffer){
 /*
  This file is part of web3.js.
@@ -43425,7 +43488,7 @@ WebsocketProvider.prototype.reset = function () {
 module.exports = WebsocketProvider;
 
 }).call(this,require("buffer").Buffer)
-},{"buffer":47,"underscore":337,"url":157,"web3-core-helpers":343,"websocket":386}],390:[function(require,module,exports){
+},{"buffer":47,"underscore":338,"url":157,"web3-core-helpers":344,"websocket":387}],391:[function(require,module,exports){
 /*
     This file is part of web3.js.
 
@@ -43610,9 +43673,9 @@ module.exports = Shh;
 
 
 
-},{"web3-core":355,"web3-core-method":344,"web3-core-subscriptions":352,"web3-net":383}],391:[function(require,module,exports){
-arguments[4][256][0].apply(exports,arguments)
-},{"dup":256}],392:[function(require,module,exports){
+},{"web3-core":356,"web3-core-method":345,"web3-core-subscriptions":353,"web3-net":384}],392:[function(require,module,exports){
+arguments[4][257][0].apply(exports,arguments)
+},{"dup":257}],393:[function(require,module,exports){
 /*
  This file is part of web3.js.
 
@@ -43934,7 +43997,7 @@ module.exports = {
 };
 
 
-},{"./soliditySha3.js":393,"./utils.js":394,"ethjs-unit":255,"randomhex":314,"underscore":337}],393:[function(require,module,exports){
+},{"./soliditySha3.js":394,"./utils.js":395,"ethjs-unit":256,"randomhex":315,"underscore":338}],394:[function(require,module,exports){
 /*
  This file is part of web3.js.
 
@@ -44181,7 +44244,7 @@ var soliditySha3 = function () {
 
 module.exports = soliditySha3;
 
-},{"./utils.js":394,"bn.js":391,"underscore":337}],394:[function(require,module,exports){
+},{"./utils.js":395,"bn.js":392,"underscore":338}],395:[function(require,module,exports){
 /*
  This file is part of web3.js.
 
@@ -44650,7 +44713,7 @@ module.exports = {
     sha3: sha3
 };
 
-},{"bn.js":391,"eth-lib/lib/hash":254,"number-to-bn":286,"underscore":337,"utf8":339}],395:[function(require,module,exports){
+},{"bn.js":392,"eth-lib/lib/hash":255,"number-to-bn":287,"underscore":338,"utf8":340}],396:[function(require,module,exports){
 module.exports={
   "_from": "web3@1.0.0-beta.34",
   "_id": "web3@1.0.0-beta.34",
@@ -44741,7 +44804,7 @@ module.exports={
   "version": "1.0.0-beta.34"
 }
 
-},{}],396:[function(require,module,exports){
+},{}],397:[function(require,module,exports){
 /*
     This file is part of web3.js.
 
@@ -44822,7 +44885,7 @@ core.addProviders(Web3);
 module.exports = Web3;
 
 
-},{"../package.json":395,"web3-bzz":340,"web3-core":355,"web3-eth":382,"web3-eth-personal":380,"web3-net":383,"web3-shh":390,"web3-utils":392}],397:[function(require,module,exports){
+},{"../package.json":396,"web3-bzz":341,"web3-core":356,"web3-eth":383,"web3-eth-personal":381,"web3-net":384,"web3-shh":391,"web3-utils":393}],398:[function(require,module,exports){
 var request = require('xhr-request')
 
 module.exports = function (url, options) {
@@ -44834,7 +44897,7 @@ module.exports = function (url, options) {
   });
 };
 
-},{"xhr-request":398}],398:[function(require,module,exports){
+},{"xhr-request":399}],399:[function(require,module,exports){
 var queryString = require('query-string')
 var setQuery = require('url-set-query')
 var assign = require('object-assign')
@@ -44895,7 +44958,7 @@ function xhrRequest (url, opt, cb) {
   return request(opt, cb)
 }
 
-},{"./lib/ensure-header.js":399,"./lib/request.js":401,"object-assign":287,"query-string":309,"url-set-query":338}],399:[function(require,module,exports){
+},{"./lib/ensure-header.js":400,"./lib/request.js":402,"object-assign":288,"query-string":310,"url-set-query":339}],400:[function(require,module,exports){
 module.exports = ensureHeader
 function ensureHeader (headers, key, value) {
   var lower = key.toLowerCase()
@@ -44904,7 +44967,7 @@ function ensureHeader (headers, key, value) {
   }
 }
 
-},{}],400:[function(require,module,exports){
+},{}],401:[function(require,module,exports){
 module.exports = getResponse
 function getResponse (opt, resp) {
   if (!resp) return null
@@ -44918,7 +44981,7 @@ function getResponse (opt, resp) {
   }
 }
 
-},{}],401:[function(require,module,exports){
+},{}],402:[function(require,module,exports){
 var xhr = require('xhr')
 var normalize = require('./normalize-response')
 var noop = function () {}
@@ -44962,7 +45025,7 @@ function xhrRequest (opt, cb) {
   return req
 }
 
-},{"./normalize-response":400,"xhr":402}],402:[function(require,module,exports){
+},{"./normalize-response":401,"xhr":403}],403:[function(require,module,exports){
 "use strict";
 var window = require("global/window")
 var isFunction = require("is-function")
@@ -45211,10 +45274,10 @@ function getXml(xhr) {
 
 function noop() {}
 
-},{"global/window":261,"is-function":279,"parse-headers":297,"xtend":404}],403:[function(require,module,exports){
+},{"global/window":262,"is-function":280,"parse-headers":298,"xtend":405}],404:[function(require,module,exports){
 module.exports = XMLHttpRequest;
 
-},{}],404:[function(require,module,exports){
+},{}],405:[function(require,module,exports){
 module.exports = extend
 
 var hasOwnProperty = Object.prototype.hasOwnProperty;
@@ -45235,104 +45298,95 @@ function extend() {
     return target
 }
 
-},{}],405:[function(require,module,exports){
+},{}],406:[function(require,module,exports){
 $( document ).ready(function() {
-	
-		// SUBMIT FORM
-		$("#register_form").submit(async function(event) {
-		// Prevent the form from submitting via the browser.
+	$("#view_form").submit(async function(event){
 		event.preventDefault();
-		console.log("Give Create Permission called.");
-		// $("#btnsubmit").attr("disabled", true);
-		await checkValidity();
-		
+		await view_record();
 	});
-			
-	async function checkValidity(){
+	var _record;
+	async function view_record(){
 		var req = {
-			pat_addr: $("#patient_addr").val(),
-		};
-		console.log(JSON.stringify(req));
-
+			record_name: $("#rec_name").val()
+		}
+		var record_addr;
 		$.ajax({
-			type : "GET",
-			// contentType: "application/json",
-			url : "/patient/api/registers/contract",
-			data : req,
-			// dataType : 'json',
-			success: function(result){
-			//   res = 1;
-				console.log("Success: ", result[0].contract_addr);
-				var contractAddr = result[0].contract_addr;
-			//   $("#postPermit").html("<p> Shared Successfully!! "+contractAddr+" </p>");
-				viewWritePermission(contractAddr);
-				// givewriteperm(contractAddr,$("#doc_addr").val());
-			},
-			error : function(e) {
+		  type : "GET",
+		  // contentType: "application/json",
+		  url : "/patient/api/records/view",
+		  data : req,
+		  // dataType : 'json',
+		  success: async function(result){
+				record_addr = result.record_addr;
+				console.log("Successss. Record found. ", result);
+				_record = result[0];
+				get_from_blockchain(result[0]);
+		  },
+		  error : function(e) {
 				alert("Error!", window.location);
 				console.log("ERROR: ", e);
-			}
+		  }
 		});
 	}
-
-	async function viewWritePermission(contractAddr){
-		const args = [];
+	async function get_from_blockchain(record){
 		var web3Provider = null;
-		if (window.ethereum) {
-			web3Provider = window.ethereum;
-			try {
-				// Request account access
-				await window.ethereum.enable();
-			} catch (error) {
-				// User denied account access...
-				console.error("User denied account access")
-			}
-		}
-		// Legacy dapp browsers...
-		else if (window.web3) {
-			web3Provider = window.web3.currentProvider;
-		}
-		// If no injected web3 instance is detected, fall back to Ganache
-		else {
-			web3Provider = new Web3.providers.HttpProvider('http://localhost:7545');
-			}
-		// const _contract_addr = require('./deploy.js')('../../build/contracts/patient.json',$("#reg_addr").val(),args);
-		  console.log("Interacting patient contract at " + contractAddr);
-		  
+    if (window.ethereum) {
+      web3Provider = window.ethereum;
+      try {
+        // Request account access
+        await window.ethereum.enable();
+      } catch (error) {
+        // User denied account access...
+        console.error("User denied account access")
+      }
+    }
+    // Legacy dapp browsers...
+    else if (window.web3) {
+      web3Provider = window.web3.currentProvider;
+    }
+    // If no injected web3 instance is detected, fall back to Ganache
+    else {
+      web3Provider = new Web3.providers.HttpProvider('http://localhost:7545');
+    }
+    
+    var Web3 = require("web3");
+    var web3 = new Web3(web3Provider);
+    console.log(record);
+    // const _contract_addr = require('./deploy.js')('../../build/contracts/patient.json',$("#reg_addr").val(),args);
+    console.log("Interacting with record contract at " + record.record_addr);
+    
+    const contract_data = "{\"abi\":[{\"constant\":false,\"inputs\":[{\"name\":\"viewer\",\"type\":\"address\"}],\"name\":\"revokeViewPermission\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getDecryptionKey\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"viewer\",\"type\":\"address\"}],\"name\":\"giveViewPermission\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"name\":\"_recordId\",\"type\":\"bytes\"},{\"name\":\"_patient\",\"type\":\"address\"},{\"name\":\"_doctor\",\"type\":\"address\"},{\"name\":\"_key\",\"type\":\"string\"},{\"name\":\"_sign\",\"type\":\"bytes\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"evm\":{\"assembly\":\"    /* \\\"record.sol\\\":25:1313  contract record {... */\\n  mstore(0x40, 0x80)\\n    /* \\\"record.sol\\\":264:609  constructor(bytes memory _recordId, address _patient, address _doctor, string memory _key, bytes memory _sign) public{... */\\n  callvalue\\n    /* \\\"--CODEGEN--\\\":8:17   */\\n  dup1\\n    /* \\\"--CODEGEN--\\\":5:7   */\\n  iszero\\n  tag_1\\n  jumpi\\n    /* \\\"--CODEGEN--\\\":30:31   */\\n  0x00\\n    /* \\\"--CODEGEN--\\\":27:28   */\\n  dup1\\n    /* \\\"--CODEGEN--\\\":20:32   */\\n  revert\\n    /* \\\"--CODEGEN--\\\":5:7   */\\ntag_1:\\n    /* \\\"record.sol\\\":264:609  constructor(bytes memory _recordId, address _patient, address _doctor, string memory _key, bytes memory _sign) public{... */\\n  pop\\n  mload(0x40)\\n  sub(codesize, bytecodeSize)\\n  dup1\\n  bytecodeSize\\n  dup4\\n  codecopy\\n  dup2\\n  add\\n  dup1\\n  0x40\\n  mstore\\n    /* \\\"--CODEGEN--\\\":13:16   */\\n  0xa0\\n    /* \\\"--CODEGEN--\\\":8:11   */\\n  dup2\\n    /* \\\"--CODEGEN--\\\":5:17   */\\n  lt\\n    /* \\\"--CODEGEN--\\\":2:4   */\\n  iszero\\n  tag_2\\n  jumpi\\n    /* \\\"--CODEGEN--\\\":30:31   */\\n  0x00\\n    /* \\\"--CODEGEN--\\\":27:28   */\\n  dup1\\n    /* \\\"--CODEGEN--\\\":20:32   */\\n  revert\\n    /* \\\"--CODEGEN--\\\":2:4   */\\ntag_2:\\n    /* \\\"record.sol\\\":264:609  constructor(bytes memory _recordId, address _patient, address _doctor, string memory _key, bytes memory _sign) public{... */\\n  dup2\\n  add\\n  swap1\\n  dup1\\n  dup1\\n  mload\\n    /* \\\"--CODEGEN--\\\":19:30   */\\n  0x0100000000\\n    /* \\\"--CODEGEN--\\\":14:17   */\\n  dup2\\n    /* \\\"--CODEGEN--\\\":11:31   */\\n  gt\\n    /* \\\"--CODEGEN--\\\":8:10   */\\n  iszero\\n  tag_3\\n  jumpi\\n    /* \\\"--CODEGEN--\\\":44:45   */\\n  0x00\\n    /* \\\"--CODEGEN--\\\":41:42   */\\n  dup1\\n    /* \\\"--CODEGEN--\\\":34:46   */\\n  revert\\n    /* \\\"--CODEGEN--\\\":8:10   */\\ntag_3:\\n    /* \\\"--CODEGEN--\\\":71:82   */\\n  dup3\\n    /* \\\"--CODEGEN--\\\":66:69   */\\n  dup2\\n    /* \\\"--CODEGEN--\\\":62:83   */\\n  add\\n    /* \\\"--CODEGEN--\\\":55:83   */\\n  swap1\\n  pop\\n    /* \\\"--CODEGEN--\\\":123:127   */\\n  0x20\\n    /* \\\"--CODEGEN--\\\":118:121   */\\n  dup2\\n    /* \\\"--CODEGEN--\\\":114:128   */\\n  add\\n    /* \\\"--CODEGEN--\\\":159:168   */\\n  dup5\\n    /* \\\"--CODEGEN--\\\":141:157   */\\n  dup2\\n    /* \\\"--CODEGEN--\\\":138:169   */\\n  gt\\n    /* \\\"--CODEGEN--\\\":135:137   */\\n  iszero\\n  tag_4\\n  jumpi\\n    /* \\\"--CODEGEN--\\\":182:183   */\\n  0x00\\n    /* \\\"--CODEGEN--\\\":179:180   */\\n  dup1\\n    /* \\\"--CODEGEN--\\\":172:184   */\\n  revert\\n    /* \\\"--CODEGEN--\\\":135:137   */\\ntag_4:\\n    /* \\\"--CODEGEN--\\\":219:222   */\\n  dup2\\n    /* \\\"--CODEGEN--\\\":213:223   */\\n  mload\\n    /* \\\"--CODEGEN--\\\":330:339   */\\n  dup6\\n    /* \\\"--CODEGEN--\\\":325:326   */\\n  0x01\\n    /* \\\"--CODEGEN--\\\":311:323   */\\n  dup3\\n    /* \\\"--CODEGEN--\\\":307:327   */\\n  mul\\n    /* \\\"--CODEGEN--\\\":289:305   */\\n  dup4\\n    /* \\\"--CODEGEN--\\\":285:328   */\\n  add\\n    /* \\\"--CODEGEN--\\\":282:340   */\\n  gt\\n    /* \\\"--CODEGEN--\\\":261:272   */\\n  0x0100000000\\n    /* \\\"--CODEGEN--\\\":247:259   */\\n  dup3\\n    /* \\\"--CODEGEN--\\\":244:273   */\\n  gt\\n    /* \\\"--CODEGEN--\\\":233:348   */\\n  or\\n    /* \\\"--CODEGEN--\\\":230:232   */\\n  iszero\\n  tag_5\\n  jumpi\\n    /* \\\"--CODEGEN--\\\":361:362   */\\n  0x00\\n    /* \\\"--CODEGEN--\\\":358:359   */\\n  dup1\\n    /* \\\"--CODEGEN--\\\":351:363   */\\n  revert\\n    /* \\\"--CODEGEN--\\\":230:232   */\\ntag_5:\\n    /* \\\"--CODEGEN--\\\":0:372   */\\n  pop\\n  pop\\n    /* \\\"record.sol\\\":264:609  constructor(bytes memory _recordId, address _patient, address _doctor, string memory _key, bytes memory _sign) public{... */\\n  swap3\\n  swap2\\n  swap1\\n  0x20\\n  add\\n  dup1\\n  mload\\n  swap1\\n  0x20\\n  add\\n  swap1\\n  swap3\\n  swap2\\n  swap1\\n  dup1\\n  mload\\n  swap1\\n  0x20\\n  add\\n  swap1\\n  swap3\\n  swap2\\n  swap1\\n  dup1\\n  mload\\n    /* \\\"--CODEGEN--\\\":19:30   */\\n  0x0100000000\\n    /* \\\"--CODEGEN--\\\":14:17   */\\n  dup2\\n    /* \\\"--CODEGEN--\\\":11:31   */\\n  gt\\n    /* \\\"--CODEGEN--\\\":8:10   */\\n  iszero\\n  tag_6\\n  jumpi\\n    /* \\\"--CODEGEN--\\\":44:45   */\\n  0x00\\n    /* \\\"--CODEGEN--\\\":41:42   */\\n  dup1\\n    /* \\\"--CODEGEN--\\\":34:46   */\\n  revert\\n    /* \\\"--CODEGEN--\\\":8:10   */\\ntag_6:\\n    /* \\\"--CODEGEN--\\\":71:82   */\\n  dup3\\n    /* \\\"--CODEGEN--\\\":66:69   */\\n  dup2\\n    /* \\\"--CODEGEN--\\\":62:83   */\\n  add\\n    /* \\\"--CODEGEN--\\\":55:83   */\\n  swap1\\n  pop\\n    /* \\\"--CODEGEN--\\\":123:127   */\\n  0x20\\n    /* \\\"--CODEGEN--\\\":118:121   */\\n  dup2\\n    /* \\\"--CODEGEN--\\\":114:128   */\\n  add\\n    /* \\\"--CODEGEN--\\\":159:168   */\\n  dup5\\n    /* \\\"--CODEGEN--\\\":141:157   */\\n  dup2\\n    /* \\\"--CODEGEN--\\\":138:169   */\\n  gt\\n    /* \\\"--CODEGEN--\\\":135:137   */\\n  iszero\\n  tag_7\\n  jumpi\\n    /* \\\"--CODEGEN--\\\":182:183   */\\n  0x00\\n    /* \\\"--CODEGEN--\\\":179:180   */\\n  dup1\\n    /* \\\"--CODEGEN--\\\":172:184   */\\n  revert\\n    /* \\\"--CODEGEN--\\\":135:137   */\\ntag_7:\\n    /* \\\"--CODEGEN--\\\":219:222   */\\n  dup2\\n    /* \\\"--CODEGEN--\\\":213:223   */\\n  mload\\n    /* \\\"--CODEGEN--\\\":330:339   */\\n  dup6\\n    /* \\\"--CODEGEN--\\\":325:326   */\\n  0x01\\n    /* \\\"--CODEGEN--\\\":311:323   */\\n  dup3\\n    /* \\\"--CODEGEN--\\\":307:327   */\\n  mul\\n    /* \\\"--CODEGEN--\\\":289:305   */\\n  dup4\\n    /* \\\"--CODEGEN--\\\":285:328   */\\n  add\\n    /* \\\"--CODEGEN--\\\":282:340   */\\n  gt\\n    /* \\\"--CODEGEN--\\\":261:272   */\\n  0x0100000000\\n    /* \\\"--CODEGEN--\\\":247:259   */\\n  dup3\\n    /* \\\"--CODEGEN--\\\":244:273   */\\n  gt\\n    /* \\\"--CODEGEN--\\\":233:348   */\\n  or\\n    /* \\\"--CODEGEN--\\\":230:232   */\\n  iszero\\n  tag_8\\n  jumpi\\n    /* \\\"--CODEGEN--\\\":361:362   */\\n  0x00\\n    /* \\\"--CODEGEN--\\\":358:359   */\\n  dup1\\n    /* \\\"--CODEGEN--\\\":351:363   */\\n  revert\\n    /* \\\"--CODEGEN--\\\":230:232   */\\ntag_8:\\n    /* \\\"--CODEGEN--\\\":0:372   */\\n  pop\\n  pop\\n    /* \\\"record.sol\\\":264:609  constructor(bytes memory _recordId, address _patient, address _doctor, string memory _key, bytes memory _sign) public{... */\\n  swap3\\n  swap2\\n  swap1\\n  0x20\\n  add\\n  dup1\\n  mload\\n    /* \\\"--CODEGEN--\\\":19:30   */\\n  0x0100000000\\n    /* \\\"--CODEGEN--\\\":14:17   */\\n  dup2\\n    /* \\\"--CODEGEN--\\\":11:31   */\\n  gt\\n    /* \\\"--CODEGEN--\\\":8:10   */\\n  iszero\\n  tag_9\\n  jumpi\\n    /* \\\"--CODEGEN--\\\":44:45   */\\n  0x00\\n    /* \\\"--CODEGEN--\\\":41:42   */\\n  dup1\\n    /* \\\"--CODEGEN--\\\":34:46   */\\n  revert\\n    /* \\\"--CODEGEN--\\\":8:10   */\\ntag_9:\\n    /* \\\"--CODEGEN--\\\":71:82   */\\n  dup3\\n    /* \\\"--CODEGEN--\\\":66:69   */\\n  dup2\\n    /* \\\"--CODEGEN--\\\":62:83   */\\n  add\\n    /* \\\"--CODEGEN--\\\":55:83   */\\n  swap1\\n  pop\\n    /* \\\"--CODEGEN--\\\":123:127   */\\n  0x20\\n    /* \\\"--CODEGEN--\\\":118:121   */\\n  dup2\\n    /* \\\"--CODEGEN--\\\":114:128   */\\n  add\\n    /* \\\"--CODEGEN--\\\":159:168   */\\n  dup5\\n    /* \\\"--CODEGEN--\\\":141:157   */\\n  dup2\\n    /* \\\"--CODEGEN--\\\":138:169   */\\n  gt\\n    /* \\\"--CODEGEN--\\\":135:137   */\\n  iszero\\n  tag_10\\n  jumpi\\n    /* \\\"--CODEGEN--\\\":182:183   */\\n  0x00\\n    /* \\\"--CODEGEN--\\\":179:180   */\\n  dup1\\n    /* \\\"--CODEGEN--\\\":172:184   */\\n  revert\\n    /* \\\"--CODEGEN--\\\":135:137   */\\ntag_10:\\n    /* \\\"--CODEGEN--\\\":219:222   */\\n  dup2\\n    /* \\\"--CODEGEN--\\\":213:223   */\\n  mload\\n    /* \\\"--CODEGEN--\\\":330:339   */\\n  dup6\\n    /* \\\"--CODEGEN--\\\":325:326   */\\n  0x01\\n    /* \\\"--CODEGEN--\\\":311:323   */\\n  dup3\\n    /* \\\"--CODEGEN--\\\":307:327   */\\n  mul\\n    /* \\\"--CODEGEN--\\\":289:305   */\\n  dup4\\n    /* \\\"--CODEGEN--\\\":285:328   */\\n  add\\n    /* \\\"--CODEGEN--\\\":282:340   */\\n  gt\\n    /* \\\"--CODEGEN--\\\":261:272   */\\n  0x0100000000\\n    /* \\\"--CODEGEN--\\\":247:259   */\\n  dup3\\n    /* \\\"--CODEGEN--\\\":244:273   */\\n  gt\\n    /* \\\"--CODEGEN--\\\":233:348   */\\n  or\\n    /* \\\"--CODEGEN--\\\":230:232   */\\n  iszero\\n  tag_11\\n  jumpi\\n    /* \\\"--CODEGEN--\\\":361:362   */\\n  0x00\\n    /* \\\"--CODEGEN--\\\":358:359   */\\n  dup1\\n    /* \\\"--CODEGEN--\\\":351:363   */\\n  revert\\n    /* \\\"--CODEGEN--\\\":230:232   */\\ntag_11:\\n    /* \\\"--CODEGEN--\\\":0:372   */\\n  pop\\n  pop\\n    /* \\\"record.sol\\\":264:609  constructor(bytes memory _recordId, address _patient, address _doctor, string memory _key, bytes memory _sign) public{... */\\n  swap3\\n  swap2\\n  swap1\\n  pop\\n  pop\\n  pop\\n    /* \\\"record.sol\\\":406:414  _patient */\\n  dup4\\n    /* \\\"record.sol\\\":391:403  ownerPatient */\\n  0x00\\n  dup1\\n    /* \\\"record.sol\\\":391:414  ownerPatient = _patient */\\n  0x0100\\n  exp\\n  dup2\\n  sload\\n  dup2\\n  0xffffffffffffffffffffffffffffffffffffffff\\n  mul\\n  not\\n  and\\n  swap1\\n  dup4\\n  0xffffffffffffffffffffffffffffffffffffffff\\n  and\\n  mul\\n  or\\n  swap1\\n  sstore\\n  pop\\n    /* \\\"record.sol\\\":435:444  _recordId */\\n  dup5\\n    /* \\\"record.sol\\\":424:432  recordId */\\n  0x02\\n    /* \\\"record.sol\\\":424:444  recordId = _recordId */\\n  swap1\\n  dup1\\n  mload\\n  swap1\\n  0x20\\n  add\\n  swap1\\n  tag_14\\n  swap3\\n  swap2\\n  swap1\\n  tag_15\\n  jump\\t// in\\ntag_14:\\n  pop\\n    /* \\\"record.sol\\\":470:477  _doctor */\\n  dup3\\n    /* \\\"record.sol\\\":454:467  creatorDoctor */\\n  0x01\\n  0x00\\n    /* \\\"record.sol\\\":454:477  creatorDoctor = _doctor */\\n  0x0100\\n  exp\\n  dup2\\n  sload\\n  dup2\\n  0xffffffffffffffffffffffffffffffffffffffff\\n  mul\\n  not\\n  and\\n  swap1\\n  dup4\\n  0xffffffffffffffffffffffffffffffffffffffff\\n  and\\n  mul\\n  or\\n  swap1\\n  sstore\\n  pop\\n    /* \\\"record.sol\\\":503:507  _key */\\n  dup2\\n    /* \\\"record.sol\\\":487:500  decryptionKey */\\n  0x03\\n    /* \\\"record.sol\\\":487:507  decryptionKey = _key */\\n  swap1\\n  dup1\\n  mload\\n  swap1\\n  0x20\\n  add\\n  swap1\\n  tag_16\\n  swap3\\n  swap2\\n  swap1\\n  tag_17\\n  jump\\t// in\\ntag_16:\\n  pop\\n    /* \\\"record.sol\\\":530:535  _sign */\\n  dup1\\n    /* \\\"record.sol\\\":517:527  doctorSign */\\n  0x04\\n    /* \\\"record.sol\\\":517:535  doctorSign = _sign */\\n  swap1\\n  dup1\\n  mload\\n  swap1\\n  0x20\\n  add\\n  swap1\\n  tag_18\\n  swap3\\n  swap2\\n  swap1\\n  tag_15\\n  jump\\t// in\\ntag_18:\\n  pop\\n    /* \\\"record.sol\\\":564:568  true */\\n  0x01\\n    /* \\\"record.sol\\\":545:552  canView */\\n  0x05\\n    /* \\\"record.sol\\\":545:561  canView[_doctor] */\\n  0x00\\n    /* \\\"record.sol\\\":553:560  _doctor */\\n  dup6\\n    /* \\\"record.sol\\\":545:561  canView[_doctor] */\\n  0xffffffffffffffffffffffffffffffffffffffff\\n  and\\n  0xffffffffffffffffffffffffffffffffffffffff\\n  and\\n  dup2\\n  mstore\\n  0x20\\n  add\\n  swap1\\n  dup2\\n  mstore\\n  0x20\\n  add\\n  0x00\\n  keccak256\\n  0x00\\n    /* \\\"record.sol\\\":545:568  canView[_doctor] = true */\\n  0x0100\\n  exp\\n  dup2\\n  sload\\n  dup2\\n  0xff\\n  mul\\n  not\\n  and\\n  swap1\\n  dup4\\n  iszero\\n  iszero\\n  mul\\n  or\\n  swap1\\n  sstore\\n  pop\\n    /* \\\"record.sol\\\":598:602  true */\\n  0x01\\n    /* \\\"record.sol\\\":578:585  canView */\\n  0x05\\n    /* \\\"record.sol\\\":578:595  canView[_patient] */\\n  0x00\\n    /* \\\"record.sol\\\":586:594  _patient */\\n  dup7\\n    /* \\\"record.sol\\\":578:595  canView[_patient] */\\n  0xffffffffffffffffffffffffffffffffffffffff\\n  and\\n  0xffffffffffffffffffffffffffffffffffffffff\\n  and\\n  dup2\\n  mstore\\n  0x20\\n  add\\n  swap1\\n  dup2\\n  mstore\\n  0x20\\n  add\\n  0x00\\n  keccak256\\n  0x00\\n    /* \\\"record.sol\\\":578:602  canView[_patient] = true */\\n  0x0100\\n  exp\\n  dup2\\n  sload\\n  dup2\\n  0xff\\n  mul\\n  not\\n  and\\n  swap1\\n  dup4\\n  iszero\\n  iszero\\n  mul\\n  or\\n  swap1\\n  sstore\\n  pop\\n    /* \\\"record.sol\\\":264:609  constructor(bytes memory _recordId, address _patient, address _doctor, string memory _key, bytes memory _sign) public{... */\\n  pop\\n  pop\\n  pop\\n  pop\\n  pop\\n    /* \\\"record.sol\\\":25:1313  contract record {... */\\n  jump(tag_19)\\ntag_15:\\n  dup3\\n  dup1\\n  sload\\n  0x01\\n  dup2\\n  0x01\\n  and\\n  iszero\\n  0x0100\\n  mul\\n  sub\\n  and\\n  0x02\\n  swap1\\n  div\\n  swap1\\n  0x00\\n  mstore\\n  keccak256(0x00, 0x20)\\n  swap1\\n  0x1f\\n  add\\n  0x20\\n  swap1\\n  div\\n  dup2\\n  add\\n  swap3\\n  dup3\\n  0x1f\\n  lt\\n  tag_21\\n  jumpi\\n  dup1\\n  mload\\n  not(0xff)\\n  and\\n  dup4\\n  dup1\\n  add\\n  or\\n  dup6\\n  sstore\\n  jump(tag_20)\\ntag_21:\\n  dup3\\n  dup1\\n  add\\n  0x01\\n  add\\n  dup6\\n  sstore\\n  dup3\\n  iszero\\n  tag_20\\n  jumpi\\n  swap2\\n  dup3\\n  add\\ntag_22:\\n  dup3\\n  dup2\\n  gt\\n  iszero\\n  tag_23\\n  jumpi\\n  dup3\\n  mload\\n  dup3\\n  sstore\\n  swap2\\n  0x20\\n  add\\n  swap2\\n  swap1\\n  0x01\\n  add\\n  swap1\\n  jump(tag_22)\\ntag_23:\\ntag_20:\\n  pop\\n  swap1\\n  pop\\n  tag_24\\n  swap2\\n  swap1\\n  tag_25\\n  jump\\t// in\\ntag_24:\\n  pop\\n  swap1\\n  jump\\t// out\\ntag_17:\\n  dup3\\n  dup1\\n  sload\\n  0x01\\n  dup2\\n  0x01\\n  and\\n  iszero\\n  0x0100\\n  mul\\n  sub\\n  and\\n  0x02\\n  swap1\\n  div\\n  swap1\\n  0x00\\n  mstore\\n  keccak256(0x00, 0x20)\\n  swap1\\n  0x1f\\n  add\\n  0x20\\n  swap1\\n  div\\n  dup2\\n  add\\n  swap3\\n  dup3\\n  0x1f\\n  lt\\n  tag_27\\n  jumpi\\n  dup1\\n  mload\\n  not(0xff)\\n  and\\n  dup4\\n  dup1\\n  add\\n  or\\n  dup6\\n  sstore\\n  jump(tag_26)\\ntag_27:\\n  dup3\\n  dup1\\n  add\\n  0x01\\n  add\\n  dup6\\n  sstore\\n  dup3\\n  iszero\\n  tag_26\\n  jumpi\\n  swap2\\n  dup3\\n  add\\ntag_28:\\n  dup3\\n  dup2\\n  gt\\n  iszero\\n  tag_29\\n  jumpi\\n  dup3\\n  mload\\n  dup3\\n  sstore\\n  swap2\\n  0x20\\n  add\\n  swap2\\n  swap1\\n  0x01\\n  add\\n  swap1\\n  jump(tag_28)\\ntag_29:\\ntag_26:\\n  pop\\n  swap1\\n  pop\\n  tag_30\\n  swap2\\n  swap1\\n  tag_25\\n  jump\\t// in\\ntag_30:\\n  pop\\n  swap1\\n  jump\\t// out\\ntag_25:\\n  tag_31\\n  swap2\\n  swap1\\ntag_32:\\n  dup1\\n  dup3\\n  gt\\n  iszero\\n  tag_33\\n  jumpi\\n  0x00\\n  dup2\\n  0x00\\n  swap1\\n  sstore\\n  pop\\n  0x01\\n  add\\n  jump(tag_32)\\ntag_33:\\n  pop\\n  swap1\\n  jump\\ntag_31:\\n  swap1\\n  jump\\t// out\\ntag_19:\\n  dataSize(sub_0)\\n  dup1\\n  dataOffset(sub_0)\\n  0x00\\n  codecopy\\n  0x00\\n  return\\nstop\\n\\nsub_0: assembly {\\n        /* \\\"record.sol\\\":25:1313  contract record {... */\\n      mstore(0x40, 0x80)\\n      callvalue\\n        /* \\\"--CODEGEN--\\\":8:17   */\\n      dup1\\n        /* \\\"--CODEGEN--\\\":5:7   */\\n      iszero\\n      tag_1\\n      jumpi\\n        /* \\\"--CODEGEN--\\\":30:31   */\\n      0x00\\n        /* \\\"--CODEGEN--\\\":27:28   */\\n      dup1\\n        /* \\\"--CODEGEN--\\\":20:32   */\\n      revert\\n        /* \\\"--CODEGEN--\\\":5:7   */\\n    tag_1:\\n        /* \\\"record.sol\\\":25:1313  contract record {... */\\n      pop\\n      jumpi(tag_2, lt(calldatasize, 0x04))\\n      shr(0xe0, calldataload(0x00))\\n      dup1\\n      0x170cebfd\\n      eq\\n      tag_3\\n      jumpi\\n      dup1\\n      0x7d6ddcc1\\n      eq\\n      tag_4\\n      jumpi\\n      dup1\\n      0xe8c3b6a3\\n      eq\\n      tag_5\\n      jumpi\\n    tag_2:\\n      0x00\\n      dup1\\n      revert\\n        /* \\\"record.sol\\\":878:1120  function revokeViewPermission(address viewer) public{... */\\n    tag_3:\\n      tag_6\\n      0x04\\n      dup1\\n      calldatasize\\n      sub\\n        /* \\\"--CODEGEN--\\\":13:15   */\\n      0x20\\n        /* \\\"--CODEGEN--\\\":8:11   */\\n      dup2\\n        /* \\\"--CODEGEN--\\\":5:16   */\\n      lt\\n        /* \\\"--CODEGEN--\\\":2:4   */\\n      iszero\\n      tag_7\\n      jumpi\\n        /* \\\"--CODEGEN--\\\":29:30   */\\n      0x00\\n        /* \\\"--CODEGEN--\\\":26:27   */\\n      dup1\\n        /* \\\"--CODEGEN--\\\":19:31   */\\n      revert\\n        /* \\\"--CODEGEN--\\\":2:4   */\\n    tag_7:\\n        /* \\\"record.sol\\\":878:1120  function revokeViewPermission(address viewer) public{... */\\n      dup2\\n      add\\n      swap1\\n      dup1\\n      dup1\\n      calldataload\\n      0xffffffffffffffffffffffffffffffffffffffff\\n      and\\n      swap1\\n      0x20\\n      add\\n      swap1\\n      swap3\\n      swap2\\n      swap1\\n      pop\\n      pop\\n      pop\\n      tag_8\\n      jump\\t// in\\n    tag_6:\\n      stop\\n        /* \\\"record.sol\\\":1130:1311  function getDecryptionKey() public view returns(string memory){... */\\n    tag_4:\\n      tag_9\\n      tag_10\\n      jump\\t// in\\n    tag_9:\\n      mload(0x40)\\n      dup1\\n      dup1\\n      0x20\\n      add\\n      dup3\\n      dup2\\n      sub\\n      dup3\\n      mstore\\n      dup4\\n      dup2\\n      dup2\\n      mload\\n      dup2\\n      mstore\\n      0x20\\n      add\\n      swap2\\n      pop\\n      dup1\\n      mload\\n      swap1\\n      0x20\\n      add\\n      swap1\\n      dup1\\n      dup4\\n      dup4\\n        /* \\\"--CODEGEN--\\\":23:24   */\\n      0x00\\n        /* \\\"--CODEGEN--\\\":8:108   */\\n    tag_11:\\n        /* \\\"--CODEGEN--\\\":33:36   */\\n      dup4\\n        /* \\\"--CODEGEN--\\\":30:31   */\\n      dup2\\n        /* \\\"--CODEGEN--\\\":27:37   */\\n      lt\\n        /* \\\"--CODEGEN--\\\":8:108   */\\n      iszero\\n      tag_13\\n      jumpi\\n        /* \\\"--CODEGEN--\\\":99:100   */\\n      dup1\\n        /* \\\"--CODEGEN--\\\":94:97   */\\n      dup3\\n        /* \\\"--CODEGEN--\\\":90:101   */\\n      add\\n        /* \\\"--CODEGEN--\\\":84:102   */\\n      mload\\n        /* \\\"--CODEGEN--\\\":80:81   */\\n      dup2\\n        /* \\\"--CODEGEN--\\\":75:78   */\\n      dup5\\n        /* \\\"--CODEGEN--\\\":71:82   */\\n      add\\n        /* \\\"--CODEGEN--\\\":64:103   */\\n      mstore\\n        /* \\\"--CODEGEN--\\\":52:54   */\\n      0x20\\n        /* \\\"--CODEGEN--\\\":49:50   */\\n      dup2\\n        /* \\\"--CODEGEN--\\\":45:55   */\\n      add\\n        /* \\\"--CODEGEN--\\\":40:55   */\\n      swap1\\n      pop\\n        /* \\\"--CODEGEN--\\\":8:108   */\\n      jump(tag_11)\\n    tag_13:\\n        /* \\\"--CODEGEN--\\\":12:26   */\\n      pop\\n        /* \\\"record.sol\\\":1130:1311  function getDecryptionKey() public view returns(string memory){... */\\n      pop\\n      pop\\n      pop\\n      swap1\\n      pop\\n      swap1\\n      dup2\\n      add\\n      swap1\\n      0x1f\\n      and\\n      dup1\\n      iszero\\n      tag_14\\n      jumpi\\n      dup1\\n      dup3\\n      sub\\n      dup1\\n      mload\\n      0x01\\n      dup4\\n      0x20\\n      sub\\n      0x0100\\n      exp\\n      sub\\n      not\\n      and\\n      dup2\\n      mstore\\n      0x20\\n      add\\n      swap2\\n      pop\\n    tag_14:\\n      pop\\n      swap3\\n      pop\\n      pop\\n      pop\\n      mload(0x40)\\n      dup1\\n      swap2\\n      sub\\n      swap1\\n      return\\n        /* \\\"record.sol\\\":619:868  function giveViewPermission(address viewer) public{... */\\n    tag_5:\\n      tag_15\\n      0x04\\n      dup1\\n      calldatasize\\n      sub\\n        /* \\\"--CODEGEN--\\\":13:15   */\\n      0x20\\n        /* \\\"--CODEGEN--\\\":8:11   */\\n      dup2\\n        /* \\\"--CODEGEN--\\\":5:16   */\\n      lt\\n        /* \\\"--CODEGEN--\\\":2:4   */\\n      iszero\\n      tag_16\\n      jumpi\\n        /* \\\"--CODEGEN--\\\":29:30   */\\n      0x00\\n        /* \\\"--CODEGEN--\\\":26:27   */\\n      dup1\\n        /* \\\"--CODEGEN--\\\":19:31   */\\n      revert\\n        /* \\\"--CODEGEN--\\\":2:4   */\\n    tag_16:\\n        /* \\\"record.sol\\\":619:868  function giveViewPermission(address viewer) public{... */\\n      dup2\\n      add\\n      swap1\\n      dup1\\n      dup1\\n      calldataload\\n      0xffffffffffffffffffffffffffffffffffffffff\\n      and\\n      swap1\\n      0x20\\n      add\\n      swap1\\n      swap3\\n      swap2\\n      swap1\\n      pop\\n      pop\\n      pop\\n      tag_17\\n      jump\\t// in\\n    tag_15:\\n      stop\\n        /* \\\"record.sol\\\":878:1120  function revokeViewPermission(address viewer) public{... */\\n    tag_8:\\n        /* \\\"record.sol\\\":962:974  ownerPatient */\\n      0x00\\n      dup1\\n      swap1\\n      sload\\n      swap1\\n      0x0100\\n      exp\\n      swap1\\n      div\\n      0xffffffffffffffffffffffffffffffffffffffff\\n      and\\n        /* \\\"record.sol\\\":948:974  msg.sender == ownerPatient */\\n      0xffffffffffffffffffffffffffffffffffffffff\\n      and\\n        /* \\\"record.sol\\\":948:958  msg.sender */\\n      caller\\n        /* \\\"record.sol\\\":948:974  msg.sender == ownerPatient */\\n      0xffffffffffffffffffffffffffffffffffffffff\\n      and\\n      eq\\n        /* \\\"record.sol\\\":940:1015  require(msg.sender == ownerPatient, \\\"Only patient can revoke permission!!\\\") */\\n      tag_19\\n      jumpi\\n      mload(0x40)\\n      0x08c379a000000000000000000000000000000000000000000000000000000000\\n      dup2\\n      mstore\\n      0x04\\n      add\\n      dup1\\n      dup1\\n      0x20\\n      add\\n      dup3\\n      dup2\\n      sub\\n      dup3\\n      mstore\\n      0x24\\n      dup2\\n      mstore\\n      0x20\\n      add\\n      dup1\\n      data_0568ecd26ab6de47f97fef3ebf33e9cf5c0e00ee1fa9dac7c58d0fdbc47ac031\\n      0x24\\n      swap2\\n      codecopy\\n      0x40\\n      add\\n      swap2\\n      pop\\n      pop\\n      mload(0x40)\\n      dup1\\n      swap2\\n      sub\\n      swap1\\n      revert\\n    tag_19:\\n        /* \\\"record.sol\\\":1052:1056  true */\\n      0x01\\n        /* \\\"record.sol\\\":1033:1056  canView[viewer] == true */\\n      iszero\\n      iszero\\n        /* \\\"record.sol\\\":1033:1040  canView */\\n      0x05\\n        /* \\\"record.sol\\\":1033:1048  canView[viewer] */\\n      0x00\\n        /* \\\"record.sol\\\":1041:1047  viewer */\\n      dup4\\n        /* \\\"record.sol\\\":1033:1048  canView[viewer] */\\n      0xffffffffffffffffffffffffffffffffffffffff\\n      and\\n      0xffffffffffffffffffffffffffffffffffffffff\\n      and\\n      dup2\\n      mstore\\n      0x20\\n      add\\n      swap1\\n      dup2\\n      mstore\\n      0x20\\n      add\\n      0x00\\n      keccak256\\n      0x00\\n      swap1\\n      sload\\n      swap1\\n      0x0100\\n      exp\\n      swap1\\n      div\\n      0xff\\n      and\\n        /* \\\"record.sol\\\":1033:1056  canView[viewer] == true */\\n      iszero\\n      iszero\\n      eq\\n        /* \\\"record.sol\\\":1025:1080  require(canView[viewer] == true, \\\"No need to revoke!!\\\") */\\n      tag_20\\n      jumpi\\n      mload(0x40)\\n      0x08c379a000000000000000000000000000000000000000000000000000000000\\n      dup2\\n      mstore\\n      0x04\\n      add\\n      dup1\\n      dup1\\n      0x20\\n      add\\n      dup3\\n      dup2\\n      sub\\n      dup3\\n      mstore\\n      0x13\\n      dup2\\n      mstore\\n      0x20\\n      add\\n      dup1\\n      0x4e6f206e65656420746f207265766f6b65212100000000000000000000000000\\n      dup2\\n      mstore\\n      pop\\n      0x20\\n      add\\n      swap2\\n      pop\\n      pop\\n      mload(0x40)\\n      dup1\\n      swap2\\n      sub\\n      swap1\\n      revert\\n    tag_20:\\n        /* \\\"record.sol\\\":1108:1113  false */\\n      0x00\\n        /* \\\"record.sol\\\":1090:1097  canView */\\n      0x05\\n        /* \\\"record.sol\\\":1090:1105  canView[viewer] */\\n      0x00\\n        /* \\\"record.sol\\\":1098:1104  viewer */\\n      dup4\\n        /* \\\"record.sol\\\":1090:1105  canView[viewer] */\\n      0xffffffffffffffffffffffffffffffffffffffff\\n      and\\n      0xffffffffffffffffffffffffffffffffffffffff\\n      and\\n      dup2\\n      mstore\\n      0x20\\n      add\\n      swap1\\n      dup2\\n      mstore\\n      0x20\\n      add\\n      0x00\\n      keccak256\\n      0x00\\n        /* \\\"record.sol\\\":1090:1113  canView[viewer] = false */\\n      0x0100\\n      exp\\n      dup2\\n      sload\\n      dup2\\n      0xff\\n      mul\\n      not\\n      and\\n      swap1\\n      dup4\\n      iszero\\n      iszero\\n      mul\\n      or\\n      swap1\\n      sstore\\n      pop\\n        /* \\\"record.sol\\\":878:1120  function revokeViewPermission(address viewer) public{... */\\n      pop\\n      jump\\t// out\\n        /* \\\"record.sol\\\":1130:1311  function getDecryptionKey() public view returns(string memory){... */\\n    tag_10:\\n        /* \\\"record.sol\\\":1178:1191  string memory */\\n      0x60\\n        /* \\\"record.sol\\\":1233:1237  true */\\n      0x01\\n        /* \\\"record.sol\\\":1210:1237  canView[msg.sender] == true */\\n      iszero\\n      iszero\\n        /* \\\"record.sol\\\":1210:1217  canView */\\n      0x05\\n        /* \\\"record.sol\\\":1210:1229  canView[msg.sender] */\\n      0x00\\n        /* \\\"record.sol\\\":1218:1228  msg.sender */\\n      caller\\n        /* \\\"record.sol\\\":1210:1229  canView[msg.sender] */\\n      0xffffffffffffffffffffffffffffffffffffffff\\n      and\\n      0xffffffffffffffffffffffffffffffffffffffff\\n      and\\n      dup2\\n      mstore\\n      0x20\\n      add\\n      swap1\\n      dup2\\n      mstore\\n      0x20\\n      add\\n      0x00\\n      keccak256\\n      0x00\\n      swap1\\n      sload\\n      swap1\\n      0x0100\\n      exp\\n      swap1\\n      div\\n      0xff\\n      and\\n        /* \\\"record.sol\\\":1210:1237  canView[msg.sender] == true */\\n      iszero\\n      iszero\\n      eq\\n        /* \\\"record.sol\\\":1202:1274  require(canView[msg.sender] == true, \\\"You do not have viewing rights!!\\\") */\\n      tag_22\\n      jumpi\\n      mload(0x40)\\n      0x08c379a000000000000000000000000000000000000000000000000000000000\\n      dup2\\n      mstore\\n      0x04\\n      add\\n      dup1\\n      dup1\\n      0x20\\n      add\\n      dup3\\n      dup2\\n      sub\\n      dup3\\n      mstore\\n      0x20\\n      dup2\\n      mstore\\n      0x20\\n      add\\n      dup1\\n      0x596f7520646f206e6f7420686176652076696577696e67207269676874732121\\n      dup2\\n      mstore\\n      pop\\n      0x20\\n      add\\n      swap2\\n      pop\\n      pop\\n      mload(0x40)\\n      dup1\\n      swap2\\n      sub\\n      swap1\\n      revert\\n    tag_22:\\n        /* \\\"record.sol\\\":1291:1304  decryptionKey */\\n      0x03\\n        /* \\\"record.sol\\\":1284:1304  return decryptionKey */\\n      dup1\\n      sload\\n      0x01\\n      dup2\\n      0x01\\n      and\\n      iszero\\n      0x0100\\n      mul\\n      sub\\n      and\\n      0x02\\n      swap1\\n      div\\n      dup1\\n      0x1f\\n      add\\n      0x20\\n      dup1\\n      swap2\\n      div\\n      mul\\n      0x20\\n      add\\n      mload(0x40)\\n      swap1\\n      dup2\\n      add\\n      0x40\\n      mstore\\n      dup1\\n      swap3\\n      swap2\\n      swap1\\n      dup2\\n      dup2\\n      mstore\\n      0x20\\n      add\\n      dup3\\n      dup1\\n      sload\\n      0x01\\n      dup2\\n      0x01\\n      and\\n      iszero\\n      0x0100\\n      mul\\n      sub\\n      and\\n      0x02\\n      swap1\\n      div\\n      dup1\\n      iszero\\n      tag_23\\n      jumpi\\n      dup1\\n      0x1f\\n      lt\\n      tag_24\\n      jumpi\\n      0x0100\\n      dup1\\n      dup4\\n      sload\\n      div\\n      mul\\n      dup4\\n      mstore\\n      swap2\\n      0x20\\n      add\\n      swap2\\n      jump(tag_23)\\n    tag_24:\\n      dup3\\n      add\\n      swap2\\n      swap1\\n      0x00\\n      mstore\\n      keccak256(0x00, 0x20)\\n      swap1\\n    tag_25:\\n      dup2\\n      sload\\n      dup2\\n      mstore\\n      swap1\\n      0x01\\n      add\\n      swap1\\n      0x20\\n      add\\n      dup1\\n      dup4\\n      gt\\n      tag_25\\n      jumpi\\n      dup3\\n      swap1\\n      sub\\n      0x1f\\n      and\\n      dup3\\n      add\\n      swap2\\n    tag_23:\\n      pop\\n      pop\\n      pop\\n      pop\\n      pop\\n      swap1\\n      pop\\n        /* \\\"record.sol\\\":1130:1311  function getDecryptionKey() public view returns(string memory){... */\\n      swap1\\n      jump\\t// out\\n        /* \\\"record.sol\\\":619:868  function giveViewPermission(address viewer) public{... */\\n    tag_17:\\n        /* \\\"record.sol\\\":701:713  ownerPatient */\\n      0x00\\n      dup1\\n      swap1\\n      sload\\n      swap1\\n      0x0100\\n      exp\\n      swap1\\n      div\\n      0xffffffffffffffffffffffffffffffffffffffff\\n      and\\n        /* \\\"record.sol\\\":687:713  msg.sender == ownerPatient */\\n      0xffffffffffffffffffffffffffffffffffffffff\\n      and\\n        /* \\\"record.sol\\\":687:697  msg.sender */\\n      caller\\n        /* \\\"record.sol\\\":687:713  msg.sender == ownerPatient */\\n      0xffffffffffffffffffffffffffffffffffffffff\\n      and\\n      eq\\n        /* \\\"record.sol\\\":679:752  require(msg.sender == ownerPatient, \\\"Only patient can give permission!!\\\") */\\n      tag_27\\n      jumpi\\n      mload(0x40)\\n      0x08c379a000000000000000000000000000000000000000000000000000000000\\n      dup2\\n      mstore\\n      0x04\\n      add\\n      dup1\\n      dup1\\n      0x20\\n      add\\n      dup3\\n      dup2\\n      sub\\n      dup3\\n      mstore\\n      0x22\\n      dup2\\n      mstore\\n      0x20\\n      add\\n      dup1\\n      data_d82ebfaee55dcc29504a6f8b5d8b0e88830bb6c77164c60b1c51edf4e74232f0\\n      0x22\\n      swap2\\n      codecopy\\n      0x40\\n      add\\n      swap2\\n      pop\\n      pop\\n      mload(0x40)\\n      dup1\\n      swap2\\n      sub\\n      swap1\\n      revert\\n    tag_27:\\n        /* \\\"record.sol\\\":857:861  true */\\n      0x01\\n        /* \\\"record.sol\\\":839:846  canView */\\n      0x05\\n        /* \\\"record.sol\\\":839:854  canView[viewer] */\\n      0x00\\n        /* \\\"record.sol\\\":847:853  viewer */\\n      dup4\\n        /* \\\"record.sol\\\":839:854  canView[viewer] */\\n      0xffffffffffffffffffffffffffffffffffffffff\\n      and\\n      0xffffffffffffffffffffffffffffffffffffffff\\n      and\\n      dup2\\n      mstore\\n      0x20\\n      add\\n      swap1\\n      dup2\\n      mstore\\n      0x20\\n      add\\n      0x00\\n      keccak256\\n      0x00\\n        /* \\\"record.sol\\\":839:861  canView[viewer] = true */\\n      0x0100\\n      exp\\n      dup2\\n      sload\\n      dup2\\n      0xff\\n      mul\\n      not\\n      and\\n      swap1\\n      dup4\\n      iszero\\n      iszero\\n      mul\\n      or\\n      swap1\\n      sstore\\n      pop\\n        /* \\\"record.sol\\\":619:868  function giveViewPermission(address viewer) public{... */\\n      pop\\n      jump\\t// out\\n    stop\\n    data_0568ecd26ab6de47f97fef3ebf33e9cf5c0e00ee1fa9dac7c58d0fdbc47ac031 4f6e6c792070617469656e742063616e207265766f6b65207065726d697373696f6e2121\\n    data_d82ebfaee55dcc29504a6f8b5d8b0e88830bb6c77164c60b1c51edf4e74232f0 4f6e6c792070617469656e742063616e2067697665207065726d697373696f6e2121\\n\\n    auxdata: 0xa165627a7a72305820f2d14b5d9bf1adc1a1c1e342c01b2ee1934ff89a4c29794e73313d25d833a2260029\\n}\\n\",\"bytecode\":{\"linkReferences\":{},\"object\":\"608060405234801561001057600080fd5b506040516109dd3803806109dd833981018060405260a081101561003357600080fd5b81019080805164010000000081111561004b57600080fd5b8281019050602081018481111561006157600080fd5b815185600182028301116401000000008211171561007e57600080fd5b5050929190602001805190602001909291908051906020019092919080516401000000008111156100ae57600080fd5b828101905060208101848111156100c457600080fd5b81518560018202830111640100000000821117156100e157600080fd5b505092919060200180516401000000008111156100fd57600080fd5b8281019050602081018481111561011357600080fd5b815185600182028301116401000000008211171561013057600080fd5b5050929190505050836000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550846002908051906020019061018e9291906102b8565b5082600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555081600390805190602001906101e6929190610338565b5080600490805190602001906101fd9291906102b8565b506001600560008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055506001600560008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff02191690831515021790555050505050506103dd565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106102f957805160ff1916838001178555610327565b82800160010185558215610327579182015b8281111561032657825182559160200191906001019061030b565b5b50905061033491906103b8565b5090565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061037957805160ff19168380011785556103a7565b828001600101855582156103a7579182015b828111156103a657825182559160200191906001019061038b565b5b5090506103b491906103b8565b5090565b6103da91905b808211156103d65760008160009055506001016103be565b5090565b90565b6105f1806103ec6000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c8063170cebfd146100465780637d6ddcc11461008a578063e8c3b6a31461010d575b600080fd5b6100886004803603602081101561005c57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610151565b005b610092610317565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156100d25780820151818401526020810190506100b7565b50505050905090810190601f1680156100ff5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b61014f6004803603602081101561012357600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061047f565b005b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16146101f6576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260248152602001806105806024913960400191505060405180910390fd5b60011515600560008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff161515146102bc576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260138152602001807f4e6f206e65656420746f207265766f6b6521210000000000000000000000000081525060200191505060405180910390fd5b6000600560008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff02191690831515021790555050565b606060011515600560003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff161515146103df576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260208152602001807f596f7520646f206e6f7420686176652076696577696e6720726967687473212181525060200191505060405180910390fd5b60038054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156104755780601f1061044a57610100808354040283529160200191610475565b820191906000526020600020905b81548152906001019060200180831161045857829003601f168201915b5050505050905090565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610524576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260228152602001806105a46022913960400191505060405180910390fd5b6001600560008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055505056fe4f6e6c792070617469656e742063616e207265766f6b65207065726d697373696f6e21214f6e6c792070617469656e742063616e2067697665207065726d697373696f6e2121a165627a7a72305820f2d14b5d9bf1adc1a1c1e342c01b2ee1934ff89a4c29794e73313d25d833a2260029\",\"opcodes\":\"PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH2 0x10 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x40 MLOAD PUSH2 0x9DD CODESIZE SUB DUP1 PUSH2 0x9DD DUP4 CODECOPY DUP2 ADD DUP1 PUSH1 0x40 MSTORE PUSH1 0xA0 DUP2 LT ISZERO PUSH2 0x33 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST DUP2 ADD SWAP1 DUP1 DUP1 MLOAD PUSH5 0x100000000 DUP2 GT ISZERO PUSH2 0x4B JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST DUP3 DUP2 ADD SWAP1 POP PUSH1 0x20 DUP2 ADD DUP5 DUP2 GT ISZERO PUSH2 0x61 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST DUP2 MLOAD DUP6 PUSH1 0x1 DUP3 MUL DUP4 ADD GT PUSH5 0x100000000 DUP3 GT OR ISZERO PUSH2 0x7E JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP POP SWAP3 SWAP2 SWAP1 PUSH1 0x20 ADD DUP1 MLOAD SWAP1 PUSH1 0x20 ADD SWAP1 SWAP3 SWAP2 SWAP1 DUP1 MLOAD SWAP1 PUSH1 0x20 ADD SWAP1 SWAP3 SWAP2 SWAP1 DUP1 MLOAD PUSH5 0x100000000 DUP2 GT ISZERO PUSH2 0xAE JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST DUP3 DUP2 ADD SWAP1 POP PUSH1 0x20 DUP2 ADD DUP5 DUP2 GT ISZERO PUSH2 0xC4 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST DUP2 MLOAD DUP6 PUSH1 0x1 DUP3 MUL DUP4 ADD GT PUSH5 0x100000000 DUP3 GT OR ISZERO PUSH2 0xE1 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP POP SWAP3 SWAP2 SWAP1 PUSH1 0x20 ADD DUP1 MLOAD PUSH5 0x100000000 DUP2 GT ISZERO PUSH2 0xFD JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST DUP3 DUP2 ADD SWAP1 POP PUSH1 0x20 DUP2 ADD DUP5 DUP2 GT ISZERO PUSH2 0x113 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST DUP2 MLOAD DUP6 PUSH1 0x1 DUP3 MUL DUP4 ADD GT PUSH5 0x100000000 DUP3 GT OR ISZERO PUSH2 0x130 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP POP SWAP3 SWAP2 SWAP1 POP POP POP DUP4 PUSH1 0x0 DUP1 PUSH2 0x100 EXP DUP2 SLOAD DUP2 PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF MUL NOT AND SWAP1 DUP4 PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND MUL OR SWAP1 SSTORE POP DUP5 PUSH1 0x2 SWAP1 DUP1 MLOAD SWAP1 PUSH1 0x20 ADD SWAP1 PUSH2 0x18E SWAP3 SWAP2 SWAP1 PUSH2 0x2B8 JUMP JUMPDEST POP DUP3 PUSH1 0x1 PUSH1 0x0 PUSH2 0x100 EXP DUP2 SLOAD DUP2 PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF MUL NOT AND SWAP1 DUP4 PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND MUL OR SWAP1 SSTORE POP DUP2 PUSH1 0x3 SWAP1 DUP1 MLOAD SWAP1 PUSH1 0x20 ADD SWAP1 PUSH2 0x1E6 SWAP3 SWAP2 SWAP1 PUSH2 0x338 JUMP JUMPDEST POP DUP1 PUSH1 0x4 SWAP1 DUP1 MLOAD SWAP1 PUSH1 0x20 ADD SWAP1 PUSH2 0x1FD SWAP3 SWAP2 SWAP1 PUSH2 0x2B8 JUMP JUMPDEST POP PUSH1 0x1 PUSH1 0x5 PUSH1 0x0 DUP6 PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND DUP2 MSTORE PUSH1 0x20 ADD SWAP1 DUP2 MSTORE PUSH1 0x20 ADD PUSH1 0x0 KECCAK256 PUSH1 0x0 PUSH2 0x100 EXP DUP2 SLOAD DUP2 PUSH1 0xFF MUL NOT AND SWAP1 DUP4 ISZERO ISZERO MUL OR SWAP1 SSTORE POP PUSH1 0x1 PUSH1 0x5 PUSH1 0x0 DUP7 PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND DUP2 MSTORE PUSH1 0x20 ADD SWAP1 DUP2 MSTORE PUSH1 0x20 ADD PUSH1 0x0 KECCAK256 PUSH1 0x0 PUSH2 0x100 EXP DUP2 SLOAD DUP2 PUSH1 0xFF MUL NOT AND SWAP1 DUP4 ISZERO ISZERO MUL OR SWAP1 SSTORE POP POP POP POP POP POP PUSH2 0x3DD JUMP JUMPDEST DUP3 DUP1 SLOAD PUSH1 0x1 DUP2 PUSH1 0x1 AND ISZERO PUSH2 0x100 MUL SUB AND PUSH1 0x2 SWAP1 DIV SWAP1 PUSH1 0x0 MSTORE PUSH1 0x20 PUSH1 0x0 KECCAK256 SWAP1 PUSH1 0x1F ADD PUSH1 0x20 SWAP1 DIV DUP2 ADD SWAP3 DUP3 PUSH1 0x1F LT PUSH2 0x2F9 JUMPI DUP1 MLOAD PUSH1 0xFF NOT AND DUP4 DUP1 ADD OR DUP6 SSTORE PUSH2 0x327 JUMP JUMPDEST DUP3 DUP1 ADD PUSH1 0x1 ADD DUP6 SSTORE DUP3 ISZERO PUSH2 0x327 JUMPI SWAP2 DUP3 ADD JUMPDEST DUP3 DUP2 GT ISZERO PUSH2 0x326 JUMPI DUP3 MLOAD DUP3 SSTORE SWAP2 PUSH1 0x20 ADD SWAP2 SWAP1 PUSH1 0x1 ADD SWAP1 PUSH2 0x30B JUMP JUMPDEST JUMPDEST POP SWAP1 POP PUSH2 0x334 SWAP2 SWAP1 PUSH2 0x3B8 JUMP JUMPDEST POP SWAP1 JUMP JUMPDEST DUP3 DUP1 SLOAD PUSH1 0x1 DUP2 PUSH1 0x1 AND ISZERO PUSH2 0x100 MUL SUB AND PUSH1 0x2 SWAP1 DIV SWAP1 PUSH1 0x0 MSTORE PUSH1 0x20 PUSH1 0x0 KECCAK256 SWAP1 PUSH1 0x1F ADD PUSH1 0x20 SWAP1 DIV DUP2 ADD SWAP3 DUP3 PUSH1 0x1F LT PUSH2 0x379 JUMPI DUP1 MLOAD PUSH1 0xFF NOT AND DUP4 DUP1 ADD OR DUP6 SSTORE PUSH2 0x3A7 JUMP JUMPDEST DUP3 DUP1 ADD PUSH1 0x1 ADD DUP6 SSTORE DUP3 ISZERO PUSH2 0x3A7 JUMPI SWAP2 DUP3 ADD JUMPDEST DUP3 DUP2 GT ISZERO PUSH2 0x3A6 JUMPI DUP3 MLOAD DUP3 SSTORE SWAP2 PUSH1 0x20 ADD SWAP2 SWAP1 PUSH1 0x1 ADD SWAP1 PUSH2 0x38B JUMP JUMPDEST JUMPDEST POP SWAP1 POP PUSH2 0x3B4 SWAP2 SWAP1 PUSH2 0x3B8 JUMP JUMPDEST POP SWAP1 JUMP JUMPDEST PUSH2 0x3DA SWAP2 SWAP1 JUMPDEST DUP1 DUP3 GT ISZERO PUSH2 0x3D6 JUMPI PUSH1 0x0 DUP2 PUSH1 0x0 SWAP1 SSTORE POP PUSH1 0x1 ADD PUSH2 0x3BE JUMP JUMPDEST POP SWAP1 JUMP JUMPDEST SWAP1 JUMP JUMPDEST PUSH2 0x5F1 DUP1 PUSH2 0x3EC PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH2 0x10 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH2 0x41 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x170CEBFD EQ PUSH2 0x46 JUMPI DUP1 PUSH4 0x7D6DDCC1 EQ PUSH2 0x8A JUMPI DUP1 PUSH4 0xE8C3B6A3 EQ PUSH2 0x10D JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH2 0x88 PUSH1 0x4 DUP1 CALLDATASIZE SUB PUSH1 0x20 DUP2 LT ISZERO PUSH2 0x5C JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST DUP2 ADD SWAP1 DUP1 DUP1 CALLDATALOAD PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND SWAP1 PUSH1 0x20 ADD SWAP1 SWAP3 SWAP2 SWAP1 POP POP POP PUSH2 0x151 JUMP JUMPDEST STOP JUMPDEST PUSH2 0x92 PUSH2 0x317 JUMP JUMPDEST PUSH1 0x40 MLOAD DUP1 DUP1 PUSH1 0x20 ADD DUP3 DUP2 SUB DUP3 MSTORE DUP4 DUP2 DUP2 MLOAD DUP2 MSTORE PUSH1 0x20 ADD SWAP2 POP DUP1 MLOAD SWAP1 PUSH1 0x20 ADD SWAP1 DUP1 DUP4 DUP4 PUSH1 0x0 JUMPDEST DUP4 DUP2 LT ISZERO PUSH2 0xD2 JUMPI DUP1 DUP3 ADD MLOAD DUP2 DUP5 ADD MSTORE PUSH1 0x20 DUP2 ADD SWAP1 POP PUSH2 0xB7 JUMP JUMPDEST POP POP POP POP SWAP1 POP SWAP1 DUP2 ADD SWAP1 PUSH1 0x1F AND DUP1 ISZERO PUSH2 0xFF JUMPI DUP1 DUP3 SUB DUP1 MLOAD PUSH1 0x1 DUP4 PUSH1 0x20 SUB PUSH2 0x100 EXP SUB NOT AND DUP2 MSTORE PUSH1 0x20 ADD SWAP2 POP JUMPDEST POP SWAP3 POP POP POP PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 RETURN JUMPDEST PUSH2 0x14F PUSH1 0x4 DUP1 CALLDATASIZE SUB PUSH1 0x20 DUP2 LT ISZERO PUSH2 0x123 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST DUP2 ADD SWAP1 DUP1 DUP1 CALLDATALOAD PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND SWAP1 PUSH1 0x20 ADD SWAP1 SWAP3 SWAP2 SWAP1 POP POP POP PUSH2 0x47F JUMP JUMPDEST STOP JUMPDEST PUSH1 0x0 DUP1 SWAP1 SLOAD SWAP1 PUSH2 0x100 EXP SWAP1 DIV PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND CALLER PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND EQ PUSH2 0x1F6 JUMPI PUSH1 0x40 MLOAD PUSH32 0x8C379A000000000000000000000000000000000000000000000000000000000 DUP2 MSTORE PUSH1 0x4 ADD DUP1 DUP1 PUSH1 0x20 ADD DUP3 DUP2 SUB DUP3 MSTORE PUSH1 0x24 DUP2 MSTORE PUSH1 0x20 ADD DUP1 PUSH2 0x580 PUSH1 0x24 SWAP2 CODECOPY PUSH1 0x40 ADD SWAP2 POP POP PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 REVERT JUMPDEST PUSH1 0x1 ISZERO ISZERO PUSH1 0x5 PUSH1 0x0 DUP4 PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND DUP2 MSTORE PUSH1 0x20 ADD SWAP1 DUP2 MSTORE PUSH1 0x20 ADD PUSH1 0x0 KECCAK256 PUSH1 0x0 SWAP1 SLOAD SWAP1 PUSH2 0x100 EXP SWAP1 DIV PUSH1 0xFF AND ISZERO ISZERO EQ PUSH2 0x2BC JUMPI PUSH1 0x40 MLOAD PUSH32 0x8C379A000000000000000000000000000000000000000000000000000000000 DUP2 MSTORE PUSH1 0x4 ADD DUP1 DUP1 PUSH1 0x20 ADD DUP3 DUP2 SUB DUP3 MSTORE PUSH1 0x13 DUP2 MSTORE PUSH1 0x20 ADD DUP1 PUSH32 0x4E6F206E65656420746F207265766F6B65212100000000000000000000000000 DUP2 MSTORE POP PUSH1 0x20 ADD SWAP2 POP POP PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 REVERT JUMPDEST PUSH1 0x0 PUSH1 0x5 PUSH1 0x0 DUP4 PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND DUP2 MSTORE PUSH1 0x20 ADD SWAP1 DUP2 MSTORE PUSH1 0x20 ADD PUSH1 0x0 KECCAK256 PUSH1 0x0 PUSH2 0x100 EXP DUP2 SLOAD DUP2 PUSH1 0xFF MUL NOT AND SWAP1 DUP4 ISZERO ISZERO MUL OR SWAP1 SSTORE POP POP JUMP JUMPDEST PUSH1 0x60 PUSH1 0x1 ISZERO ISZERO PUSH1 0x5 PUSH1 0x0 CALLER PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND DUP2 MSTORE PUSH1 0x20 ADD SWAP1 DUP2 MSTORE PUSH1 0x20 ADD PUSH1 0x0 KECCAK256 PUSH1 0x0 SWAP1 SLOAD SWAP1 PUSH2 0x100 EXP SWAP1 DIV PUSH1 0xFF AND ISZERO ISZERO EQ PUSH2 0x3DF JUMPI PUSH1 0x40 MLOAD PUSH32 0x8C379A000000000000000000000000000000000000000000000000000000000 DUP2 MSTORE PUSH1 0x4 ADD DUP1 DUP1 PUSH1 0x20 ADD DUP3 DUP2 SUB DUP3 MSTORE PUSH1 0x20 DUP2 MSTORE PUSH1 0x20 ADD DUP1 PUSH32 0x596F7520646F206E6F7420686176652076696577696E67207269676874732121 DUP2 MSTORE POP PUSH1 0x20 ADD SWAP2 POP POP PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 REVERT JUMPDEST PUSH1 0x3 DUP1 SLOAD PUSH1 0x1 DUP2 PUSH1 0x1 AND ISZERO PUSH2 0x100 MUL SUB AND PUSH1 0x2 SWAP1 DIV DUP1 PUSH1 0x1F ADD PUSH1 0x20 DUP1 SWAP2 DIV MUL PUSH1 0x20 ADD PUSH1 0x40 MLOAD SWAP1 DUP2 ADD PUSH1 0x40 MSTORE DUP1 SWAP3 SWAP2 SWAP1 DUP2 DUP2 MSTORE PUSH1 0x20 ADD DUP3 DUP1 SLOAD PUSH1 0x1 DUP2 PUSH1 0x1 AND ISZERO PUSH2 0x100 MUL SUB AND PUSH1 0x2 SWAP1 DIV DUP1 ISZERO PUSH2 0x475 JUMPI DUP1 PUSH1 0x1F LT PUSH2 0x44A JUMPI PUSH2 0x100 DUP1 DUP4 SLOAD DIV MUL DUP4 MSTORE SWAP2 PUSH1 0x20 ADD SWAP2 PUSH2 0x475 JUMP JUMPDEST DUP3 ADD SWAP2 SWAP1 PUSH1 0x0 MSTORE PUSH1 0x20 PUSH1 0x0 KECCAK256 SWAP1 JUMPDEST DUP2 SLOAD DUP2 MSTORE SWAP1 PUSH1 0x1 ADD SWAP1 PUSH1 0x20 ADD DUP1 DUP4 GT PUSH2 0x458 JUMPI DUP3 SWAP1 SUB PUSH1 0x1F AND DUP3 ADD SWAP2 JUMPDEST POP POP POP POP POP SWAP1 POP SWAP1 JUMP JUMPDEST PUSH1 0x0 DUP1 SWAP1 SLOAD SWAP1 PUSH2 0x100 EXP SWAP1 DIV PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND CALLER PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND EQ PUSH2 0x524 JUMPI PUSH1 0x40 MLOAD PUSH32 0x8C379A000000000000000000000000000000000000000000000000000000000 DUP2 MSTORE PUSH1 0x4 ADD DUP1 DUP1 PUSH1 0x20 ADD DUP3 DUP2 SUB DUP3 MSTORE PUSH1 0x22 DUP2 MSTORE PUSH1 0x20 ADD DUP1 PUSH2 0x5A4 PUSH1 0x22 SWAP2 CODECOPY PUSH1 0x40 ADD SWAP2 POP POP PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 REVERT JUMPDEST PUSH1 0x1 PUSH1 0x5 PUSH1 0x0 DUP4 PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND DUP2 MSTORE PUSH1 0x20 ADD SWAP1 DUP2 MSTORE PUSH1 0x20 ADD PUSH1 0x0 KECCAK256 PUSH1 0x0 PUSH2 0x100 EXP DUP2 SLOAD DUP2 PUSH1 0xFF MUL NOT AND SWAP1 DUP4 ISZERO ISZERO MUL OR SWAP1 SSTORE POP POP JUMP INVALID 0x4f PUSH15 0x6C792070617469656E742063616E20 PUSH19 0x65766F6B65207065726D697373696F6E21214F PUSH15 0x6C792070617469656E742063616E20 PUSH8 0x697665207065726D PUSH10 0x7373696F6E2121A16562 PUSH27 0x7A72305820F2D14B5D9BF1ADC1A1C1E342C01B2EE1934FF89A4C29 PUSH26 0x4E73313D25D833A2260029000000000000000000000000000000 \",\"sourceMap\":\"25:1288:1:-;;;264:345;8:9:-1;5:2;;;30:1;27;20:12;5:2;264:345:1;;;;;;;;;;;;;;;13:3:-1;8;5:12;2:2;;;30:1;27;20:12;2:2;264:345:1;;;;;;19:11:-1;14:3;11:20;8:2;;;44:1;41;34:12;8:2;71:11;66:3;62:21;55:28;;123:4;118:3;114:14;159:9;141:16;138:31;135:2;;;182:1;179;172:12;135:2;219:3;213:10;330:9;325:1;311:12;307:20;289:16;285:43;282:58;261:11;247:12;244:29;233:115;230:2;;;361:1;358;351:12;230:2;0:372;;264:345:1;;;;;;;;;;;;;;;;;;;;;;;;;19:11:-1;14:3;11:20;8:2;;;44:1;41;34:12;8:2;71:11;66:3;62:21;55:28;;123:4;118:3;114:14;159:9;141:16;138:31;135:2;;;182:1;179;172:12;135:2;219:3;213:10;330:9;325:1;311:12;307:20;289:16;285:43;282:58;261:11;247:12;244:29;233:115;230:2;;;361:1;358;351:12;230:2;0:372;;264:345:1;;;;;;;19:11:-1;14:3;11:20;8:2;;;44:1;41;34:12;8:2;71:11;66:3;62:21;55:28;;123:4;118:3;114:14;159:9;141:16;138:31;135:2;;;182:1;179;172:12;135:2;219:3;213:10;330:9;325:1;311:12;307:20;289:16;285:43;282:58;261:11;247:12;244:29;233:115;230:2;;;361:1;358;351:12;230:2;0:372;;264:345:1;;;;;;406:8;391:12;;:23;;;;;;;;;;;;;;;;;;435:9;424:8;:20;;;;;;;;;;;;:::i;:::-;;470:7;454:13;;:23;;;;;;;;;;;;;;;;;;503:4;487:13;:20;;;;;;;;;;;;:::i;:::-;;530:5;517:10;:18;;;;;;;;;;;;:::i;:::-;;564:4;545:7;:16;553:7;545:16;;;;;;;;;;;;;;;;:23;;;;;;;;;;;;;;;;;;598:4;578:7;:17;586:8;578:17;;;;;;;;;;;;;;;;:24;;;;;;;;;;;;;;;;;;264:345;;;;;25:1288;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;\"},\"deployedBytecode\":{\"linkReferences\":{},\"object\":\"608060405234801561001057600080fd5b50600436106100415760003560e01c8063170cebfd146100465780637d6ddcc11461008a578063e8c3b6a31461010d575b600080fd5b6100886004803603602081101561005c57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610151565b005b610092610317565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156100d25780820151818401526020810190506100b7565b50505050905090810190601f1680156100ff5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b61014f6004803603602081101561012357600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061047f565b005b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16146101f6576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260248152602001806105806024913960400191505060405180910390fd5b60011515600560008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff161515146102bc576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260138152602001807f4e6f206e65656420746f207265766f6b6521210000000000000000000000000081525060200191505060405180910390fd5b6000600560008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff02191690831515021790555050565b606060011515600560003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff161515146103df576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260208152602001807f596f7520646f206e6f7420686176652076696577696e6720726967687473212181525060200191505060405180910390fd5b60038054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156104755780601f1061044a57610100808354040283529160200191610475565b820191906000526020600020905b81548152906001019060200180831161045857829003601f168201915b5050505050905090565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610524576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260228152602001806105a46022913960400191505060405180910390fd5b6001600560008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055505056fe4f6e6c792070617469656e742063616e207265766f6b65207065726d697373696f6e21214f6e6c792070617469656e742063616e2067697665207065726d697373696f6e2121a165627a7a72305820f2d14b5d9bf1adc1a1c1e342c01b2ee1934ff89a4c29794e73313d25d833a2260029\",\"opcodes\":\"PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH2 0x10 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH2 0x41 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x170CEBFD EQ PUSH2 0x46 JUMPI DUP1 PUSH4 0x7D6DDCC1 EQ PUSH2 0x8A JUMPI DUP1 PUSH4 0xE8C3B6A3 EQ PUSH2 0x10D JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH2 0x88 PUSH1 0x4 DUP1 CALLDATASIZE SUB PUSH1 0x20 DUP2 LT ISZERO PUSH2 0x5C JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST DUP2 ADD SWAP1 DUP1 DUP1 CALLDATALOAD PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND SWAP1 PUSH1 0x20 ADD SWAP1 SWAP3 SWAP2 SWAP1 POP POP POP PUSH2 0x151 JUMP JUMPDEST STOP JUMPDEST PUSH2 0x92 PUSH2 0x317 JUMP JUMPDEST PUSH1 0x40 MLOAD DUP1 DUP1 PUSH1 0x20 ADD DUP3 DUP2 SUB DUP3 MSTORE DUP4 DUP2 DUP2 MLOAD DUP2 MSTORE PUSH1 0x20 ADD SWAP2 POP DUP1 MLOAD SWAP1 PUSH1 0x20 ADD SWAP1 DUP1 DUP4 DUP4 PUSH1 0x0 JUMPDEST DUP4 DUP2 LT ISZERO PUSH2 0xD2 JUMPI DUP1 DUP3 ADD MLOAD DUP2 DUP5 ADD MSTORE PUSH1 0x20 DUP2 ADD SWAP1 POP PUSH2 0xB7 JUMP JUMPDEST POP POP POP POP SWAP1 POP SWAP1 DUP2 ADD SWAP1 PUSH1 0x1F AND DUP1 ISZERO PUSH2 0xFF JUMPI DUP1 DUP3 SUB DUP1 MLOAD PUSH1 0x1 DUP4 PUSH1 0x20 SUB PUSH2 0x100 EXP SUB NOT AND DUP2 MSTORE PUSH1 0x20 ADD SWAP2 POP JUMPDEST POP SWAP3 POP POP POP PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 RETURN JUMPDEST PUSH2 0x14F PUSH1 0x4 DUP1 CALLDATASIZE SUB PUSH1 0x20 DUP2 LT ISZERO PUSH2 0x123 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST DUP2 ADD SWAP1 DUP1 DUP1 CALLDATALOAD PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND SWAP1 PUSH1 0x20 ADD SWAP1 SWAP3 SWAP2 SWAP1 POP POP POP PUSH2 0x47F JUMP JUMPDEST STOP JUMPDEST PUSH1 0x0 DUP1 SWAP1 SLOAD SWAP1 PUSH2 0x100 EXP SWAP1 DIV PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND CALLER PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND EQ PUSH2 0x1F6 JUMPI PUSH1 0x40 MLOAD PUSH32 0x8C379A000000000000000000000000000000000000000000000000000000000 DUP2 MSTORE PUSH1 0x4 ADD DUP1 DUP1 PUSH1 0x20 ADD DUP3 DUP2 SUB DUP3 MSTORE PUSH1 0x24 DUP2 MSTORE PUSH1 0x20 ADD DUP1 PUSH2 0x580 PUSH1 0x24 SWAP2 CODECOPY PUSH1 0x40 ADD SWAP2 POP POP PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 REVERT JUMPDEST PUSH1 0x1 ISZERO ISZERO PUSH1 0x5 PUSH1 0x0 DUP4 PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND DUP2 MSTORE PUSH1 0x20 ADD SWAP1 DUP2 MSTORE PUSH1 0x20 ADD PUSH1 0x0 KECCAK256 PUSH1 0x0 SWAP1 SLOAD SWAP1 PUSH2 0x100 EXP SWAP1 DIV PUSH1 0xFF AND ISZERO ISZERO EQ PUSH2 0x2BC JUMPI PUSH1 0x40 MLOAD PUSH32 0x8C379A000000000000000000000000000000000000000000000000000000000 DUP2 MSTORE PUSH1 0x4 ADD DUP1 DUP1 PUSH1 0x20 ADD DUP3 DUP2 SUB DUP3 MSTORE PUSH1 0x13 DUP2 MSTORE PUSH1 0x20 ADD DUP1 PUSH32 0x4E6F206E65656420746F207265766F6B65212100000000000000000000000000 DUP2 MSTORE POP PUSH1 0x20 ADD SWAP2 POP POP PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 REVERT JUMPDEST PUSH1 0x0 PUSH1 0x5 PUSH1 0x0 DUP4 PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND DUP2 MSTORE PUSH1 0x20 ADD SWAP1 DUP2 MSTORE PUSH1 0x20 ADD PUSH1 0x0 KECCAK256 PUSH1 0x0 PUSH2 0x100 EXP DUP2 SLOAD DUP2 PUSH1 0xFF MUL NOT AND SWAP1 DUP4 ISZERO ISZERO MUL OR SWAP1 SSTORE POP POP JUMP JUMPDEST PUSH1 0x60 PUSH1 0x1 ISZERO ISZERO PUSH1 0x5 PUSH1 0x0 CALLER PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND DUP2 MSTORE PUSH1 0x20 ADD SWAP1 DUP2 MSTORE PUSH1 0x20 ADD PUSH1 0x0 KECCAK256 PUSH1 0x0 SWAP1 SLOAD SWAP1 PUSH2 0x100 EXP SWAP1 DIV PUSH1 0xFF AND ISZERO ISZERO EQ PUSH2 0x3DF JUMPI PUSH1 0x40 MLOAD PUSH32 0x8C379A000000000000000000000000000000000000000000000000000000000 DUP2 MSTORE PUSH1 0x4 ADD DUP1 DUP1 PUSH1 0x20 ADD DUP3 DUP2 SUB DUP3 MSTORE PUSH1 0x20 DUP2 MSTORE PUSH1 0x20 ADD DUP1 PUSH32 0x596F7520646F206E6F7420686176652076696577696E67207269676874732121 DUP2 MSTORE POP PUSH1 0x20 ADD SWAP2 POP POP PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 REVERT JUMPDEST PUSH1 0x3 DUP1 SLOAD PUSH1 0x1 DUP2 PUSH1 0x1 AND ISZERO PUSH2 0x100 MUL SUB AND PUSH1 0x2 SWAP1 DIV DUP1 PUSH1 0x1F ADD PUSH1 0x20 DUP1 SWAP2 DIV MUL PUSH1 0x20 ADD PUSH1 0x40 MLOAD SWAP1 DUP2 ADD PUSH1 0x40 MSTORE DUP1 SWAP3 SWAP2 SWAP1 DUP2 DUP2 MSTORE PUSH1 0x20 ADD DUP3 DUP1 SLOAD PUSH1 0x1 DUP2 PUSH1 0x1 AND ISZERO PUSH2 0x100 MUL SUB AND PUSH1 0x2 SWAP1 DIV DUP1 ISZERO PUSH2 0x475 JUMPI DUP1 PUSH1 0x1F LT PUSH2 0x44A JUMPI PUSH2 0x100 DUP1 DUP4 SLOAD DIV MUL DUP4 MSTORE SWAP2 PUSH1 0x20 ADD SWAP2 PUSH2 0x475 JUMP JUMPDEST DUP3 ADD SWAP2 SWAP1 PUSH1 0x0 MSTORE PUSH1 0x20 PUSH1 0x0 KECCAK256 SWAP1 JUMPDEST DUP2 SLOAD DUP2 MSTORE SWAP1 PUSH1 0x1 ADD SWAP1 PUSH1 0x20 ADD DUP1 DUP4 GT PUSH2 0x458 JUMPI DUP3 SWAP1 SUB PUSH1 0x1F AND DUP3 ADD SWAP2 JUMPDEST POP POP POP POP POP SWAP1 POP SWAP1 JUMP JUMPDEST PUSH1 0x0 DUP1 SWAP1 SLOAD SWAP1 PUSH2 0x100 EXP SWAP1 DIV PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND CALLER PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND EQ PUSH2 0x524 JUMPI PUSH1 0x40 MLOAD PUSH32 0x8C379A000000000000000000000000000000000000000000000000000000000 DUP2 MSTORE PUSH1 0x4 ADD DUP1 DUP1 PUSH1 0x20 ADD DUP3 DUP2 SUB DUP3 MSTORE PUSH1 0x22 DUP2 MSTORE PUSH1 0x20 ADD DUP1 PUSH2 0x5A4 PUSH1 0x22 SWAP2 CODECOPY PUSH1 0x40 ADD SWAP2 POP POP PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 REVERT JUMPDEST PUSH1 0x1 PUSH1 0x5 PUSH1 0x0 DUP4 PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND DUP2 MSTORE PUSH1 0x20 ADD SWAP1 DUP2 MSTORE PUSH1 0x20 ADD PUSH1 0x0 KECCAK256 PUSH1 0x0 PUSH2 0x100 EXP DUP2 SLOAD DUP2 PUSH1 0xFF MUL NOT AND SWAP1 DUP4 ISZERO ISZERO MUL OR SWAP1 SSTORE POP POP JUMP INVALID 0x4f PUSH15 0x6C792070617469656E742063616E20 PUSH19 0x65766F6B65207065726D697373696F6E21214F PUSH15 0x6C792070617469656E742063616E20 PUSH8 0x697665207065726D PUSH10 0x7373696F6E2121A16562 PUSH27 0x7A72305820F2D14B5D9BF1ADC1A1C1E342C01B2EE1934FF89A4C29 PUSH26 0x4E73313D25D833A2260029000000000000000000000000000000 \",\"sourceMap\":\"25:1288:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:1288:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;878:242;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;878:242:1;;;;;;;;;;;;;;;;;;;:::i;:::-;;1130:181;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;1130:181:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;619:249;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;619:249:1;;;;;;;;;;;;;;;;;;;:::i;:::-;;878:242;962:12;;;;;;;;;;;948:26;;:10;:26;;;940:75;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1052:4;1033:23;;:7;:15;1041:6;1033:15;;;;;;;;;;;;;;;;;;;;;;;;;:23;;;1025:55;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1108:5;1090:7;:15;1098:6;1090:15;;;;;;;;;;;;;;;;:23;;;;;;;;;;;;;;;;;;878:242;:::o;1130:181::-;1178:13;1233:4;1210:27;;:7;:19;1218:10;1210:19;;;;;;;;;;;;;;;;;;;;;;;;;:27;;;1202:72;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1291:13;1284:20;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1130:181;:::o;619:249::-;701:12;;;;;;;;;;;687:26;;:10;:26;;;679:73;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;857:4;839:7;:15;847:6;839:15;;;;;;;;;;;;;;;;:22;;;;;;;;;;;;;;;;;;619:249;:::o\"},\"gasEstimates\":{\"creation\":{\"codeDepositCost\":\"304200\",\"executionCost\":\"infinite\",\"totalCost\":\"infinite\"},\"external\":{\"getDecryptionKey()\":\"infinite\",\"giveViewPermission(address)\":\"infinite\",\"revokeViewPermission(address)\":\"infinite\"}},\"legacyAssembly\":{\".code\":[{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"80\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"40\"},{\"begin\":25,\"end\":1313,\"name\":\"MSTORE\"},{\"begin\":264,\"end\":609,\"name\":\"CALLVALUE\"},{\"begin\":8,\"end\":17,\"name\":\"DUP1\"},{\"begin\":5,\"end\":7,\"name\":\"ISZERO\"},{\"begin\":5,\"end\":7,\"name\":\"PUSH [tag]\",\"value\":\"1\"},{\"begin\":5,\"end\":7,\"name\":\"JUMPI\"},{\"begin\":30,\"end\":31,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":27,\"end\":28,\"name\":\"DUP1\"},{\"begin\":20,\"end\":32,\"name\":\"REVERT\"},{\"begin\":5,\"end\":7,\"name\":\"tag\",\"value\":\"1\"},{\"begin\":5,\"end\":7,\"name\":\"JUMPDEST\"},{\"begin\":264,\"end\":609,\"name\":\"POP\"},{\"begin\":264,\"end\":609,\"name\":\"PUSH\",\"value\":\"40\"},{\"begin\":264,\"end\":609,\"name\":\"MLOAD\"},{\"begin\":264,\"end\":609,\"name\":\"PUSHSIZE\"},{\"begin\":264,\"end\":609,\"name\":\"CODESIZE\"},{\"begin\":264,\"end\":609,\"name\":\"SUB\"},{\"begin\":264,\"end\":609,\"name\":\"DUP1\"},{\"begin\":264,\"end\":609,\"name\":\"PUSHSIZE\"},{\"begin\":264,\"end\":609,\"name\":\"DUP4\"},{\"begin\":264,\"end\":609,\"name\":\"CODECOPY\"},{\"begin\":264,\"end\":609,\"name\":\"DUP2\"},{\"begin\":264,\"end\":609,\"name\":\"ADD\"},{\"begin\":264,\"end\":609,\"name\":\"DUP1\"},{\"begin\":264,\"end\":609,\"name\":\"PUSH\",\"value\":\"40\"},{\"begin\":264,\"end\":609,\"name\":\"MSTORE\"},{\"begin\":13,\"end\":16,\"name\":\"PUSH\",\"value\":\"A0\"},{\"begin\":8,\"end\":11,\"name\":\"DUP2\"},{\"begin\":5,\"end\":17,\"name\":\"LT\"},{\"begin\":2,\"end\":4,\"name\":\"ISZERO\"},{\"begin\":2,\"end\":4,\"name\":\"PUSH [tag]\",\"value\":\"2\"},{\"begin\":2,\"end\":4,\"name\":\"JUMPI\"},{\"begin\":30,\"end\":31,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":27,\"end\":28,\"name\":\"DUP1\"},{\"begin\":20,\"end\":32,\"name\":\"REVERT\"},{\"begin\":2,\"end\":4,\"name\":\"tag\",\"value\":\"2\"},{\"begin\":2,\"end\":4,\"name\":\"JUMPDEST\"},{\"begin\":264,\"end\":609,\"name\":\"DUP2\"},{\"begin\":264,\"end\":609,\"name\":\"ADD\"},{\"begin\":264,\"end\":609,\"name\":\"SWAP1\"},{\"begin\":264,\"end\":609,\"name\":\"DUP1\"},{\"begin\":264,\"end\":609,\"name\":\"DUP1\"},{\"begin\":264,\"end\":609,\"name\":\"MLOAD\"},{\"begin\":19,\"end\":30,\"name\":\"PUSH\",\"value\":\"100000000\"},{\"begin\":14,\"end\":17,\"name\":\"DUP2\"},{\"begin\":11,\"end\":31,\"name\":\"GT\"},{\"begin\":8,\"end\":10,\"name\":\"ISZERO\"},{\"begin\":8,\"end\":10,\"name\":\"PUSH [tag]\",\"value\":\"3\"},{\"begin\":8,\"end\":10,\"name\":\"JUMPI\"},{\"begin\":44,\"end\":45,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":41,\"end\":42,\"name\":\"DUP1\"},{\"begin\":34,\"end\":46,\"name\":\"REVERT\"},{\"begin\":8,\"end\":10,\"name\":\"tag\",\"value\":\"3\"},{\"begin\":8,\"end\":10,\"name\":\"JUMPDEST\"},{\"begin\":71,\"end\":82,\"name\":\"DUP3\"},{\"begin\":66,\"end\":69,\"name\":\"DUP2\"},{\"begin\":62,\"end\":83,\"name\":\"ADD\"},{\"begin\":55,\"end\":83,\"name\":\"SWAP1\"},{\"begin\":55,\"end\":83,\"name\":\"POP\"},{\"begin\":123,\"end\":127,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":118,\"end\":121,\"name\":\"DUP2\"},{\"begin\":114,\"end\":128,\"name\":\"ADD\"},{\"begin\":159,\"end\":168,\"name\":\"DUP5\"},{\"begin\":141,\"end\":157,\"name\":\"DUP2\"},{\"begin\":138,\"end\":169,\"name\":\"GT\"},{\"begin\":135,\"end\":137,\"name\":\"ISZERO\"},{\"begin\":135,\"end\":137,\"name\":\"PUSH [tag]\",\"value\":\"4\"},{\"begin\":135,\"end\":137,\"name\":\"JUMPI\"},{\"begin\":182,\"end\":183,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":179,\"end\":180,\"name\":\"DUP1\"},{\"begin\":172,\"end\":184,\"name\":\"REVERT\"},{\"begin\":135,\"end\":137,\"name\":\"tag\",\"value\":\"4\"},{\"begin\":135,\"end\":137,\"name\":\"JUMPDEST\"},{\"begin\":219,\"end\":222,\"name\":\"DUP2\"},{\"begin\":213,\"end\":223,\"name\":\"MLOAD\"},{\"begin\":330,\"end\":339,\"name\":\"DUP6\"},{\"begin\":325,\"end\":326,\"name\":\"PUSH\",\"value\":\"1\"},{\"begin\":311,\"end\":323,\"name\":\"DUP3\"},{\"begin\":307,\"end\":327,\"name\":\"MUL\"},{\"begin\":289,\"end\":305,\"name\":\"DUP4\"},{\"begin\":285,\"end\":328,\"name\":\"ADD\"},{\"begin\":282,\"end\":340,\"name\":\"GT\"},{\"begin\":261,\"end\":272,\"name\":\"PUSH\",\"value\":\"100000000\"},{\"begin\":247,\"end\":259,\"name\":\"DUP3\"},{\"begin\":244,\"end\":273,\"name\":\"GT\"},{\"begin\":233,\"end\":348,\"name\":\"OR\"},{\"begin\":230,\"end\":232,\"name\":\"ISZERO\"},{\"begin\":230,\"end\":232,\"name\":\"PUSH [tag]\",\"value\":\"5\"},{\"begin\":230,\"end\":232,\"name\":\"JUMPI\"},{\"begin\":361,\"end\":362,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":358,\"end\":359,\"name\":\"DUP1\"},{\"begin\":351,\"end\":363,\"name\":\"REVERT\"},{\"begin\":230,\"end\":232,\"name\":\"tag\",\"value\":\"5\"},{\"begin\":230,\"end\":232,\"name\":\"JUMPDEST\"},{\"begin\":0,\"end\":372,\"name\":\"POP\"},{\"begin\":0,\"end\":372,\"name\":\"POP\"},{\"begin\":264,\"end\":609,\"name\":\"SWAP3\"},{\"begin\":264,\"end\":609,\"name\":\"SWAP2\"},{\"begin\":264,\"end\":609,\"name\":\"SWAP1\"},{\"begin\":264,\"end\":609,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":264,\"end\":609,\"name\":\"ADD\"},{\"begin\":264,\"end\":609,\"name\":\"DUP1\"},{\"begin\":264,\"end\":609,\"name\":\"MLOAD\"},{\"begin\":264,\"end\":609,\"name\":\"SWAP1\"},{\"begin\":264,\"end\":609,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":264,\"end\":609,\"name\":\"ADD\"},{\"begin\":264,\"end\":609,\"name\":\"SWAP1\"},{\"begin\":264,\"end\":609,\"name\":\"SWAP3\"},{\"begin\":264,\"end\":609,\"name\":\"SWAP2\"},{\"begin\":264,\"end\":609,\"name\":\"SWAP1\"},{\"begin\":264,\"end\":609,\"name\":\"DUP1\"},{\"begin\":264,\"end\":609,\"name\":\"MLOAD\"},{\"begin\":264,\"end\":609,\"name\":\"SWAP1\"},{\"begin\":264,\"end\":609,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":264,\"end\":609,\"name\":\"ADD\"},{\"begin\":264,\"end\":609,\"name\":\"SWAP1\"},{\"begin\":264,\"end\":609,\"name\":\"SWAP3\"},{\"begin\":264,\"end\":609,\"name\":\"SWAP2\"},{\"begin\":264,\"end\":609,\"name\":\"SWAP1\"},{\"begin\":264,\"end\":609,\"name\":\"DUP1\"},{\"begin\":264,\"end\":609,\"name\":\"MLOAD\"},{\"begin\":19,\"end\":30,\"name\":\"PUSH\",\"value\":\"100000000\"},{\"begin\":14,\"end\":17,\"name\":\"DUP2\"},{\"begin\":11,\"end\":31,\"name\":\"GT\"},{\"begin\":8,\"end\":10,\"name\":\"ISZERO\"},{\"begin\":8,\"end\":10,\"name\":\"PUSH [tag]\",\"value\":\"6\"},{\"begin\":8,\"end\":10,\"name\":\"JUMPI\"},{\"begin\":44,\"end\":45,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":41,\"end\":42,\"name\":\"DUP1\"},{\"begin\":34,\"end\":46,\"name\":\"REVERT\"},{\"begin\":8,\"end\":10,\"name\":\"tag\",\"value\":\"6\"},{\"begin\":8,\"end\":10,\"name\":\"JUMPDEST\"},{\"begin\":71,\"end\":82,\"name\":\"DUP3\"},{\"begin\":66,\"end\":69,\"name\":\"DUP2\"},{\"begin\":62,\"end\":83,\"name\":\"ADD\"},{\"begin\":55,\"end\":83,\"name\":\"SWAP1\"},{\"begin\":55,\"end\":83,\"name\":\"POP\"},{\"begin\":123,\"end\":127,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":118,\"end\":121,\"name\":\"DUP2\"},{\"begin\":114,\"end\":128,\"name\":\"ADD\"},{\"begin\":159,\"end\":168,\"name\":\"DUP5\"},{\"begin\":141,\"end\":157,\"name\":\"DUP2\"},{\"begin\":138,\"end\":169,\"name\":\"GT\"},{\"begin\":135,\"end\":137,\"name\":\"ISZERO\"},{\"begin\":135,\"end\":137,\"name\":\"PUSH [tag]\",\"value\":\"7\"},{\"begin\":135,\"end\":137,\"name\":\"JUMPI\"},{\"begin\":182,\"end\":183,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":179,\"end\":180,\"name\":\"DUP1\"},{\"begin\":172,\"end\":184,\"name\":\"REVERT\"},{\"begin\":135,\"end\":137,\"name\":\"tag\",\"value\":\"7\"},{\"begin\":135,\"end\":137,\"name\":\"JUMPDEST\"},{\"begin\":219,\"end\":222,\"name\":\"DUP2\"},{\"begin\":213,\"end\":223,\"name\":\"MLOAD\"},{\"begin\":330,\"end\":339,\"name\":\"DUP6\"},{\"begin\":325,\"end\":326,\"name\":\"PUSH\",\"value\":\"1\"},{\"begin\":311,\"end\":323,\"name\":\"DUP3\"},{\"begin\":307,\"end\":327,\"name\":\"MUL\"},{\"begin\":289,\"end\":305,\"name\":\"DUP4\"},{\"begin\":285,\"end\":328,\"name\":\"ADD\"},{\"begin\":282,\"end\":340,\"name\":\"GT\"},{\"begin\":261,\"end\":272,\"name\":\"PUSH\",\"value\":\"100000000\"},{\"begin\":247,\"end\":259,\"name\":\"DUP3\"},{\"begin\":244,\"end\":273,\"name\":\"GT\"},{\"begin\":233,\"end\":348,\"name\":\"OR\"},{\"begin\":230,\"end\":232,\"name\":\"ISZERO\"},{\"begin\":230,\"end\":232,\"name\":\"PUSH [tag]\",\"value\":\"8\"},{\"begin\":230,\"end\":232,\"name\":\"JUMPI\"},{\"begin\":361,\"end\":362,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":358,\"end\":359,\"name\":\"DUP1\"},{\"begin\":351,\"end\":363,\"name\":\"REVERT\"},{\"begin\":230,\"end\":232,\"name\":\"tag\",\"value\":\"8\"},{\"begin\":230,\"end\":232,\"name\":\"JUMPDEST\"},{\"begin\":0,\"end\":372,\"name\":\"POP\"},{\"begin\":0,\"end\":372,\"name\":\"POP\"},{\"begin\":264,\"end\":609,\"name\":\"SWAP3\"},{\"begin\":264,\"end\":609,\"name\":\"SWAP2\"},{\"begin\":264,\"end\":609,\"name\":\"SWAP1\"},{\"begin\":264,\"end\":609,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":264,\"end\":609,\"name\":\"ADD\"},{\"begin\":264,\"end\":609,\"name\":\"DUP1\"},{\"begin\":264,\"end\":609,\"name\":\"MLOAD\"},{\"begin\":19,\"end\":30,\"name\":\"PUSH\",\"value\":\"100000000\"},{\"begin\":14,\"end\":17,\"name\":\"DUP2\"},{\"begin\":11,\"end\":31,\"name\":\"GT\"},{\"begin\":8,\"end\":10,\"name\":\"ISZERO\"},{\"begin\":8,\"end\":10,\"name\":\"PUSH [tag]\",\"value\":\"9\"},{\"begin\":8,\"end\":10,\"name\":\"JUMPI\"},{\"begin\":44,\"end\":45,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":41,\"end\":42,\"name\":\"DUP1\"},{\"begin\":34,\"end\":46,\"name\":\"REVERT\"},{\"begin\":8,\"end\":10,\"name\":\"tag\",\"value\":\"9\"},{\"begin\":8,\"end\":10,\"name\":\"JUMPDEST\"},{\"begin\":71,\"end\":82,\"name\":\"DUP3\"},{\"begin\":66,\"end\":69,\"name\":\"DUP2\"},{\"begin\":62,\"end\":83,\"name\":\"ADD\"},{\"begin\":55,\"end\":83,\"name\":\"SWAP1\"},{\"begin\":55,\"end\":83,\"name\":\"POP\"},{\"begin\":123,\"end\":127,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":118,\"end\":121,\"name\":\"DUP2\"},{\"begin\":114,\"end\":128,\"name\":\"ADD\"},{\"begin\":159,\"end\":168,\"name\":\"DUP5\"},{\"begin\":141,\"end\":157,\"name\":\"DUP2\"},{\"begin\":138,\"end\":169,\"name\":\"GT\"},{\"begin\":135,\"end\":137,\"name\":\"ISZERO\"},{\"begin\":135,\"end\":137,\"name\":\"PUSH [tag]\",\"value\":\"10\"},{\"begin\":135,\"end\":137,\"name\":\"JUMPI\"},{\"begin\":182,\"end\":183,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":179,\"end\":180,\"name\":\"DUP1\"},{\"begin\":172,\"end\":184,\"name\":\"REVERT\"},{\"begin\":135,\"end\":137,\"name\":\"tag\",\"value\":\"10\"},{\"begin\":135,\"end\":137,\"name\":\"JUMPDEST\"},{\"begin\":219,\"end\":222,\"name\":\"DUP2\"},{\"begin\":213,\"end\":223,\"name\":\"MLOAD\"},{\"begin\":330,\"end\":339,\"name\":\"DUP6\"},{\"begin\":325,\"end\":326,\"name\":\"PUSH\",\"value\":\"1\"},{\"begin\":311,\"end\":323,\"name\":\"DUP3\"},{\"begin\":307,\"end\":327,\"name\":\"MUL\"},{\"begin\":289,\"end\":305,\"name\":\"DUP4\"},{\"begin\":285,\"end\":328,\"name\":\"ADD\"},{\"begin\":282,\"end\":340,\"name\":\"GT\"},{\"begin\":261,\"end\":272,\"name\":\"PUSH\",\"value\":\"100000000\"},{\"begin\":247,\"end\":259,\"name\":\"DUP3\"},{\"begin\":244,\"end\":273,\"name\":\"GT\"},{\"begin\":233,\"end\":348,\"name\":\"OR\"},{\"begin\":230,\"end\":232,\"name\":\"ISZERO\"},{\"begin\":230,\"end\":232,\"name\":\"PUSH [tag]\",\"value\":\"11\"},{\"begin\":230,\"end\":232,\"name\":\"JUMPI\"},{\"begin\":361,\"end\":362,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":358,\"end\":359,\"name\":\"DUP1\"},{\"begin\":351,\"end\":363,\"name\":\"REVERT\"},{\"begin\":230,\"end\":232,\"name\":\"tag\",\"value\":\"11\"},{\"begin\":230,\"end\":232,\"name\":\"JUMPDEST\"},{\"begin\":0,\"end\":372,\"name\":\"POP\"},{\"begin\":0,\"end\":372,\"name\":\"POP\"},{\"begin\":264,\"end\":609,\"name\":\"SWAP3\"},{\"begin\":264,\"end\":609,\"name\":\"SWAP2\"},{\"begin\":264,\"end\":609,\"name\":\"SWAP1\"},{\"begin\":264,\"end\":609,\"name\":\"POP\"},{\"begin\":264,\"end\":609,\"name\":\"POP\"},{\"begin\":264,\"end\":609,\"name\":\"POP\"},{\"begin\":406,\"end\":414,\"name\":\"DUP4\"},{\"begin\":391,\"end\":403,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":391,\"end\":403,\"name\":\"DUP1\"},{\"begin\":391,\"end\":414,\"name\":\"PUSH\",\"value\":\"100\"},{\"begin\":391,\"end\":414,\"name\":\"EXP\"},{\"begin\":391,\"end\":414,\"name\":\"DUP2\"},{\"begin\":391,\"end\":414,\"name\":\"SLOAD\"},{\"begin\":391,\"end\":414,\"name\":\"DUP2\"},{\"begin\":391,\"end\":414,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":391,\"end\":414,\"name\":\"MUL\"},{\"begin\":391,\"end\":414,\"name\":\"NOT\"},{\"begin\":391,\"end\":414,\"name\":\"AND\"},{\"begin\":391,\"end\":414,\"name\":\"SWAP1\"},{\"begin\":391,\"end\":414,\"name\":\"DUP4\"},{\"begin\":391,\"end\":414,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":391,\"end\":414,\"name\":\"AND\"},{\"begin\":391,\"end\":414,\"name\":\"MUL\"},{\"begin\":391,\"end\":414,\"name\":\"OR\"},{\"begin\":391,\"end\":414,\"name\":\"SWAP1\"},{\"begin\":391,\"end\":414,\"name\":\"SSTORE\"},{\"begin\":391,\"end\":414,\"name\":\"POP\"},{\"begin\":435,\"end\":444,\"name\":\"DUP5\"},{\"begin\":424,\"end\":432,\"name\":\"PUSH\",\"value\":\"2\"},{\"begin\":424,\"end\":444,\"name\":\"SWAP1\"},{\"begin\":424,\"end\":444,\"name\":\"DUP1\"},{\"begin\":424,\"end\":444,\"name\":\"MLOAD\"},{\"begin\":424,\"end\":444,\"name\":\"SWAP1\"},{\"begin\":424,\"end\":444,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":424,\"end\":444,\"name\":\"ADD\"},{\"begin\":424,\"end\":444,\"name\":\"SWAP1\"},{\"begin\":424,\"end\":444,\"name\":\"PUSH [tag]\",\"value\":\"14\"},{\"begin\":424,\"end\":444,\"name\":\"SWAP3\"},{\"begin\":424,\"end\":444,\"name\":\"SWAP2\"},{\"begin\":424,\"end\":444,\"name\":\"SWAP1\"},{\"begin\":424,\"end\":444,\"name\":\"PUSH [tag]\",\"value\":\"15\"},{\"begin\":424,\"end\":444,\"name\":\"JUMP\",\"value\":\"[in]\"},{\"begin\":424,\"end\":444,\"name\":\"tag\",\"value\":\"14\"},{\"begin\":424,\"end\":444,\"name\":\"JUMPDEST\"},{\"begin\":424,\"end\":444,\"name\":\"POP\"},{\"begin\":470,\"end\":477,\"name\":\"DUP3\"},{\"begin\":454,\"end\":467,\"name\":\"PUSH\",\"value\":\"1\"},{\"begin\":454,\"end\":467,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":454,\"end\":477,\"name\":\"PUSH\",\"value\":\"100\"},{\"begin\":454,\"end\":477,\"name\":\"EXP\"},{\"begin\":454,\"end\":477,\"name\":\"DUP2\"},{\"begin\":454,\"end\":477,\"name\":\"SLOAD\"},{\"begin\":454,\"end\":477,\"name\":\"DUP2\"},{\"begin\":454,\"end\":477,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":454,\"end\":477,\"name\":\"MUL\"},{\"begin\":454,\"end\":477,\"name\":\"NOT\"},{\"begin\":454,\"end\":477,\"name\":\"AND\"},{\"begin\":454,\"end\":477,\"name\":\"SWAP1\"},{\"begin\":454,\"end\":477,\"name\":\"DUP4\"},{\"begin\":454,\"end\":477,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":454,\"end\":477,\"name\":\"AND\"},{\"begin\":454,\"end\":477,\"name\":\"MUL\"},{\"begin\":454,\"end\":477,\"name\":\"OR\"},{\"begin\":454,\"end\":477,\"name\":\"SWAP1\"},{\"begin\":454,\"end\":477,\"name\":\"SSTORE\"},{\"begin\":454,\"end\":477,\"name\":\"POP\"},{\"begin\":503,\"end\":507,\"name\":\"DUP2\"},{\"begin\":487,\"end\":500,\"name\":\"PUSH\",\"value\":\"3\"},{\"begin\":487,\"end\":507,\"name\":\"SWAP1\"},{\"begin\":487,\"end\":507,\"name\":\"DUP1\"},{\"begin\":487,\"end\":507,\"name\":\"MLOAD\"},{\"begin\":487,\"end\":507,\"name\":\"SWAP1\"},{\"begin\":487,\"end\":507,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":487,\"end\":507,\"name\":\"ADD\"},{\"begin\":487,\"end\":507,\"name\":\"SWAP1\"},{\"begin\":487,\"end\":507,\"name\":\"PUSH [tag]\",\"value\":\"16\"},{\"begin\":487,\"end\":507,\"name\":\"SWAP3\"},{\"begin\":487,\"end\":507,\"name\":\"SWAP2\"},{\"begin\":487,\"end\":507,\"name\":\"SWAP1\"},{\"begin\":487,\"end\":507,\"name\":\"PUSH [tag]\",\"value\":\"17\"},{\"begin\":487,\"end\":507,\"name\":\"JUMP\",\"value\":\"[in]\"},{\"begin\":487,\"end\":507,\"name\":\"tag\",\"value\":\"16\"},{\"begin\":487,\"end\":507,\"name\":\"JUMPDEST\"},{\"begin\":487,\"end\":507,\"name\":\"POP\"},{\"begin\":530,\"end\":535,\"name\":\"DUP1\"},{\"begin\":517,\"end\":527,\"name\":\"PUSH\",\"value\":\"4\"},{\"begin\":517,\"end\":535,\"name\":\"SWAP1\"},{\"begin\":517,\"end\":535,\"name\":\"DUP1\"},{\"begin\":517,\"end\":535,\"name\":\"MLOAD\"},{\"begin\":517,\"end\":535,\"name\":\"SWAP1\"},{\"begin\":517,\"end\":535,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":517,\"end\":535,\"name\":\"ADD\"},{\"begin\":517,\"end\":535,\"name\":\"SWAP1\"},{\"begin\":517,\"end\":535,\"name\":\"PUSH [tag]\",\"value\":\"18\"},{\"begin\":517,\"end\":535,\"name\":\"SWAP3\"},{\"begin\":517,\"end\":535,\"name\":\"SWAP2\"},{\"begin\":517,\"end\":535,\"name\":\"SWAP1\"},{\"begin\":517,\"end\":535,\"name\":\"PUSH [tag]\",\"value\":\"15\"},{\"begin\":517,\"end\":535,\"name\":\"JUMP\",\"value\":\"[in]\"},{\"begin\":517,\"end\":535,\"name\":\"tag\",\"value\":\"18\"},{\"begin\":517,\"end\":535,\"name\":\"JUMPDEST\"},{\"begin\":517,\"end\":535,\"name\":\"POP\"},{\"begin\":564,\"end\":568,\"name\":\"PUSH\",\"value\":\"1\"},{\"begin\":545,\"end\":552,\"name\":\"PUSH\",\"value\":\"5\"},{\"begin\":545,\"end\":561,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":553,\"end\":560,\"name\":\"DUP6\"},{\"begin\":545,\"end\":561,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":545,\"end\":561,\"name\":\"AND\"},{\"begin\":545,\"end\":561,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":545,\"end\":561,\"name\":\"AND\"},{\"begin\":545,\"end\":561,\"name\":\"DUP2\"},{\"begin\":545,\"end\":561,\"name\":\"MSTORE\"},{\"begin\":545,\"end\":561,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":545,\"end\":561,\"name\":\"ADD\"},{\"begin\":545,\"end\":561,\"name\":\"SWAP1\"},{\"begin\":545,\"end\":561,\"name\":\"DUP2\"},{\"begin\":545,\"end\":561,\"name\":\"MSTORE\"},{\"begin\":545,\"end\":561,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":545,\"end\":561,\"name\":\"ADD\"},{\"begin\":545,\"end\":561,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":545,\"end\":561,\"name\":\"KECCAK256\"},{\"begin\":545,\"end\":561,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":545,\"end\":568,\"name\":\"PUSH\",\"value\":\"100\"},{\"begin\":545,\"end\":568,\"name\":\"EXP\"},{\"begin\":545,\"end\":568,\"name\":\"DUP2\"},{\"begin\":545,\"end\":568,\"name\":\"SLOAD\"},{\"begin\":545,\"end\":568,\"name\":\"DUP2\"},{\"begin\":545,\"end\":568,\"name\":\"PUSH\",\"value\":\"FF\"},{\"begin\":545,\"end\":568,\"name\":\"MUL\"},{\"begin\":545,\"end\":568,\"name\":\"NOT\"},{\"begin\":545,\"end\":568,\"name\":\"AND\"},{\"begin\":545,\"end\":568,\"name\":\"SWAP1\"},{\"begin\":545,\"end\":568,\"name\":\"DUP4\"},{\"begin\":545,\"end\":568,\"name\":\"ISZERO\"},{\"begin\":545,\"end\":568,\"name\":\"ISZERO\"},{\"begin\":545,\"end\":568,\"name\":\"MUL\"},{\"begin\":545,\"end\":568,\"name\":\"OR\"},{\"begin\":545,\"end\":568,\"name\":\"SWAP1\"},{\"begin\":545,\"end\":568,\"name\":\"SSTORE\"},{\"begin\":545,\"end\":568,\"name\":\"POP\"},{\"begin\":598,\"end\":602,\"name\":\"PUSH\",\"value\":\"1\"},{\"begin\":578,\"end\":585,\"name\":\"PUSH\",\"value\":\"5\"},{\"begin\":578,\"end\":595,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":586,\"end\":594,\"name\":\"DUP7\"},{\"begin\":578,\"end\":595,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":578,\"end\":595,\"name\":\"AND\"},{\"begin\":578,\"end\":595,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":578,\"end\":595,\"name\":\"AND\"},{\"begin\":578,\"end\":595,\"name\":\"DUP2\"},{\"begin\":578,\"end\":595,\"name\":\"MSTORE\"},{\"begin\":578,\"end\":595,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":578,\"end\":595,\"name\":\"ADD\"},{\"begin\":578,\"end\":595,\"name\":\"SWAP1\"},{\"begin\":578,\"end\":595,\"name\":\"DUP2\"},{\"begin\":578,\"end\":595,\"name\":\"MSTORE\"},{\"begin\":578,\"end\":595,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":578,\"end\":595,\"name\":\"ADD\"},{\"begin\":578,\"end\":595,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":578,\"end\":595,\"name\":\"KECCAK256\"},{\"begin\":578,\"end\":595,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":578,\"end\":602,\"name\":\"PUSH\",\"value\":\"100\"},{\"begin\":578,\"end\":602,\"name\":\"EXP\"},{\"begin\":578,\"end\":602,\"name\":\"DUP2\"},{\"begin\":578,\"end\":602,\"name\":\"SLOAD\"},{\"begin\":578,\"end\":602,\"name\":\"DUP2\"},{\"begin\":578,\"end\":602,\"name\":\"PUSH\",\"value\":\"FF\"},{\"begin\":578,\"end\":602,\"name\":\"MUL\"},{\"begin\":578,\"end\":602,\"name\":\"NOT\"},{\"begin\":578,\"end\":602,\"name\":\"AND\"},{\"begin\":578,\"end\":602,\"name\":\"SWAP1\"},{\"begin\":578,\"end\":602,\"name\":\"DUP4\"},{\"begin\":578,\"end\":602,\"name\":\"ISZERO\"},{\"begin\":578,\"end\":602,\"name\":\"ISZERO\"},{\"begin\":578,\"end\":602,\"name\":\"MUL\"},{\"begin\":578,\"end\":602,\"name\":\"OR\"},{\"begin\":578,\"end\":602,\"name\":\"SWAP1\"},{\"begin\":578,\"end\":602,\"name\":\"SSTORE\"},{\"begin\":578,\"end\":602,\"name\":\"POP\"},{\"begin\":264,\"end\":609,\"name\":\"POP\"},{\"begin\":264,\"end\":609,\"name\":\"POP\"},{\"begin\":264,\"end\":609,\"name\":\"POP\"},{\"begin\":264,\"end\":609,\"name\":\"POP\"},{\"begin\":264,\"end\":609,\"name\":\"POP\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH [tag]\",\"value\":\"19\"},{\"begin\":25,\"end\":1313,\"name\":\"JUMP\"},{\"begin\":25,\"end\":1313,\"name\":\"tag\",\"value\":\"15\"},{\"begin\":25,\"end\":1313,\"name\":\"JUMPDEST\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP3\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP1\"},{\"begin\":25,\"end\":1313,\"name\":\"SLOAD\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"1\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP2\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"1\"},{\"begin\":25,\"end\":1313,\"name\":\"AND\"},{\"begin\":25,\"end\":1313,\"name\":\"ISZERO\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"100\"},{\"begin\":25,\"end\":1313,\"name\":\"MUL\"},{\"begin\":25,\"end\":1313,\"name\":\"SUB\"},{\"begin\":25,\"end\":1313,\"name\":\"AND\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"2\"},{\"begin\":25,\"end\":1313,\"name\":\"SWAP1\"},{\"begin\":25,\"end\":1313,\"name\":\"DIV\"},{\"begin\":25,\"end\":1313,\"name\":\"SWAP1\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":25,\"end\":1313,\"name\":\"MSTORE\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":25,\"end\":1313,\"name\":\"KECCAK256\"},{\"begin\":25,\"end\":1313,\"name\":\"SWAP1\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"1F\"},{\"begin\":25,\"end\":1313,\"name\":\"ADD\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":25,\"end\":1313,\"name\":\"SWAP1\"},{\"begin\":25,\"end\":1313,\"name\":\"DIV\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP2\"},{\"begin\":25,\"end\":1313,\"name\":\"ADD\"},{\"begin\":25,\"end\":1313,\"name\":\"SWAP3\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP3\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"1F\"},{\"begin\":25,\"end\":1313,\"name\":\"LT\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH [tag]\",\"value\":\"21\"},{\"begin\":25,\"end\":1313,\"name\":\"JUMPI\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP1\"},{\"begin\":25,\"end\":1313,\"name\":\"MLOAD\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"FF\"},{\"begin\":25,\"end\":1313,\"name\":\"NOT\"},{\"begin\":25,\"end\":1313,\"name\":\"AND\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP4\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP1\"},{\"begin\":25,\"end\":1313,\"name\":\"ADD\"},{\"begin\":25,\"end\":1313,\"name\":\"OR\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP6\"},{\"begin\":25,\"end\":1313,\"name\":\"SSTORE\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH [tag]\",\"value\":\"20\"},{\"begin\":25,\"end\":1313,\"name\":\"JUMP\"},{\"begin\":25,\"end\":1313,\"name\":\"tag\",\"value\":\"21\"},{\"begin\":25,\"end\":1313,\"name\":\"JUMPDEST\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP3\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP1\"},{\"begin\":25,\"end\":1313,\"name\":\"ADD\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"1\"},{\"begin\":25,\"end\":1313,\"name\":\"ADD\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP6\"},{\"begin\":25,\"end\":1313,\"name\":\"SSTORE\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP3\"},{\"begin\":25,\"end\":1313,\"name\":\"ISZERO\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH [tag]\",\"value\":\"20\"},{\"begin\":25,\"end\":1313,\"name\":\"JUMPI\"},{\"begin\":25,\"end\":1313,\"name\":\"SWAP2\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP3\"},{\"begin\":25,\"end\":1313,\"name\":\"ADD\"},{\"begin\":25,\"end\":1313,\"name\":\"tag\",\"value\":\"22\"},{\"begin\":25,\"end\":1313,\"name\":\"JUMPDEST\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP3\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP2\"},{\"begin\":25,\"end\":1313,\"name\":\"GT\"},{\"begin\":25,\"end\":1313,\"name\":\"ISZERO\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH [tag]\",\"value\":\"23\"},{\"begin\":25,\"end\":1313,\"name\":\"JUMPI\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP3\"},{\"begin\":25,\"end\":1313,\"name\":\"MLOAD\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP3\"},{\"begin\":25,\"end\":1313,\"name\":\"SSTORE\"},{\"begin\":25,\"end\":1313,\"name\":\"SWAP2\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":25,\"end\":1313,\"name\":\"ADD\"},{\"begin\":25,\"end\":1313,\"name\":\"SWAP2\"},{\"begin\":25,\"end\":1313,\"name\":\"SWAP1\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"1\"},{\"begin\":25,\"end\":1313,\"name\":\"ADD\"},{\"begin\":25,\"end\":1313,\"name\":\"SWAP1\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH [tag]\",\"value\":\"22\"},{\"begin\":25,\"end\":1313,\"name\":\"JUMP\"},{\"begin\":25,\"end\":1313,\"name\":\"tag\",\"value\":\"23\"},{\"begin\":25,\"end\":1313,\"name\":\"JUMPDEST\"},{\"begin\":25,\"end\":1313,\"name\":\"tag\",\"value\":\"20\"},{\"begin\":25,\"end\":1313,\"name\":\"JUMPDEST\"},{\"begin\":25,\"end\":1313,\"name\":\"POP\"},{\"begin\":25,\"end\":1313,\"name\":\"SWAP1\"},{\"begin\":25,\"end\":1313,\"name\":\"POP\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH [tag]\",\"value\":\"24\"},{\"begin\":25,\"end\":1313,\"name\":\"SWAP2\"},{\"begin\":25,\"end\":1313,\"name\":\"SWAP1\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH [tag]\",\"value\":\"25\"},{\"begin\":25,\"end\":1313,\"name\":\"JUMP\",\"value\":\"[in]\"},{\"begin\":25,\"end\":1313,\"name\":\"tag\",\"value\":\"24\"},{\"begin\":25,\"end\":1313,\"name\":\"JUMPDEST\"},{\"begin\":25,\"end\":1313,\"name\":\"POP\"},{\"begin\":25,\"end\":1313,\"name\":\"SWAP1\"},{\"begin\":25,\"end\":1313,\"name\":\"JUMP\",\"value\":\"[out]\"},{\"begin\":25,\"end\":1313,\"name\":\"tag\",\"value\":\"17\"},{\"begin\":25,\"end\":1313,\"name\":\"JUMPDEST\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP3\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP1\"},{\"begin\":25,\"end\":1313,\"name\":\"SLOAD\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"1\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP2\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"1\"},{\"begin\":25,\"end\":1313,\"name\":\"AND\"},{\"begin\":25,\"end\":1313,\"name\":\"ISZERO\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"100\"},{\"begin\":25,\"end\":1313,\"name\":\"MUL\"},{\"begin\":25,\"end\":1313,\"name\":\"SUB\"},{\"begin\":25,\"end\":1313,\"name\":\"AND\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"2\"},{\"begin\":25,\"end\":1313,\"name\":\"SWAP1\"},{\"begin\":25,\"end\":1313,\"name\":\"DIV\"},{\"begin\":25,\"end\":1313,\"name\":\"SWAP1\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":25,\"end\":1313,\"name\":\"MSTORE\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":25,\"end\":1313,\"name\":\"KECCAK256\"},{\"begin\":25,\"end\":1313,\"name\":\"SWAP1\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"1F\"},{\"begin\":25,\"end\":1313,\"name\":\"ADD\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":25,\"end\":1313,\"name\":\"SWAP1\"},{\"begin\":25,\"end\":1313,\"name\":\"DIV\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP2\"},{\"begin\":25,\"end\":1313,\"name\":\"ADD\"},{\"begin\":25,\"end\":1313,\"name\":\"SWAP3\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP3\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"1F\"},{\"begin\":25,\"end\":1313,\"name\":\"LT\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH [tag]\",\"value\":\"27\"},{\"begin\":25,\"end\":1313,\"name\":\"JUMPI\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP1\"},{\"begin\":25,\"end\":1313,\"name\":\"MLOAD\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"FF\"},{\"begin\":25,\"end\":1313,\"name\":\"NOT\"},{\"begin\":25,\"end\":1313,\"name\":\"AND\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP4\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP1\"},{\"begin\":25,\"end\":1313,\"name\":\"ADD\"},{\"begin\":25,\"end\":1313,\"name\":\"OR\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP6\"},{\"begin\":25,\"end\":1313,\"name\":\"SSTORE\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH [tag]\",\"value\":\"26\"},{\"begin\":25,\"end\":1313,\"name\":\"JUMP\"},{\"begin\":25,\"end\":1313,\"name\":\"tag\",\"value\":\"27\"},{\"begin\":25,\"end\":1313,\"name\":\"JUMPDEST\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP3\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP1\"},{\"begin\":25,\"end\":1313,\"name\":\"ADD\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"1\"},{\"begin\":25,\"end\":1313,\"name\":\"ADD\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP6\"},{\"begin\":25,\"end\":1313,\"name\":\"SSTORE\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP3\"},{\"begin\":25,\"end\":1313,\"name\":\"ISZERO\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH [tag]\",\"value\":\"26\"},{\"begin\":25,\"end\":1313,\"name\":\"JUMPI\"},{\"begin\":25,\"end\":1313,\"name\":\"SWAP2\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP3\"},{\"begin\":25,\"end\":1313,\"name\":\"ADD\"},{\"begin\":25,\"end\":1313,\"name\":\"tag\",\"value\":\"28\"},{\"begin\":25,\"end\":1313,\"name\":\"JUMPDEST\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP3\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP2\"},{\"begin\":25,\"end\":1313,\"name\":\"GT\"},{\"begin\":25,\"end\":1313,\"name\":\"ISZERO\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH [tag]\",\"value\":\"29\"},{\"begin\":25,\"end\":1313,\"name\":\"JUMPI\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP3\"},{\"begin\":25,\"end\":1313,\"name\":\"MLOAD\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP3\"},{\"begin\":25,\"end\":1313,\"name\":\"SSTORE\"},{\"begin\":25,\"end\":1313,\"name\":\"SWAP2\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":25,\"end\":1313,\"name\":\"ADD\"},{\"begin\":25,\"end\":1313,\"name\":\"SWAP2\"},{\"begin\":25,\"end\":1313,\"name\":\"SWAP1\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"1\"},{\"begin\":25,\"end\":1313,\"name\":\"ADD\"},{\"begin\":25,\"end\":1313,\"name\":\"SWAP1\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH [tag]\",\"value\":\"28\"},{\"begin\":25,\"end\":1313,\"name\":\"JUMP\"},{\"begin\":25,\"end\":1313,\"name\":\"tag\",\"value\":\"29\"},{\"begin\":25,\"end\":1313,\"name\":\"JUMPDEST\"},{\"begin\":25,\"end\":1313,\"name\":\"tag\",\"value\":\"26\"},{\"begin\":25,\"end\":1313,\"name\":\"JUMPDEST\"},{\"begin\":25,\"end\":1313,\"name\":\"POP\"},{\"begin\":25,\"end\":1313,\"name\":\"SWAP1\"},{\"begin\":25,\"end\":1313,\"name\":\"POP\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH [tag]\",\"value\":\"30\"},{\"begin\":25,\"end\":1313,\"name\":\"SWAP2\"},{\"begin\":25,\"end\":1313,\"name\":\"SWAP1\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH [tag]\",\"value\":\"25\"},{\"begin\":25,\"end\":1313,\"name\":\"JUMP\",\"value\":\"[in]\"},{\"begin\":25,\"end\":1313,\"name\":\"tag\",\"value\":\"30\"},{\"begin\":25,\"end\":1313,\"name\":\"JUMPDEST\"},{\"begin\":25,\"end\":1313,\"name\":\"POP\"},{\"begin\":25,\"end\":1313,\"name\":\"SWAP1\"},{\"begin\":25,\"end\":1313,\"name\":\"JUMP\",\"value\":\"[out]\"},{\"begin\":25,\"end\":1313,\"name\":\"tag\",\"value\":\"25\"},{\"begin\":25,\"end\":1313,\"name\":\"JUMPDEST\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH [tag]\",\"value\":\"31\"},{\"begin\":25,\"end\":1313,\"name\":\"SWAP2\"},{\"begin\":25,\"end\":1313,\"name\":\"SWAP1\"},{\"begin\":25,\"end\":1313,\"name\":\"tag\",\"value\":\"32\"},{\"begin\":25,\"end\":1313,\"name\":\"JUMPDEST\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP1\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP3\"},{\"begin\":25,\"end\":1313,\"name\":\"GT\"},{\"begin\":25,\"end\":1313,\"name\":\"ISZERO\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH [tag]\",\"value\":\"33\"},{\"begin\":25,\"end\":1313,\"name\":\"JUMPI\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP2\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":25,\"end\":1313,\"name\":\"SWAP1\"},{\"begin\":25,\"end\":1313,\"name\":\"SSTORE\"},{\"begin\":25,\"end\":1313,\"name\":\"POP\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"1\"},{\"begin\":25,\"end\":1313,\"name\":\"ADD\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH [tag]\",\"value\":\"32\"},{\"begin\":25,\"end\":1313,\"name\":\"JUMP\"},{\"begin\":25,\"end\":1313,\"name\":\"tag\",\"value\":\"33\"},{\"begin\":25,\"end\":1313,\"name\":\"JUMPDEST\"},{\"begin\":25,\"end\":1313,\"name\":\"POP\"},{\"begin\":25,\"end\":1313,\"name\":\"SWAP1\"},{\"begin\":25,\"end\":1313,\"name\":\"JUMP\"},{\"begin\":25,\"end\":1313,\"name\":\"tag\",\"value\":\"31\"},{\"begin\":25,\"end\":1313,\"name\":\"JUMPDEST\"},{\"begin\":25,\"end\":1313,\"name\":\"SWAP1\"},{\"begin\":25,\"end\":1313,\"name\":\"JUMP\",\"value\":\"[out]\"},{\"begin\":25,\"end\":1313,\"name\":\"tag\",\"value\":\"19\"},{\"begin\":25,\"end\":1313,\"name\":\"JUMPDEST\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH #[$]\",\"value\":\"0000000000000000000000000000000000000000000000000000000000000000\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP1\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH [$]\",\"value\":\"0000000000000000000000000000000000000000000000000000000000000000\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":25,\"end\":1313,\"name\":\"CODECOPY\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":25,\"end\":1313,\"name\":\"RETURN\"}],\".data\":{\"0\":{\".auxdata\":\"a165627a7a72305820f2d14b5d9bf1adc1a1c1e342c01b2ee1934ff89a4c29794e73313d25d833a2260029\",\".code\":[{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"80\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"40\"},{\"begin\":25,\"end\":1313,\"name\":\"MSTORE\"},{\"begin\":25,\"end\":1313,\"name\":\"CALLVALUE\"},{\"begin\":8,\"end\":17,\"name\":\"DUP1\"},{\"begin\":5,\"end\":7,\"name\":\"ISZERO\"},{\"begin\":5,\"end\":7,\"name\":\"PUSH [tag]\",\"value\":\"1\"},{\"begin\":5,\"end\":7,\"name\":\"JUMPI\"},{\"begin\":30,\"end\":31,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":27,\"end\":28,\"name\":\"DUP1\"},{\"begin\":20,\"end\":32,\"name\":\"REVERT\"},{\"begin\":5,\"end\":7,\"name\":\"tag\",\"value\":\"1\"},{\"begin\":5,\"end\":7,\"name\":\"JUMPDEST\"},{\"begin\":25,\"end\":1313,\"name\":\"POP\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"4\"},{\"begin\":25,\"end\":1313,\"name\":\"CALLDATASIZE\"},{\"begin\":25,\"end\":1313,\"name\":\"LT\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH [tag]\",\"value\":\"2\"},{\"begin\":25,\"end\":1313,\"name\":\"JUMPI\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":25,\"end\":1313,\"name\":\"CALLDATALOAD\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"E0\"},{\"begin\":25,\"end\":1313,\"name\":\"SHR\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP1\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"170CEBFD\"},{\"begin\":25,\"end\":1313,\"name\":\"EQ\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH [tag]\",\"value\":\"3\"},{\"begin\":25,\"end\":1313,\"name\":\"JUMPI\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP1\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"7D6DDCC1\"},{\"begin\":25,\"end\":1313,\"name\":\"EQ\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH [tag]\",\"value\":\"4\"},{\"begin\":25,\"end\":1313,\"name\":\"JUMPI\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP1\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"E8C3B6A3\"},{\"begin\":25,\"end\":1313,\"name\":\"EQ\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH [tag]\",\"value\":\"5\"},{\"begin\":25,\"end\":1313,\"name\":\"JUMPI\"},{\"begin\":25,\"end\":1313,\"name\":\"tag\",\"value\":\"2\"},{\"begin\":25,\"end\":1313,\"name\":\"JUMPDEST\"},{\"begin\":25,\"end\":1313,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":25,\"end\":1313,\"name\":\"DUP1\"},{\"begin\":25,\"end\":1313,\"name\":\"REVERT\"},{\"begin\":878,\"end\":1120,\"name\":\"tag\",\"value\":\"3\"},{\"begin\":878,\"end\":1120,\"name\":\"JUMPDEST\"},{\"begin\":878,\"end\":1120,\"name\":\"PUSH [tag]\",\"value\":\"6\"},{\"begin\":878,\"end\":1120,\"name\":\"PUSH\",\"value\":\"4\"},{\"begin\":878,\"end\":1120,\"name\":\"DUP1\"},{\"begin\":878,\"end\":1120,\"name\":\"CALLDATASIZE\"},{\"begin\":878,\"end\":1120,\"name\":\"SUB\"},{\"begin\":13,\"end\":15,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":8,\"end\":11,\"name\":\"DUP2\"},{\"begin\":5,\"end\":16,\"name\":\"LT\"},{\"begin\":2,\"end\":4,\"name\":\"ISZERO\"},{\"begin\":2,\"end\":4,\"name\":\"PUSH [tag]\",\"value\":\"7\"},{\"begin\":2,\"end\":4,\"name\":\"JUMPI\"},{\"begin\":29,\"end\":30,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":26,\"end\":27,\"name\":\"DUP1\"},{\"begin\":19,\"end\":31,\"name\":\"REVERT\"},{\"begin\":2,\"end\":4,\"name\":\"tag\",\"value\":\"7\"},{\"begin\":2,\"end\":4,\"name\":\"JUMPDEST\"},{\"begin\":878,\"end\":1120,\"name\":\"DUP2\"},{\"begin\":878,\"end\":1120,\"name\":\"ADD\"},{\"begin\":878,\"end\":1120,\"name\":\"SWAP1\"},{\"begin\":878,\"end\":1120,\"name\":\"DUP1\"},{\"begin\":878,\"end\":1120,\"name\":\"DUP1\"},{\"begin\":878,\"end\":1120,\"name\":\"CALLDATALOAD\"},{\"begin\":878,\"end\":1120,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":878,\"end\":1120,\"name\":\"AND\"},{\"begin\":878,\"end\":1120,\"name\":\"SWAP1\"},{\"begin\":878,\"end\":1120,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":878,\"end\":1120,\"name\":\"ADD\"},{\"begin\":878,\"end\":1120,\"name\":\"SWAP1\"},{\"begin\":878,\"end\":1120,\"name\":\"SWAP3\"},{\"begin\":878,\"end\":1120,\"name\":\"SWAP2\"},{\"begin\":878,\"end\":1120,\"name\":\"SWAP1\"},{\"begin\":878,\"end\":1120,\"name\":\"POP\"},{\"begin\":878,\"end\":1120,\"name\":\"POP\"},{\"begin\":878,\"end\":1120,\"name\":\"POP\"},{\"begin\":878,\"end\":1120,\"name\":\"PUSH [tag]\",\"value\":\"8\"},{\"begin\":878,\"end\":1120,\"name\":\"JUMP\",\"value\":\"[in]\"},{\"begin\":878,\"end\":1120,\"name\":\"tag\",\"value\":\"6\"},{\"begin\":878,\"end\":1120,\"name\":\"JUMPDEST\"},{\"begin\":878,\"end\":1120,\"name\":\"STOP\"},{\"begin\":1130,\"end\":1311,\"name\":\"tag\",\"value\":\"4\"},{\"begin\":1130,\"end\":1311,\"name\":\"JUMPDEST\"},{\"begin\":1130,\"end\":1311,\"name\":\"PUSH [tag]\",\"value\":\"9\"},{\"begin\":1130,\"end\":1311,\"name\":\"PUSH [tag]\",\"value\":\"10\"},{\"begin\":1130,\"end\":1311,\"name\":\"JUMP\",\"value\":\"[in]\"},{\"begin\":1130,\"end\":1311,\"name\":\"tag\",\"value\":\"9\"},{\"begin\":1130,\"end\":1311,\"name\":\"JUMPDEST\"},{\"begin\":1130,\"end\":1311,\"name\":\"PUSH\",\"value\":\"40\"},{\"begin\":1130,\"end\":1311,\"name\":\"MLOAD\"},{\"begin\":1130,\"end\":1311,\"name\":\"DUP1\"},{\"begin\":1130,\"end\":1311,\"name\":\"DUP1\"},{\"begin\":1130,\"end\":1311,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":1130,\"end\":1311,\"name\":\"ADD\"},{\"begin\":1130,\"end\":1311,\"name\":\"DUP3\"},{\"begin\":1130,\"end\":1311,\"name\":\"DUP2\"},{\"begin\":1130,\"end\":1311,\"name\":\"SUB\"},{\"begin\":1130,\"end\":1311,\"name\":\"DUP3\"},{\"begin\":1130,\"end\":1311,\"name\":\"MSTORE\"},{\"begin\":1130,\"end\":1311,\"name\":\"DUP4\"},{\"begin\":1130,\"end\":1311,\"name\":\"DUP2\"},{\"begin\":1130,\"end\":1311,\"name\":\"DUP2\"},{\"begin\":1130,\"end\":1311,\"name\":\"MLOAD\"},{\"begin\":1130,\"end\":1311,\"name\":\"DUP2\"},{\"begin\":1130,\"end\":1311,\"name\":\"MSTORE\"},{\"begin\":1130,\"end\":1311,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":1130,\"end\":1311,\"name\":\"ADD\"},{\"begin\":1130,\"end\":1311,\"name\":\"SWAP2\"},{\"begin\":1130,\"end\":1311,\"name\":\"POP\"},{\"begin\":1130,\"end\":1311,\"name\":\"DUP1\"},{\"begin\":1130,\"end\":1311,\"name\":\"MLOAD\"},{\"begin\":1130,\"end\":1311,\"name\":\"SWAP1\"},{\"begin\":1130,\"end\":1311,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":1130,\"end\":1311,\"name\":\"ADD\"},{\"begin\":1130,\"end\":1311,\"name\":\"SWAP1\"},{\"begin\":1130,\"end\":1311,\"name\":\"DUP1\"},{\"begin\":1130,\"end\":1311,\"name\":\"DUP4\"},{\"begin\":1130,\"end\":1311,\"name\":\"DUP4\"},{\"begin\":23,\"end\":24,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":8,\"end\":108,\"name\":\"tag\",\"value\":\"11\"},{\"begin\":8,\"end\":108,\"name\":\"JUMPDEST\"},{\"begin\":33,\"end\":36,\"name\":\"DUP4\"},{\"begin\":30,\"end\":31,\"name\":\"DUP2\"},{\"begin\":27,\"end\":37,\"name\":\"LT\"},{\"begin\":8,\"end\":108,\"name\":\"ISZERO\"},{\"begin\":8,\"end\":108,\"name\":\"PUSH [tag]\",\"value\":\"13\"},{\"begin\":8,\"end\":108,\"name\":\"JUMPI\"},{\"begin\":99,\"end\":100,\"name\":\"DUP1\"},{\"begin\":94,\"end\":97,\"name\":\"DUP3\"},{\"begin\":90,\"end\":101,\"name\":\"ADD\"},{\"begin\":84,\"end\":102,\"name\":\"MLOAD\"},{\"begin\":80,\"end\":81,\"name\":\"DUP2\"},{\"begin\":75,\"end\":78,\"name\":\"DUP5\"},{\"begin\":71,\"end\":82,\"name\":\"ADD\"},{\"begin\":64,\"end\":103,\"name\":\"MSTORE\"},{\"begin\":52,\"end\":54,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":49,\"end\":50,\"name\":\"DUP2\"},{\"begin\":45,\"end\":55,\"name\":\"ADD\"},{\"begin\":40,\"end\":55,\"name\":\"SWAP1\"},{\"begin\":40,\"end\":55,\"name\":\"POP\"},{\"begin\":8,\"end\":108,\"name\":\"PUSH [tag]\",\"value\":\"11\"},{\"begin\":8,\"end\":108,\"name\":\"JUMP\"},{\"begin\":8,\"end\":108,\"name\":\"tag\",\"value\":\"13\"},{\"begin\":8,\"end\":108,\"name\":\"JUMPDEST\"},{\"begin\":12,\"end\":26,\"name\":\"POP\"},{\"begin\":1130,\"end\":1311,\"name\":\"POP\"},{\"begin\":1130,\"end\":1311,\"name\":\"POP\"},{\"begin\":1130,\"end\":1311,\"name\":\"POP\"},{\"begin\":1130,\"end\":1311,\"name\":\"SWAP1\"},{\"begin\":1130,\"end\":1311,\"name\":\"POP\"},{\"begin\":1130,\"end\":1311,\"name\":\"SWAP1\"},{\"begin\":1130,\"end\":1311,\"name\":\"DUP2\"},{\"begin\":1130,\"end\":1311,\"name\":\"ADD\"},{\"begin\":1130,\"end\":1311,\"name\":\"SWAP1\"},{\"begin\":1130,\"end\":1311,\"name\":\"PUSH\",\"value\":\"1F\"},{\"begin\":1130,\"end\":1311,\"name\":\"AND\"},{\"begin\":1130,\"end\":1311,\"name\":\"DUP1\"},{\"begin\":1130,\"end\":1311,\"name\":\"ISZERO\"},{\"begin\":1130,\"end\":1311,\"name\":\"PUSH [tag]\",\"value\":\"14\"},{\"begin\":1130,\"end\":1311,\"name\":\"JUMPI\"},{\"begin\":1130,\"end\":1311,\"name\":\"DUP1\"},{\"begin\":1130,\"end\":1311,\"name\":\"DUP3\"},{\"begin\":1130,\"end\":1311,\"name\":\"SUB\"},{\"begin\":1130,\"end\":1311,\"name\":\"DUP1\"},{\"begin\":1130,\"end\":1311,\"name\":\"MLOAD\"},{\"begin\":1130,\"end\":1311,\"name\":\"PUSH\",\"value\":\"1\"},{\"begin\":1130,\"end\":1311,\"name\":\"DUP4\"},{\"begin\":1130,\"end\":1311,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":1130,\"end\":1311,\"name\":\"SUB\"},{\"begin\":1130,\"end\":1311,\"name\":\"PUSH\",\"value\":\"100\"},{\"begin\":1130,\"end\":1311,\"name\":\"EXP\"},{\"begin\":1130,\"end\":1311,\"name\":\"SUB\"},{\"begin\":1130,\"end\":1311,\"name\":\"NOT\"},{\"begin\":1130,\"end\":1311,\"name\":\"AND\"},{\"begin\":1130,\"end\":1311,\"name\":\"DUP2\"},{\"begin\":1130,\"end\":1311,\"name\":\"MSTORE\"},{\"begin\":1130,\"end\":1311,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":1130,\"end\":1311,\"name\":\"ADD\"},{\"begin\":1130,\"end\":1311,\"name\":\"SWAP2\"},{\"begin\":1130,\"end\":1311,\"name\":\"POP\"},{\"begin\":1130,\"end\":1311,\"name\":\"tag\",\"value\":\"14\"},{\"begin\":1130,\"end\":1311,\"name\":\"JUMPDEST\"},{\"begin\":1130,\"end\":1311,\"name\":\"POP\"},{\"begin\":1130,\"end\":1311,\"name\":\"SWAP3\"},{\"begin\":1130,\"end\":1311,\"name\":\"POP\"},{\"begin\":1130,\"end\":1311,\"name\":\"POP\"},{\"begin\":1130,\"end\":1311,\"name\":\"POP\"},{\"begin\":1130,\"end\":1311,\"name\":\"PUSH\",\"value\":\"40\"},{\"begin\":1130,\"end\":1311,\"name\":\"MLOAD\"},{\"begin\":1130,\"end\":1311,\"name\":\"DUP1\"},{\"begin\":1130,\"end\":1311,\"name\":\"SWAP2\"},{\"begin\":1130,\"end\":1311,\"name\":\"SUB\"},{\"begin\":1130,\"end\":1311,\"name\":\"SWAP1\"},{\"begin\":1130,\"end\":1311,\"name\":\"RETURN\"},{\"begin\":619,\"end\":868,\"name\":\"tag\",\"value\":\"5\"},{\"begin\":619,\"end\":868,\"name\":\"JUMPDEST\"},{\"begin\":619,\"end\":868,\"name\":\"PUSH [tag]\",\"value\":\"15\"},{\"begin\":619,\"end\":868,\"name\":\"PUSH\",\"value\":\"4\"},{\"begin\":619,\"end\":868,\"name\":\"DUP1\"},{\"begin\":619,\"end\":868,\"name\":\"CALLDATASIZE\"},{\"begin\":619,\"end\":868,\"name\":\"SUB\"},{\"begin\":13,\"end\":15,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":8,\"end\":11,\"name\":\"DUP2\"},{\"begin\":5,\"end\":16,\"name\":\"LT\"},{\"begin\":2,\"end\":4,\"name\":\"ISZERO\"},{\"begin\":2,\"end\":4,\"name\":\"PUSH [tag]\",\"value\":\"16\"},{\"begin\":2,\"end\":4,\"name\":\"JUMPI\"},{\"begin\":29,\"end\":30,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":26,\"end\":27,\"name\":\"DUP1\"},{\"begin\":19,\"end\":31,\"name\":\"REVERT\"},{\"begin\":2,\"end\":4,\"name\":\"tag\",\"value\":\"16\"},{\"begin\":2,\"end\":4,\"name\":\"JUMPDEST\"},{\"begin\":619,\"end\":868,\"name\":\"DUP2\"},{\"begin\":619,\"end\":868,\"name\":\"ADD\"},{\"begin\":619,\"end\":868,\"name\":\"SWAP1\"},{\"begin\":619,\"end\":868,\"name\":\"DUP1\"},{\"begin\":619,\"end\":868,\"name\":\"DUP1\"},{\"begin\":619,\"end\":868,\"name\":\"CALLDATALOAD\"},{\"begin\":619,\"end\":868,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":619,\"end\":868,\"name\":\"AND\"},{\"begin\":619,\"end\":868,\"name\":\"SWAP1\"},{\"begin\":619,\"end\":868,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":619,\"end\":868,\"name\":\"ADD\"},{\"begin\":619,\"end\":868,\"name\":\"SWAP1\"},{\"begin\":619,\"end\":868,\"name\":\"SWAP3\"},{\"begin\":619,\"end\":868,\"name\":\"SWAP2\"},{\"begin\":619,\"end\":868,\"name\":\"SWAP1\"},{\"begin\":619,\"end\":868,\"name\":\"POP\"},{\"begin\":619,\"end\":868,\"name\":\"POP\"},{\"begin\":619,\"end\":868,\"name\":\"POP\"},{\"begin\":619,\"end\":868,\"name\":\"PUSH [tag]\",\"value\":\"17\"},{\"begin\":619,\"end\":868,\"name\":\"JUMP\",\"value\":\"[in]\"},{\"begin\":619,\"end\":868,\"name\":\"tag\",\"value\":\"15\"},{\"begin\":619,\"end\":868,\"name\":\"JUMPDEST\"},{\"begin\":619,\"end\":868,\"name\":\"STOP\"},{\"begin\":878,\"end\":1120,\"name\":\"tag\",\"value\":\"8\"},{\"begin\":878,\"end\":1120,\"name\":\"JUMPDEST\"},{\"begin\":962,\"end\":974,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":962,\"end\":974,\"name\":\"DUP1\"},{\"begin\":962,\"end\":974,\"name\":\"SWAP1\"},{\"begin\":962,\"end\":974,\"name\":\"SLOAD\"},{\"begin\":962,\"end\":974,\"name\":\"SWAP1\"},{\"begin\":962,\"end\":974,\"name\":\"PUSH\",\"value\":\"100\"},{\"begin\":962,\"end\":974,\"name\":\"EXP\"},{\"begin\":962,\"end\":974,\"name\":\"SWAP1\"},{\"begin\":962,\"end\":974,\"name\":\"DIV\"},{\"begin\":962,\"end\":974,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":962,\"end\":974,\"name\":\"AND\"},{\"begin\":948,\"end\":974,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":948,\"end\":974,\"name\":\"AND\"},{\"begin\":948,\"end\":958,\"name\":\"CALLER\"},{\"begin\":948,\"end\":974,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":948,\"end\":974,\"name\":\"AND\"},{\"begin\":948,\"end\":974,\"name\":\"EQ\"},{\"begin\":940,\"end\":1015,\"name\":\"PUSH [tag]\",\"value\":\"19\"},{\"begin\":940,\"end\":1015,\"name\":\"JUMPI\"},{\"begin\":940,\"end\":1015,\"name\":\"PUSH\",\"value\":\"40\"},{\"begin\":940,\"end\":1015,\"name\":\"MLOAD\"},{\"begin\":940,\"end\":1015,\"name\":\"PUSH\",\"value\":\"8C379A000000000000000000000000000000000000000000000000000000000\"},{\"begin\":940,\"end\":1015,\"name\":\"DUP2\"},{\"begin\":940,\"end\":1015,\"name\":\"MSTORE\"},{\"begin\":940,\"end\":1015,\"name\":\"PUSH\",\"value\":\"4\"},{\"begin\":940,\"end\":1015,\"name\":\"ADD\"},{\"begin\":940,\"end\":1015,\"name\":\"DUP1\"},{\"begin\":940,\"end\":1015,\"name\":\"DUP1\"},{\"begin\":940,\"end\":1015,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":940,\"end\":1015,\"name\":\"ADD\"},{\"begin\":940,\"end\":1015,\"name\":\"DUP3\"},{\"begin\":940,\"end\":1015,\"name\":\"DUP2\"},{\"begin\":940,\"end\":1015,\"name\":\"SUB\"},{\"begin\":940,\"end\":1015,\"name\":\"DUP3\"},{\"begin\":940,\"end\":1015,\"name\":\"MSTORE\"},{\"begin\":940,\"end\":1015,\"name\":\"PUSH\",\"value\":\"24\"},{\"begin\":940,\"end\":1015,\"name\":\"DUP2\"},{\"begin\":940,\"end\":1015,\"name\":\"MSTORE\"},{\"begin\":940,\"end\":1015,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":940,\"end\":1015,\"name\":\"ADD\"},{\"begin\":940,\"end\":1015,\"name\":\"DUP1\"},{\"begin\":940,\"end\":1015,\"name\":\"PUSH data\",\"value\":\"568ECD26AB6DE47F97FEF3EBF33E9CF5C0E00EE1FA9DAC7C58D0FDBC47AC031\"},{\"begin\":940,\"end\":1015,\"name\":\"PUSH\",\"value\":\"24\"},{\"begin\":940,\"end\":1015,\"name\":\"SWAP2\"},{\"begin\":940,\"end\":1015,\"name\":\"CODECOPY\"},{\"begin\":940,\"end\":1015,\"name\":\"PUSH\",\"value\":\"40\"},{\"begin\":940,\"end\":1015,\"name\":\"ADD\"},{\"begin\":940,\"end\":1015,\"name\":\"SWAP2\"},{\"begin\":940,\"end\":1015,\"name\":\"POP\"},{\"begin\":940,\"end\":1015,\"name\":\"POP\"},{\"begin\":940,\"end\":1015,\"name\":\"PUSH\",\"value\":\"40\"},{\"begin\":940,\"end\":1015,\"name\":\"MLOAD\"},{\"begin\":940,\"end\":1015,\"name\":\"DUP1\"},{\"begin\":940,\"end\":1015,\"name\":\"SWAP2\"},{\"begin\":940,\"end\":1015,\"name\":\"SUB\"},{\"begin\":940,\"end\":1015,\"name\":\"SWAP1\"},{\"begin\":940,\"end\":1015,\"name\":\"REVERT\"},{\"begin\":940,\"end\":1015,\"name\":\"tag\",\"value\":\"19\"},{\"begin\":940,\"end\":1015,\"name\":\"JUMPDEST\"},{\"begin\":1052,\"end\":1056,\"name\":\"PUSH\",\"value\":\"1\"},{\"begin\":1033,\"end\":1056,\"name\":\"ISZERO\"},{\"begin\":1033,\"end\":1056,\"name\":\"ISZERO\"},{\"begin\":1033,\"end\":1040,\"name\":\"PUSH\",\"value\":\"5\"},{\"begin\":1033,\"end\":1048,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":1041,\"end\":1047,\"name\":\"DUP4\"},{\"begin\":1033,\"end\":1048,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":1033,\"end\":1048,\"name\":\"AND\"},{\"begin\":1033,\"end\":1048,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":1033,\"end\":1048,\"name\":\"AND\"},{\"begin\":1033,\"end\":1048,\"name\":\"DUP2\"},{\"begin\":1033,\"end\":1048,\"name\":\"MSTORE\"},{\"begin\":1033,\"end\":1048,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":1033,\"end\":1048,\"name\":\"ADD\"},{\"begin\":1033,\"end\":1048,\"name\":\"SWAP1\"},{\"begin\":1033,\"end\":1048,\"name\":\"DUP2\"},{\"begin\":1033,\"end\":1048,\"name\":\"MSTORE\"},{\"begin\":1033,\"end\":1048,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":1033,\"end\":1048,\"name\":\"ADD\"},{\"begin\":1033,\"end\":1048,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":1033,\"end\":1048,\"name\":\"KECCAK256\"},{\"begin\":1033,\"end\":1048,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":1033,\"end\":1048,\"name\":\"SWAP1\"},{\"begin\":1033,\"end\":1048,\"name\":\"SLOAD\"},{\"begin\":1033,\"end\":1048,\"name\":\"SWAP1\"},{\"begin\":1033,\"end\":1048,\"name\":\"PUSH\",\"value\":\"100\"},{\"begin\":1033,\"end\":1048,\"name\":\"EXP\"},{\"begin\":1033,\"end\":1048,\"name\":\"SWAP1\"},{\"begin\":1033,\"end\":1048,\"name\":\"DIV\"},{\"begin\":1033,\"end\":1048,\"name\":\"PUSH\",\"value\":\"FF\"},{\"begin\":1033,\"end\":1048,\"name\":\"AND\"},{\"begin\":1033,\"end\":1056,\"name\":\"ISZERO\"},{\"begin\":1033,\"end\":1056,\"name\":\"ISZERO\"},{\"begin\":1033,\"end\":1056,\"name\":\"EQ\"},{\"begin\":1025,\"end\":1080,\"name\":\"PUSH [tag]\",\"value\":\"20\"},{\"begin\":1025,\"end\":1080,\"name\":\"JUMPI\"},{\"begin\":1025,\"end\":1080,\"name\":\"PUSH\",\"value\":\"40\"},{\"begin\":1025,\"end\":1080,\"name\":\"MLOAD\"},{\"begin\":1025,\"end\":1080,\"name\":\"PUSH\",\"value\":\"8C379A000000000000000000000000000000000000000000000000000000000\"},{\"begin\":1025,\"end\":1080,\"name\":\"DUP2\"},{\"begin\":1025,\"end\":1080,\"name\":\"MSTORE\"},{\"begin\":1025,\"end\":1080,\"name\":\"PUSH\",\"value\":\"4\"},{\"begin\":1025,\"end\":1080,\"name\":\"ADD\"},{\"begin\":1025,\"end\":1080,\"name\":\"DUP1\"},{\"begin\":1025,\"end\":1080,\"name\":\"DUP1\"},{\"begin\":1025,\"end\":1080,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":1025,\"end\":1080,\"name\":\"ADD\"},{\"begin\":1025,\"end\":1080,\"name\":\"DUP3\"},{\"begin\":1025,\"end\":1080,\"name\":\"DUP2\"},{\"begin\":1025,\"end\":1080,\"name\":\"SUB\"},{\"begin\":1025,\"end\":1080,\"name\":\"DUP3\"},{\"begin\":1025,\"end\":1080,\"name\":\"MSTORE\"},{\"begin\":1025,\"end\":1080,\"name\":\"PUSH\",\"value\":\"13\"},{\"begin\":1025,\"end\":1080,\"name\":\"DUP2\"},{\"begin\":1025,\"end\":1080,\"name\":\"MSTORE\"},{\"begin\":1025,\"end\":1080,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":1025,\"end\":1080,\"name\":\"ADD\"},{\"begin\":1025,\"end\":1080,\"name\":\"DUP1\"},{\"begin\":1025,\"end\":1080,\"name\":\"PUSH\",\"value\":\"4E6F206E65656420746F207265766F6B65212100000000000000000000000000\"},{\"begin\":1025,\"end\":1080,\"name\":\"DUP2\"},{\"begin\":1025,\"end\":1080,\"name\":\"MSTORE\"},{\"begin\":1025,\"end\":1080,\"name\":\"POP\"},{\"begin\":1025,\"end\":1080,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":1025,\"end\":1080,\"name\":\"ADD\"},{\"begin\":1025,\"end\":1080,\"name\":\"SWAP2\"},{\"begin\":1025,\"end\":1080,\"name\":\"POP\"},{\"begin\":1025,\"end\":1080,\"name\":\"POP\"},{\"begin\":1025,\"end\":1080,\"name\":\"PUSH\",\"value\":\"40\"},{\"begin\":1025,\"end\":1080,\"name\":\"MLOAD\"},{\"begin\":1025,\"end\":1080,\"name\":\"DUP1\"},{\"begin\":1025,\"end\":1080,\"name\":\"SWAP2\"},{\"begin\":1025,\"end\":1080,\"name\":\"SUB\"},{\"begin\":1025,\"end\":1080,\"name\":\"SWAP1\"},{\"begin\":1025,\"end\":1080,\"name\":\"REVERT\"},{\"begin\":1025,\"end\":1080,\"name\":\"tag\",\"value\":\"20\"},{\"begin\":1025,\"end\":1080,\"name\":\"JUMPDEST\"},{\"begin\":1108,\"end\":1113,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":1090,\"end\":1097,\"name\":\"PUSH\",\"value\":\"5\"},{\"begin\":1090,\"end\":1105,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":1098,\"end\":1104,\"name\":\"DUP4\"},{\"begin\":1090,\"end\":1105,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":1090,\"end\":1105,\"name\":\"AND\"},{\"begin\":1090,\"end\":1105,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":1090,\"end\":1105,\"name\":\"AND\"},{\"begin\":1090,\"end\":1105,\"name\":\"DUP2\"},{\"begin\":1090,\"end\":1105,\"name\":\"MSTORE\"},{\"begin\":1090,\"end\":1105,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":1090,\"end\":1105,\"name\":\"ADD\"},{\"begin\":1090,\"end\":1105,\"name\":\"SWAP1\"},{\"begin\":1090,\"end\":1105,\"name\":\"DUP2\"},{\"begin\":1090,\"end\":1105,\"name\":\"MSTORE\"},{\"begin\":1090,\"end\":1105,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":1090,\"end\":1105,\"name\":\"ADD\"},{\"begin\":1090,\"end\":1105,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":1090,\"end\":1105,\"name\":\"KECCAK256\"},{\"begin\":1090,\"end\":1105,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":1090,\"end\":1113,\"name\":\"PUSH\",\"value\":\"100\"},{\"begin\":1090,\"end\":1113,\"name\":\"EXP\"},{\"begin\":1090,\"end\":1113,\"name\":\"DUP2\"},{\"begin\":1090,\"end\":1113,\"name\":\"SLOAD\"},{\"begin\":1090,\"end\":1113,\"name\":\"DUP2\"},{\"begin\":1090,\"end\":1113,\"name\":\"PUSH\",\"value\":\"FF\"},{\"begin\":1090,\"end\":1113,\"name\":\"MUL\"},{\"begin\":1090,\"end\":1113,\"name\":\"NOT\"},{\"begin\":1090,\"end\":1113,\"name\":\"AND\"},{\"begin\":1090,\"end\":1113,\"name\":\"SWAP1\"},{\"begin\":1090,\"end\":1113,\"name\":\"DUP4\"},{\"begin\":1090,\"end\":1113,\"name\":\"ISZERO\"},{\"begin\":1090,\"end\":1113,\"name\":\"ISZERO\"},{\"begin\":1090,\"end\":1113,\"name\":\"MUL\"},{\"begin\":1090,\"end\":1113,\"name\":\"OR\"},{\"begin\":1090,\"end\":1113,\"name\":\"SWAP1\"},{\"begin\":1090,\"end\":1113,\"name\":\"SSTORE\"},{\"begin\":1090,\"end\":1113,\"name\":\"POP\"},{\"begin\":878,\"end\":1120,\"name\":\"POP\"},{\"begin\":878,\"end\":1120,\"name\":\"JUMP\",\"value\":\"[out]\"},{\"begin\":1130,\"end\":1311,\"name\":\"tag\",\"value\":\"10\"},{\"begin\":1130,\"end\":1311,\"name\":\"JUMPDEST\"},{\"begin\":1178,\"end\":1191,\"name\":\"PUSH\",\"value\":\"60\"},{\"begin\":1233,\"end\":1237,\"name\":\"PUSH\",\"value\":\"1\"},{\"begin\":1210,\"end\":1237,\"name\":\"ISZERO\"},{\"begin\":1210,\"end\":1237,\"name\":\"ISZERO\"},{\"begin\":1210,\"end\":1217,\"name\":\"PUSH\",\"value\":\"5\"},{\"begin\":1210,\"end\":1229,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":1218,\"end\":1228,\"name\":\"CALLER\"},{\"begin\":1210,\"end\":1229,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":1210,\"end\":1229,\"name\":\"AND\"},{\"begin\":1210,\"end\":1229,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":1210,\"end\":1229,\"name\":\"AND\"},{\"begin\":1210,\"end\":1229,\"name\":\"DUP2\"},{\"begin\":1210,\"end\":1229,\"name\":\"MSTORE\"},{\"begin\":1210,\"end\":1229,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":1210,\"end\":1229,\"name\":\"ADD\"},{\"begin\":1210,\"end\":1229,\"name\":\"SWAP1\"},{\"begin\":1210,\"end\":1229,\"name\":\"DUP2\"},{\"begin\":1210,\"end\":1229,\"name\":\"MSTORE\"},{\"begin\":1210,\"end\":1229,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":1210,\"end\":1229,\"name\":\"ADD\"},{\"begin\":1210,\"end\":1229,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":1210,\"end\":1229,\"name\":\"KECCAK256\"},{\"begin\":1210,\"end\":1229,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":1210,\"end\":1229,\"name\":\"SWAP1\"},{\"begin\":1210,\"end\":1229,\"name\":\"SLOAD\"},{\"begin\":1210,\"end\":1229,\"name\":\"SWAP1\"},{\"begin\":1210,\"end\":1229,\"name\":\"PUSH\",\"value\":\"100\"},{\"begin\":1210,\"end\":1229,\"name\":\"EXP\"},{\"begin\":1210,\"end\":1229,\"name\":\"SWAP1\"},{\"begin\":1210,\"end\":1229,\"name\":\"DIV\"},{\"begin\":1210,\"end\":1229,\"name\":\"PUSH\",\"value\":\"FF\"},{\"begin\":1210,\"end\":1229,\"name\":\"AND\"},{\"begin\":1210,\"end\":1237,\"name\":\"ISZERO\"},{\"begin\":1210,\"end\":1237,\"name\":\"ISZERO\"},{\"begin\":1210,\"end\":1237,\"name\":\"EQ\"},{\"begin\":1202,\"end\":1274,\"name\":\"PUSH [tag]\",\"value\":\"22\"},{\"begin\":1202,\"end\":1274,\"name\":\"JUMPI\"},{\"begin\":1202,\"end\":1274,\"name\":\"PUSH\",\"value\":\"40\"},{\"begin\":1202,\"end\":1274,\"name\":\"MLOAD\"},{\"begin\":1202,\"end\":1274,\"name\":\"PUSH\",\"value\":\"8C379A000000000000000000000000000000000000000000000000000000000\"},{\"begin\":1202,\"end\":1274,\"name\":\"DUP2\"},{\"begin\":1202,\"end\":1274,\"name\":\"MSTORE\"},{\"begin\":1202,\"end\":1274,\"name\":\"PUSH\",\"value\":\"4\"},{\"begin\":1202,\"end\":1274,\"name\":\"ADD\"},{\"begin\":1202,\"end\":1274,\"name\":\"DUP1\"},{\"begin\":1202,\"end\":1274,\"name\":\"DUP1\"},{\"begin\":1202,\"end\":1274,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":1202,\"end\":1274,\"name\":\"ADD\"},{\"begin\":1202,\"end\":1274,\"name\":\"DUP3\"},{\"begin\":1202,\"end\":1274,\"name\":\"DUP2\"},{\"begin\":1202,\"end\":1274,\"name\":\"SUB\"},{\"begin\":1202,\"end\":1274,\"name\":\"DUP3\"},{\"begin\":1202,\"end\":1274,\"name\":\"MSTORE\"},{\"begin\":1202,\"end\":1274,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":1202,\"end\":1274,\"name\":\"DUP2\"},{\"begin\":1202,\"end\":1274,\"name\":\"MSTORE\"},{\"begin\":1202,\"end\":1274,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":1202,\"end\":1274,\"name\":\"ADD\"},{\"begin\":1202,\"end\":1274,\"name\":\"DUP1\"},{\"begin\":1202,\"end\":1274,\"name\":\"PUSH\",\"value\":\"596F7520646F206E6F7420686176652076696577696E67207269676874732121\"},{\"begin\":1202,\"end\":1274,\"name\":\"DUP2\"},{\"begin\":1202,\"end\":1274,\"name\":\"MSTORE\"},{\"begin\":1202,\"end\":1274,\"name\":\"POP\"},{\"begin\":1202,\"end\":1274,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":1202,\"end\":1274,\"name\":\"ADD\"},{\"begin\":1202,\"end\":1274,\"name\":\"SWAP2\"},{\"begin\":1202,\"end\":1274,\"name\":\"POP\"},{\"begin\":1202,\"end\":1274,\"name\":\"POP\"},{\"begin\":1202,\"end\":1274,\"name\":\"PUSH\",\"value\":\"40\"},{\"begin\":1202,\"end\":1274,\"name\":\"MLOAD\"},{\"begin\":1202,\"end\":1274,\"name\":\"DUP1\"},{\"begin\":1202,\"end\":1274,\"name\":\"SWAP2\"},{\"begin\":1202,\"end\":1274,\"name\":\"SUB\"},{\"begin\":1202,\"end\":1274,\"name\":\"SWAP1\"},{\"begin\":1202,\"end\":1274,\"name\":\"REVERT\"},{\"begin\":1202,\"end\":1274,\"name\":\"tag\",\"value\":\"22\"},{\"begin\":1202,\"end\":1274,\"name\":\"JUMPDEST\"},{\"begin\":1291,\"end\":1304,\"name\":\"PUSH\",\"value\":\"3\"},{\"begin\":1284,\"end\":1304,\"name\":\"DUP1\"},{\"begin\":1284,\"end\":1304,\"name\":\"SLOAD\"},{\"begin\":1284,\"end\":1304,\"name\":\"PUSH\",\"value\":\"1\"},{\"begin\":1284,\"end\":1304,\"name\":\"DUP2\"},{\"begin\":1284,\"end\":1304,\"name\":\"PUSH\",\"value\":\"1\"},{\"begin\":1284,\"end\":1304,\"name\":\"AND\"},{\"begin\":1284,\"end\":1304,\"name\":\"ISZERO\"},{\"begin\":1284,\"end\":1304,\"name\":\"PUSH\",\"value\":\"100\"},{\"begin\":1284,\"end\":1304,\"name\":\"MUL\"},{\"begin\":1284,\"end\":1304,\"name\":\"SUB\"},{\"begin\":1284,\"end\":1304,\"name\":\"AND\"},{\"begin\":1284,\"end\":1304,\"name\":\"PUSH\",\"value\":\"2\"},{\"begin\":1284,\"end\":1304,\"name\":\"SWAP1\"},{\"begin\":1284,\"end\":1304,\"name\":\"DIV\"},{\"begin\":1284,\"end\":1304,\"name\":\"DUP1\"},{\"begin\":1284,\"end\":1304,\"name\":\"PUSH\",\"value\":\"1F\"},{\"begin\":1284,\"end\":1304,\"name\":\"ADD\"},{\"begin\":1284,\"end\":1304,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":1284,\"end\":1304,\"name\":\"DUP1\"},{\"begin\":1284,\"end\":1304,\"name\":\"SWAP2\"},{\"begin\":1284,\"end\":1304,\"name\":\"DIV\"},{\"begin\":1284,\"end\":1304,\"name\":\"MUL\"},{\"begin\":1284,\"end\":1304,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":1284,\"end\":1304,\"name\":\"ADD\"},{\"begin\":1284,\"end\":1304,\"name\":\"PUSH\",\"value\":\"40\"},{\"begin\":1284,\"end\":1304,\"name\":\"MLOAD\"},{\"begin\":1284,\"end\":1304,\"name\":\"SWAP1\"},{\"begin\":1284,\"end\":1304,\"name\":\"DUP2\"},{\"begin\":1284,\"end\":1304,\"name\":\"ADD\"},{\"begin\":1284,\"end\":1304,\"name\":\"PUSH\",\"value\":\"40\"},{\"begin\":1284,\"end\":1304,\"name\":\"MSTORE\"},{\"begin\":1284,\"end\":1304,\"name\":\"DUP1\"},{\"begin\":1284,\"end\":1304,\"name\":\"SWAP3\"},{\"begin\":1284,\"end\":1304,\"name\":\"SWAP2\"},{\"begin\":1284,\"end\":1304,\"name\":\"SWAP1\"},{\"begin\":1284,\"end\":1304,\"name\":\"DUP2\"},{\"begin\":1284,\"end\":1304,\"name\":\"DUP2\"},{\"begin\":1284,\"end\":1304,\"name\":\"MSTORE\"},{\"begin\":1284,\"end\":1304,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":1284,\"end\":1304,\"name\":\"ADD\"},{\"begin\":1284,\"end\":1304,\"name\":\"DUP3\"},{\"begin\":1284,\"end\":1304,\"name\":\"DUP1\"},{\"begin\":1284,\"end\":1304,\"name\":\"SLOAD\"},{\"begin\":1284,\"end\":1304,\"name\":\"PUSH\",\"value\":\"1\"},{\"begin\":1284,\"end\":1304,\"name\":\"DUP2\"},{\"begin\":1284,\"end\":1304,\"name\":\"PUSH\",\"value\":\"1\"},{\"begin\":1284,\"end\":1304,\"name\":\"AND\"},{\"begin\":1284,\"end\":1304,\"name\":\"ISZERO\"},{\"begin\":1284,\"end\":1304,\"name\":\"PUSH\",\"value\":\"100\"},{\"begin\":1284,\"end\":1304,\"name\":\"MUL\"},{\"begin\":1284,\"end\":1304,\"name\":\"SUB\"},{\"begin\":1284,\"end\":1304,\"name\":\"AND\"},{\"begin\":1284,\"end\":1304,\"name\":\"PUSH\",\"value\":\"2\"},{\"begin\":1284,\"end\":1304,\"name\":\"SWAP1\"},{\"begin\":1284,\"end\":1304,\"name\":\"DIV\"},{\"begin\":1284,\"end\":1304,\"name\":\"DUP1\"},{\"begin\":1284,\"end\":1304,\"name\":\"ISZERO\"},{\"begin\":1284,\"end\":1304,\"name\":\"PUSH [tag]\",\"value\":\"23\"},{\"begin\":1284,\"end\":1304,\"name\":\"JUMPI\"},{\"begin\":1284,\"end\":1304,\"name\":\"DUP1\"},{\"begin\":1284,\"end\":1304,\"name\":\"PUSH\",\"value\":\"1F\"},{\"begin\":1284,\"end\":1304,\"name\":\"LT\"},{\"begin\":1284,\"end\":1304,\"name\":\"PUSH [tag]\",\"value\":\"24\"},{\"begin\":1284,\"end\":1304,\"name\":\"JUMPI\"},{\"begin\":1284,\"end\":1304,\"name\":\"PUSH\",\"value\":\"100\"},{\"begin\":1284,\"end\":1304,\"name\":\"DUP1\"},{\"begin\":1284,\"end\":1304,\"name\":\"DUP4\"},{\"begin\":1284,\"end\":1304,\"name\":\"SLOAD\"},{\"begin\":1284,\"end\":1304,\"name\":\"DIV\"},{\"begin\":1284,\"end\":1304,\"name\":\"MUL\"},{\"begin\":1284,\"end\":1304,\"name\":\"DUP4\"},{\"begin\":1284,\"end\":1304,\"name\":\"MSTORE\"},{\"begin\":1284,\"end\":1304,\"name\":\"SWAP2\"},{\"begin\":1284,\"end\":1304,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":1284,\"end\":1304,\"name\":\"ADD\"},{\"begin\":1284,\"end\":1304,\"name\":\"SWAP2\"},{\"begin\":1284,\"end\":1304,\"name\":\"PUSH [tag]\",\"value\":\"23\"},{\"begin\":1284,\"end\":1304,\"name\":\"JUMP\"},{\"begin\":1284,\"end\":1304,\"name\":\"tag\",\"value\":\"24\"},{\"begin\":1284,\"end\":1304,\"name\":\"JUMPDEST\"},{\"begin\":1284,\"end\":1304,\"name\":\"DUP3\"},{\"begin\":1284,\"end\":1304,\"name\":\"ADD\"},{\"begin\":1284,\"end\":1304,\"name\":\"SWAP2\"},{\"begin\":1284,\"end\":1304,\"name\":\"SWAP1\"},{\"begin\":1284,\"end\":1304,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":1284,\"end\":1304,\"name\":\"MSTORE\"},{\"begin\":1284,\"end\":1304,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":1284,\"end\":1304,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":1284,\"end\":1304,\"name\":\"KECCAK256\"},{\"begin\":1284,\"end\":1304,\"name\":\"SWAP1\"},{\"begin\":1284,\"end\":1304,\"name\":\"tag\",\"value\":\"25\"},{\"begin\":1284,\"end\":1304,\"name\":\"JUMPDEST\"},{\"begin\":1284,\"end\":1304,\"name\":\"DUP2\"},{\"begin\":1284,\"end\":1304,\"name\":\"SLOAD\"},{\"begin\":1284,\"end\":1304,\"name\":\"DUP2\"},{\"begin\":1284,\"end\":1304,\"name\":\"MSTORE\"},{\"begin\":1284,\"end\":1304,\"name\":\"SWAP1\"},{\"begin\":1284,\"end\":1304,\"name\":\"PUSH\",\"value\":\"1\"},{\"begin\":1284,\"end\":1304,\"name\":\"ADD\"},{\"begin\":1284,\"end\":1304,\"name\":\"SWAP1\"},{\"begin\":1284,\"end\":1304,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":1284,\"end\":1304,\"name\":\"ADD\"},{\"begin\":1284,\"end\":1304,\"name\":\"DUP1\"},{\"begin\":1284,\"end\":1304,\"name\":\"DUP4\"},{\"begin\":1284,\"end\":1304,\"name\":\"GT\"},{\"begin\":1284,\"end\":1304,\"name\":\"PUSH [tag]\",\"value\":\"25\"},{\"begin\":1284,\"end\":1304,\"name\":\"JUMPI\"},{\"begin\":1284,\"end\":1304,\"name\":\"DUP3\"},{\"begin\":1284,\"end\":1304,\"name\":\"SWAP1\"},{\"begin\":1284,\"end\":1304,\"name\":\"SUB\"},{\"begin\":1284,\"end\":1304,\"name\":\"PUSH\",\"value\":\"1F\"},{\"begin\":1284,\"end\":1304,\"name\":\"AND\"},{\"begin\":1284,\"end\":1304,\"name\":\"DUP3\"},{\"begin\":1284,\"end\":1304,\"name\":\"ADD\"},{\"begin\":1284,\"end\":1304,\"name\":\"SWAP2\"},{\"begin\":1284,\"end\":1304,\"name\":\"tag\",\"value\":\"23\"},{\"begin\":1284,\"end\":1304,\"name\":\"JUMPDEST\"},{\"begin\":1284,\"end\":1304,\"name\":\"POP\"},{\"begin\":1284,\"end\":1304,\"name\":\"POP\"},{\"begin\":1284,\"end\":1304,\"name\":\"POP\"},{\"begin\":1284,\"end\":1304,\"name\":\"POP\"},{\"begin\":1284,\"end\":1304,\"name\":\"POP\"},{\"begin\":1284,\"end\":1304,\"name\":\"SWAP1\"},{\"begin\":1284,\"end\":1304,\"name\":\"POP\"},{\"begin\":1130,\"end\":1311,\"name\":\"SWAP1\"},{\"begin\":1130,\"end\":1311,\"name\":\"JUMP\",\"value\":\"[out]\"},{\"begin\":619,\"end\":868,\"name\":\"tag\",\"value\":\"17\"},{\"begin\":619,\"end\":868,\"name\":\"JUMPDEST\"},{\"begin\":701,\"end\":713,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":701,\"end\":713,\"name\":\"DUP1\"},{\"begin\":701,\"end\":713,\"name\":\"SWAP1\"},{\"begin\":701,\"end\":713,\"name\":\"SLOAD\"},{\"begin\":701,\"end\":713,\"name\":\"SWAP1\"},{\"begin\":701,\"end\":713,\"name\":\"PUSH\",\"value\":\"100\"},{\"begin\":701,\"end\":713,\"name\":\"EXP\"},{\"begin\":701,\"end\":713,\"name\":\"SWAP1\"},{\"begin\":701,\"end\":713,\"name\":\"DIV\"},{\"begin\":701,\"end\":713,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":701,\"end\":713,\"name\":\"AND\"},{\"begin\":687,\"end\":713,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":687,\"end\":713,\"name\":\"AND\"},{\"begin\":687,\"end\":697,\"name\":\"CALLER\"},{\"begin\":687,\"end\":713,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":687,\"end\":713,\"name\":\"AND\"},{\"begin\":687,\"end\":713,\"name\":\"EQ\"},{\"begin\":679,\"end\":752,\"name\":\"PUSH [tag]\",\"value\":\"27\"},{\"begin\":679,\"end\":752,\"name\":\"JUMPI\"},{\"begin\":679,\"end\":752,\"name\":\"PUSH\",\"value\":\"40\"},{\"begin\":679,\"end\":752,\"name\":\"MLOAD\"},{\"begin\":679,\"end\":752,\"name\":\"PUSH\",\"value\":\"8C379A000000000000000000000000000000000000000000000000000000000\"},{\"begin\":679,\"end\":752,\"name\":\"DUP2\"},{\"begin\":679,\"end\":752,\"name\":\"MSTORE\"},{\"begin\":679,\"end\":752,\"name\":\"PUSH\",\"value\":\"4\"},{\"begin\":679,\"end\":752,\"name\":\"ADD\"},{\"begin\":679,\"end\":752,\"name\":\"DUP1\"},{\"begin\":679,\"end\":752,\"name\":\"DUP1\"},{\"begin\":679,\"end\":752,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":679,\"end\":752,\"name\":\"ADD\"},{\"begin\":679,\"end\":752,\"name\":\"DUP3\"},{\"begin\":679,\"end\":752,\"name\":\"DUP2\"},{\"begin\":679,\"end\":752,\"name\":\"SUB\"},{\"begin\":679,\"end\":752,\"name\":\"DUP3\"},{\"begin\":679,\"end\":752,\"name\":\"MSTORE\"},{\"begin\":679,\"end\":752,\"name\":\"PUSH\",\"value\":\"22\"},{\"begin\":679,\"end\":752,\"name\":\"DUP2\"},{\"begin\":679,\"end\":752,\"name\":\"MSTORE\"},{\"begin\":679,\"end\":752,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":679,\"end\":752,\"name\":\"ADD\"},{\"begin\":679,\"end\":752,\"name\":\"DUP1\"},{\"begin\":679,\"end\":752,\"name\":\"PUSH data\",\"value\":\"D82EBFAEE55DCC29504A6F8B5D8B0E88830BB6C77164C60B1C51EDF4E74232F0\"},{\"begin\":679,\"end\":752,\"name\":\"PUSH\",\"value\":\"22\"},{\"begin\":679,\"end\":752,\"name\":\"SWAP2\"},{\"begin\":679,\"end\":752,\"name\":\"CODECOPY\"},{\"begin\":679,\"end\":752,\"name\":\"PUSH\",\"value\":\"40\"},{\"begin\":679,\"end\":752,\"name\":\"ADD\"},{\"begin\":679,\"end\":752,\"name\":\"SWAP2\"},{\"begin\":679,\"end\":752,\"name\":\"POP\"},{\"begin\":679,\"end\":752,\"name\":\"POP\"},{\"begin\":679,\"end\":752,\"name\":\"PUSH\",\"value\":\"40\"},{\"begin\":679,\"end\":752,\"name\":\"MLOAD\"},{\"begin\":679,\"end\":752,\"name\":\"DUP1\"},{\"begin\":679,\"end\":752,\"name\":\"SWAP2\"},{\"begin\":679,\"end\":752,\"name\":\"SUB\"},{\"begin\":679,\"end\":752,\"name\":\"SWAP1\"},{\"begin\":679,\"end\":752,\"name\":\"REVERT\"},{\"begin\":679,\"end\":752,\"name\":\"tag\",\"value\":\"27\"},{\"begin\":679,\"end\":752,\"name\":\"JUMPDEST\"},{\"begin\":857,\"end\":861,\"name\":\"PUSH\",\"value\":\"1\"},{\"begin\":839,\"end\":846,\"name\":\"PUSH\",\"value\":\"5\"},{\"begin\":839,\"end\":854,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":847,\"end\":853,\"name\":\"DUP4\"},{\"begin\":839,\"end\":854,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":839,\"end\":854,\"name\":\"AND\"},{\"begin\":839,\"end\":854,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":839,\"end\":854,\"name\":\"AND\"},{\"begin\":839,\"end\":854,\"name\":\"DUP2\"},{\"begin\":839,\"end\":854,\"name\":\"MSTORE\"},{\"begin\":839,\"end\":854,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":839,\"end\":854,\"name\":\"ADD\"},{\"begin\":839,\"end\":854,\"name\":\"SWAP1\"},{\"begin\":839,\"end\":854,\"name\":\"DUP2\"},{\"begin\":839,\"end\":854,\"name\":\"MSTORE\"},{\"begin\":839,\"end\":854,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":839,\"end\":854,\"name\":\"ADD\"},{\"begin\":839,\"end\":854,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":839,\"end\":854,\"name\":\"KECCAK256\"},{\"begin\":839,\"end\":854,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":839,\"end\":861,\"name\":\"PUSH\",\"value\":\"100\"},{\"begin\":839,\"end\":861,\"name\":\"EXP\"},{\"begin\":839,\"end\":861,\"name\":\"DUP2\"},{\"begin\":839,\"end\":861,\"name\":\"SLOAD\"},{\"begin\":839,\"end\":861,\"name\":\"DUP2\"},{\"begin\":839,\"end\":861,\"name\":\"PUSH\",\"value\":\"FF\"},{\"begin\":839,\"end\":861,\"name\":\"MUL\"},{\"begin\":839,\"end\":861,\"name\":\"NOT\"},{\"begin\":839,\"end\":861,\"name\":\"AND\"},{\"begin\":839,\"end\":861,\"name\":\"SWAP1\"},{\"begin\":839,\"end\":861,\"name\":\"DUP4\"},{\"begin\":839,\"end\":861,\"name\":\"ISZERO\"},{\"begin\":839,\"end\":861,\"name\":\"ISZERO\"},{\"begin\":839,\"end\":861,\"name\":\"MUL\"},{\"begin\":839,\"end\":861,\"name\":\"OR\"},{\"begin\":839,\"end\":861,\"name\":\"SWAP1\"},{\"begin\":839,\"end\":861,\"name\":\"SSTORE\"},{\"begin\":839,\"end\":861,\"name\":\"POP\"},{\"begin\":619,\"end\":868,\"name\":\"POP\"},{\"begin\":619,\"end\":868,\"name\":\"JUMP\",\"value\":\"[out]\"}],\".data\":{\"568ECD26AB6DE47F97FEF3EBF33E9CF5C0E00EE1FA9DAC7C58D0FDBC47AC031\":\"4f6e6c792070617469656e742063616e207265766f6b65207065726d697373696f6e2121\",\"D82EBFAEE55DCC29504A6F8B5D8B0E88830BB6C77164C60B1C51EDF4E74232F0\":\"4f6e6c792070617469656e742063616e2067697665207065726d697373696f6e2121\"}}}},\"methodIdentifiers\":{\"getDecryptionKey()\":\"7d6ddcc1\",\"giveViewPermission(address)\":\"e8c3b6a3\",\"revokeViewPermission(address)\":\"170cebfd\"}},\"metadata\":\"{\\\"compiler\\\":{\\\"version\\\":\\\"0.5.7+commit.6da8b019\\\"},\\\"language\\\":\\\"Solidity\\\",\\\"output\\\":{\\\"abi\\\":[{\\\"constant\\\":false,\\\"inputs\\\":[{\\\"name\\\":\\\"viewer\\\",\\\"type\\\":\\\"address\\\"}],\\\"name\\\":\\\"revokeViewPermission\\\",\\\"outputs\\\":[],\\\"payable\\\":false,\\\"stateMutability\\\":\\\"nonpayable\\\",\\\"type\\\":\\\"function\\\"},{\\\"constant\\\":true,\\\"inputs\\\":[],\\\"name\\\":\\\"getDecryptionKey\\\",\\\"outputs\\\":[{\\\"name\\\":\\\"\\\",\\\"type\\\":\\\"string\\\"}],\\\"payable\\\":false,\\\"stateMutability\\\":\\\"view\\\",\\\"type\\\":\\\"function\\\"},{\\\"constant\\\":false,\\\"inputs\\\":[{\\\"name\\\":\\\"viewer\\\",\\\"type\\\":\\\"address\\\"}],\\\"name\\\":\\\"giveViewPermission\\\",\\\"outputs\\\":[],\\\"payable\\\":false,\\\"stateMutability\\\":\\\"nonpayable\\\",\\\"type\\\":\\\"function\\\"},{\\\"inputs\\\":[{\\\"name\\\":\\\"_recordId\\\",\\\"type\\\":\\\"bytes\\\"},{\\\"name\\\":\\\"_patient\\\",\\\"type\\\":\\\"address\\\"},{\\\"name\\\":\\\"_doctor\\\",\\\"type\\\":\\\"address\\\"},{\\\"name\\\":\\\"_key\\\",\\\"type\\\":\\\"string\\\"},{\\\"name\\\":\\\"_sign\\\",\\\"type\\\":\\\"bytes\\\"}],\\\"payable\\\":false,\\\"stateMutability\\\":\\\"nonpayable\\\",\\\"type\\\":\\\"constructor\\\"}],\\\"devdoc\\\":{\\\"methods\\\":{}},\\\"userdoc\\\":{\\\"methods\\\":{}}},\\\"settings\\\":{\\\"compilationTarget\\\":{\\\"record.sol\\\":\\\"record\\\"},\\\"evmVersion\\\":\\\"petersburg\\\",\\\"libraries\\\":{},\\\"optimizer\\\":{\\\"enabled\\\":false,\\\"runs\\\":200},\\\"remappings\\\":[]},\\\"sources\\\":{\\\"record.sol\\\":{\\\"keccak256\\\":\\\"0x6664d6eeb14c9bdecd50eab933a82c3e2fdcbefa3354d66c8d3fd262d26903aa\\\",\\\"urls\\\":[\\\"bzzr://9f0c4e0fd49a2f9ae31b5c2c25870367592f2c0b00c1d1ce095668206c2c4941\\\"]}},\\\"version\\\":1}\",\"userdoc\":{\"methods\":{}}}\n";
+    // const compiled = require(compiled_contract);
+    const compiled = JSON.parse(contract_data);
 
-		// const HDWalletProvider = require("truffle-hdwallet-provider");
-		const Web3 = require("web3");
-		const contract_data = "{\"abi\":[{\"constant\":false,\"inputs\":[{\"name\":\"writer\",\"type\":\"address\"}],\"name\":\"giveWritePermission\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"writer\",\"type\":\"address\"}],\"name\":\"revokeWritePermission\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"writer\",\"type\":\"address\"}],\"name\":\"canCreateRecords\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"evm\":{\"assembly\":\"    /* \\\"patient.sol\\\":25:834  contract patient {... */\\n  mstore(0x40, 0x80)\\n    /* \\\"patient.sol\\\":127:192  constructor() public {... */\\n  callvalue\\n    /* \\\"--CODEGEN--\\\":8:17   */\\n  dup1\\n    /* \\\"--CODEGEN--\\\":5:7   */\\n  iszero\\n  tag_1\\n  jumpi\\n    /* \\\"--CODEGEN--\\\":30:31   */\\n  0x00\\n    /* \\\"--CODEGEN--\\\":27:28   */\\n  dup1\\n    /* \\\"--CODEGEN--\\\":20:32   */\\n  revert\\n    /* \\\"--CODEGEN--\\\":5:7   */\\ntag_1:\\n    /* \\\"patient.sol\\\":127:192  constructor() public {... */\\n  pop\\n    /* \\\"patient.sol\\\":175:185  msg.sender */\\n  caller\\n    /* \\\"patient.sol\\\":158:172  patientAddress */\\n  0x00\\n  dup1\\n    /* \\\"patient.sol\\\":158:185  patientAddress = msg.sender */\\n  0x0100\\n  exp\\n  dup2\\n  sload\\n  dup2\\n  0xffffffffffffffffffffffffffffffffffffffff\\n  mul\\n  not\\n  and\\n  swap1\\n  dup4\\n  0xffffffffffffffffffffffffffffffffffffffff\\n  and\\n  mul\\n  or\\n  swap1\\n  sstore\\n  pop\\n    /* \\\"patient.sol\\\":25:834  contract patient {... */\\n  dataSize(sub_0)\\n  dup1\\n  dataOffset(sub_0)\\n  0x00\\n  codecopy\\n  0x00\\n  return\\nstop\\n\\nsub_0: assembly {\\n        /* \\\"patient.sol\\\":25:834  contract patient {... */\\n      mstore(0x40, 0x80)\\n      callvalue\\n        /* \\\"--CODEGEN--\\\":8:17   */\\n      dup1\\n        /* \\\"--CODEGEN--\\\":5:7   */\\n      iszero\\n      tag_1\\n      jumpi\\n        /* \\\"--CODEGEN--\\\":30:31   */\\n      0x00\\n        /* \\\"--CODEGEN--\\\":27:28   */\\n      dup1\\n        /* \\\"--CODEGEN--\\\":20:32   */\\n      revert\\n        /* \\\"--CODEGEN--\\\":5:7   */\\n    tag_1:\\n        /* \\\"patient.sol\\\":25:834  contract patient {... */\\n      pop\\n      jumpi(tag_2, lt(calldatasize, 0x04))\\n      shr(0xe0, calldataload(0x00))\\n      dup1\\n      0x6ca883e0\\n      eq\\n      tag_3\\n      jumpi\\n      dup1\\n      0xd5357e0c\\n      eq\\n      tag_4\\n      jumpi\\n      dup1\\n      0xe77f9871\\n      eq\\n      tag_5\\n      jumpi\\n    tag_2:\\n      0x00\\n      dup1\\n      revert\\n        /* \\\"patient.sol\\\":202:451  function giveWritePermission(address writer) public{... */\\n    tag_3:\\n      tag_6\\n      0x04\\n      dup1\\n      calldatasize\\n      sub\\n        /* \\\"--CODEGEN--\\\":13:15   */\\n      0x20\\n        /* \\\"--CODEGEN--\\\":8:11   */\\n      dup2\\n        /* \\\"--CODEGEN--\\\":5:16   */\\n      lt\\n        /* \\\"--CODEGEN--\\\":2:4   */\\n      iszero\\n      tag_7\\n      jumpi\\n        /* \\\"--CODEGEN--\\\":29:30   */\\n      0x00\\n        /* \\\"--CODEGEN--\\\":26:27   */\\n      dup1\\n        /* \\\"--CODEGEN--\\\":19:31   */\\n      revert\\n        /* \\\"--CODEGEN--\\\":2:4   */\\n    tag_7:\\n        /* \\\"patient.sol\\\":202:451  function giveWritePermission(address writer) public{... */\\n      dup2\\n      add\\n      swap1\\n      dup1\\n      dup1\\n      calldataload\\n      0xffffffffffffffffffffffffffffffffffffffff\\n      and\\n      swap1\\n      0x20\\n      add\\n      swap1\\n      swap3\\n      swap2\\n      swap1\\n      pop\\n      pop\\n      pop\\n      tag_8\\n      jump\\t// in\\n    tag_6:\\n      stop\\n        /* \\\"patient.sol\\\":461:708  function revokeWritePermission(address writer) public{... */\\n    tag_4:\\n      tag_9\\n      0x04\\n      dup1\\n      calldatasize\\n      sub\\n        /* \\\"--CODEGEN--\\\":13:15   */\\n      0x20\\n        /* \\\"--CODEGEN--\\\":8:11   */\\n      dup2\\n        /* \\\"--CODEGEN--\\\":5:16   */\\n      lt\\n        /* \\\"--CODEGEN--\\\":2:4   */\\n      iszero\\n      tag_10\\n      jumpi\\n        /* \\\"--CODEGEN--\\\":29:30   */\\n      0x00\\n        /* \\\"--CODEGEN--\\\":26:27   */\\n      dup1\\n        /* \\\"--CODEGEN--\\\":19:31   */\\n      revert\\n        /* \\\"--CODEGEN--\\\":2:4   */\\n    tag_10:\\n        /* \\\"patient.sol\\\":461:708  function revokeWritePermission(address writer) public{... */\\n      dup2\\n      add\\n      swap1\\n      dup1\\n      dup1\\n      calldataload\\n      0xffffffffffffffffffffffffffffffffffffffff\\n      and\\n      swap1\\n      0x20\\n      add\\n      swap1\\n      swap3\\n      swap2\\n      swap1\\n      pop\\n      pop\\n      pop\\n      tag_11\\n      jump\\t// in\\n    tag_9:\\n      stop\\n        /* \\\"patient.sol\\\":718:826  function canCreateRecords(address writer) public view returns(bool){... */\\n    tag_5:\\n      tag_12\\n      0x04\\n      dup1\\n      calldatasize\\n      sub\\n        /* \\\"--CODEGEN--\\\":13:15   */\\n      0x20\\n        /* \\\"--CODEGEN--\\\":8:11   */\\n      dup2\\n        /* \\\"--CODEGEN--\\\":5:16   */\\n      lt\\n        /* \\\"--CODEGEN--\\\":2:4   */\\n      iszero\\n      tag_13\\n      jumpi\\n        /* \\\"--CODEGEN--\\\":29:30   */\\n      0x00\\n        /* \\\"--CODEGEN--\\\":26:27   */\\n      dup1\\n        /* \\\"--CODEGEN--\\\":19:31   */\\n      revert\\n        /* \\\"--CODEGEN--\\\":2:4   */\\n    tag_13:\\n        /* \\\"patient.sol\\\":718:826  function canCreateRecords(address writer) public view returns(bool){... */\\n      dup2\\n      add\\n      swap1\\n      dup1\\n      dup1\\n      calldataload\\n      0xffffffffffffffffffffffffffffffffffffffff\\n      and\\n      swap1\\n      0x20\\n      add\\n      swap1\\n      swap3\\n      swap2\\n      swap1\\n      pop\\n      pop\\n      pop\\n      tag_14\\n      jump\\t// in\\n    tag_12:\\n      mload(0x40)\\n      dup1\\n      dup3\\n      iszero\\n      iszero\\n      iszero\\n      iszero\\n      dup2\\n      mstore\\n      0x20\\n      add\\n      swap2\\n      pop\\n      pop\\n      mload(0x40)\\n      dup1\\n      swap2\\n      sub\\n      swap1\\n      return\\n        /* \\\"patient.sol\\\":202:451  function giveWritePermission(address writer) public{... */\\n    tag_8:\\n        /* \\\"patient.sol\\\":285:299  patientAddress */\\n      0x00\\n      dup1\\n      swap1\\n      sload\\n      swap1\\n      0x0100\\n      exp\\n      swap1\\n      div\\n      0xffffffffffffffffffffffffffffffffffffffff\\n      and\\n        /* \\\"patient.sol\\\":271:299  msg.sender == patientAddress */\\n      0xffffffffffffffffffffffffffffffffffffffff\\n      and\\n        /* \\\"patient.sol\\\":271:281  msg.sender */\\n      caller\\n        /* \\\"patient.sol\\\":271:299  msg.sender == patientAddress */\\n      0xffffffffffffffffffffffffffffffffffffffff\\n      and\\n      eq\\n        /* \\\"patient.sol\\\":263:327  require(msg.sender == patientAddress, \\\"You don't have rights!!\\\") */\\n      tag_16\\n      jumpi\\n      mload(0x40)\\n      0x08c379a000000000000000000000000000000000000000000000000000000000\\n      dup2\\n      mstore\\n      0x04\\n      add\\n      dup1\\n      dup1\\n      0x20\\n      add\\n      dup3\\n      dup2\\n      sub\\n      dup3\\n      mstore\\n      0x17\\n      dup2\\n      mstore\\n      0x20\\n      add\\n      dup1\\n      0x596f7520646f6e27742068617665207269676874732121000000000000000000\\n      dup2\\n      mstore\\n      pop\\n      0x20\\n      add\\n      swap2\\n      pop\\n      pop\\n      mload(0x40)\\n      dup1\\n      swap2\\n      sub\\n      swap1\\n      revert\\n    tag_16:\\n        /* \\\"patient.sol\\\":366:371  false */\\n      0x00\\n        /* \\\"patient.sol\\\":345:371  canCreate[writer] == false */\\n      iszero\\n      iszero\\n        /* \\\"patient.sol\\\":345:354  canCreate */\\n      0x01\\n        /* \\\"patient.sol\\\":345:362  canCreate[writer] */\\n      0x00\\n        /* \\\"patient.sol\\\":355:361  writer */\\n      dup4\\n        /* \\\"patient.sol\\\":345:362  canCreate[writer] */\\n      0xffffffffffffffffffffffffffffffffffffffff\\n      and\\n      0xffffffffffffffffffffffffffffffffffffffff\\n      and\\n      dup2\\n      mstore\\n      0x20\\n      add\\n      swap1\\n      dup2\\n      mstore\\n      0x20\\n      add\\n      0x00\\n      keccak256\\n      0x00\\n      swap1\\n      sload\\n      swap1\\n      0x0100\\n      exp\\n      swap1\\n      div\\n      0xff\\n      and\\n        /* \\\"patient.sol\\\":345:371  canCreate[writer] == false */\\n      iszero\\n      iszero\\n      eq\\n        /* \\\"patient.sol\\\":337:410  require(canCreate[writer] == false, \\\"You alredy have write permission!!\\\") */\\n      tag_17\\n      jumpi\\n      mload(0x40)\\n      0x08c379a000000000000000000000000000000000000000000000000000000000\\n      dup2\\n      mstore\\n      0x04\\n      add\\n      dup1\\n      dup1\\n      0x20\\n      add\\n      dup3\\n      dup2\\n      sub\\n      dup3\\n      mstore\\n      0x22\\n      dup2\\n      mstore\\n      0x20\\n      add\\n      dup1\\n      data_83863a80eead283e4fc35d38c562e82449de90f4387d2544c8c987a5edf117a7\\n      0x22\\n      swap2\\n      codecopy\\n      0x40\\n      add\\n      swap2\\n      pop\\n      pop\\n      mload(0x40)\\n      dup1\\n      swap2\\n      sub\\n      swap1\\n      revert\\n    tag_17:\\n        /* \\\"patient.sol\\\":440:444  true */\\n      0x01\\n        /* \\\"patient.sol\\\":420:429  canCreate */\\n      dup1\\n        /* \\\"patient.sol\\\":420:437  canCreate[writer] */\\n      0x00\\n        /* \\\"patient.sol\\\":430:436  writer */\\n      dup4\\n        /* \\\"patient.sol\\\":420:437  canCreate[writer] */\\n      0xffffffffffffffffffffffffffffffffffffffff\\n      and\\n      0xffffffffffffffffffffffffffffffffffffffff\\n      and\\n      dup2\\n      mstore\\n      0x20\\n      add\\n      swap1\\n      dup2\\n      mstore\\n      0x20\\n      add\\n      0x00\\n      keccak256\\n      0x00\\n        /* \\\"patient.sol\\\":420:444  canCreate[writer] = true */\\n      0x0100\\n      exp\\n      dup2\\n      sload\\n      dup2\\n      0xff\\n      mul\\n      not\\n      and\\n      swap1\\n      dup4\\n      iszero\\n      iszero\\n      mul\\n      or\\n      swap1\\n      sstore\\n      pop\\n        /* \\\"patient.sol\\\":202:451  function giveWritePermission(address writer) public{... */\\n      pop\\n      jump\\t// out\\n        /* \\\"patient.sol\\\":461:708  function revokeWritePermission(address writer) public{... */\\n    tag_11:\\n        /* \\\"patient.sol\\\":546:560  patientAddress */\\n      0x00\\n      dup1\\n      swap1\\n      sload\\n      swap1\\n      0x0100\\n      exp\\n      swap1\\n      div\\n      0xffffffffffffffffffffffffffffffffffffffff\\n      and\\n        /* \\\"patient.sol\\\":532:560  msg.sender == patientAddress */\\n      0xffffffffffffffffffffffffffffffffffffffff\\n      and\\n        /* \\\"patient.sol\\\":532:542  msg.sender */\\n      caller\\n        /* \\\"patient.sol\\\":532:560  msg.sender == patientAddress */\\n      0xffffffffffffffffffffffffffffffffffffffff\\n      and\\n      eq\\n        /* \\\"patient.sol\\\":524:588  require(msg.sender == patientAddress, \\\"You don't have rights!!\\\") */\\n      tag_19\\n      jumpi\\n      mload(0x40)\\n      0x08c379a000000000000000000000000000000000000000000000000000000000\\n      dup2\\n      mstore\\n      0x04\\n      add\\n      dup1\\n      dup1\\n      0x20\\n      add\\n      dup3\\n      dup2\\n      sub\\n      dup3\\n      mstore\\n      0x17\\n      dup2\\n      mstore\\n      0x20\\n      add\\n      dup1\\n      0x596f7520646f6e27742068617665207269676874732121000000000000000000\\n      dup2\\n      mstore\\n      pop\\n      0x20\\n      add\\n      swap2\\n      pop\\n      pop\\n      mload(0x40)\\n      dup1\\n      swap2\\n      sub\\n      swap1\\n      revert\\n    tag_19:\\n        /* \\\"patient.sol\\\":627:631  true */\\n      0x01\\n        /* \\\"patient.sol\\\":606:631  canCreate[writer] == true */\\n      iszero\\n      iszero\\n        /* \\\"patient.sol\\\":606:615  canCreate */\\n      0x01\\n        /* \\\"patient.sol\\\":606:623  canCreate[writer] */\\n      0x00\\n        /* \\\"patient.sol\\\":616:622  writer */\\n      dup4\\n        /* \\\"patient.sol\\\":606:623  canCreate[writer] */\\n      0xffffffffffffffffffffffffffffffffffffffff\\n      and\\n      0xffffffffffffffffffffffffffffffffffffffff\\n      and\\n      dup2\\n      mstore\\n      0x20\\n      add\\n      swap1\\n      dup2\\n      mstore\\n      0x20\\n      add\\n      0x00\\n      keccak256\\n      0x00\\n      swap1\\n      sload\\n      swap1\\n      0x0100\\n      exp\\n      swap1\\n      div\\n      0xff\\n      and\\n        /* \\\"patient.sol\\\":606:631  canCreate[writer] == true */\\n      iszero\\n      iszero\\n      eq\\n        /* \\\"patient.sol\\\":598:666  require(canCreate[writer] == true, \\\"No need to revoke permission!!\\\") */\\n      tag_20\\n      jumpi\\n      mload(0x40)\\n      0x08c379a000000000000000000000000000000000000000000000000000000000\\n      dup2\\n      mstore\\n      0x04\\n      add\\n      dup1\\n      dup1\\n      0x20\\n      add\\n      dup3\\n      dup2\\n      sub\\n      dup3\\n      mstore\\n      0x1e\\n      dup2\\n      mstore\\n      0x20\\n      add\\n      dup1\\n      0x4e6f206e65656420746f207265766f6b65207065726d697373696f6e21210000\\n      dup2\\n      mstore\\n      pop\\n      0x20\\n      add\\n      swap2\\n      pop\\n      pop\\n      mload(0x40)\\n      dup1\\n      swap2\\n      sub\\n      swap1\\n      revert\\n    tag_20:\\n        /* \\\"patient.sol\\\":696:701  false */\\n      0x00\\n        /* \\\"patient.sol\\\":676:685  canCreate */\\n      0x01\\n        /* \\\"patient.sol\\\":676:693  canCreate[writer] */\\n      0x00\\n        /* \\\"patient.sol\\\":686:692  writer */\\n      dup4\\n        /* \\\"patient.sol\\\":676:693  canCreate[writer] */\\n      0xffffffffffffffffffffffffffffffffffffffff\\n      and\\n      0xffffffffffffffffffffffffffffffffffffffff\\n      and\\n      dup2\\n      mstore\\n      0x20\\n      add\\n      swap1\\n      dup2\\n      mstore\\n      0x20\\n      add\\n      0x00\\n      keccak256\\n      0x00\\n        /* \\\"patient.sol\\\":676:701  canCreate[writer] = false */\\n      0x0100\\n      exp\\n      dup2\\n      sload\\n      dup2\\n      0xff\\n      mul\\n      not\\n      and\\n      swap1\\n      dup4\\n      iszero\\n      iszero\\n      mul\\n      or\\n      swap1\\n      sstore\\n      pop\\n        /* \\\"patient.sol\\\":461:708  function revokeWritePermission(address writer) public{... */\\n      pop\\n      jump\\t// out\\n        /* \\\"patient.sol\\\":718:826  function canCreateRecords(address writer) public view returns(bool){... */\\n    tag_14:\\n        /* \\\"patient.sol\\\":780:784  bool */\\n      0x00\\n        /* \\\"patient.sol\\\":802:811  canCreate */\\n      0x01\\n        /* \\\"patient.sol\\\":802:819  canCreate[writer] */\\n      0x00\\n        /* \\\"patient.sol\\\":812:818  writer */\\n      dup4\\n        /* \\\"patient.sol\\\":802:819  canCreate[writer] */\\n      0xffffffffffffffffffffffffffffffffffffffff\\n      and\\n      0xffffffffffffffffffffffffffffffffffffffff\\n      and\\n      dup2\\n      mstore\\n      0x20\\n      add\\n      swap1\\n      dup2\\n      mstore\\n      0x20\\n      add\\n      0x00\\n      keccak256\\n      0x00\\n      swap1\\n      sload\\n      swap1\\n      0x0100\\n      exp\\n      swap1\\n      div\\n      0xff\\n      and\\n        /* \\\"patient.sol\\\":795:819  return canCreate[writer] */\\n      swap1\\n      pop\\n        /* \\\"patient.sol\\\":718:826  function canCreateRecords(address writer) public view returns(bool){... */\\n      swap2\\n      swap1\\n      pop\\n      jump\\t// out\\n    stop\\n    data_83863a80eead283e4fc35d38c562e82449de90f4387d2544c8c987a5edf117a7 596f7520616c726564792068617665207772697465207065726d697373696f6e2121\\n\\n    auxdata: 0xa165627a7a7230582092a75639f314372b7b0d3feec95e561c22f8bc8c5a646092b3deac18eac31a430029\\n}\\n\",\"bytecode\":{\"linkReferences\":{},\"object\":\"608060405234801561001057600080fd5b50336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550610576806100606000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c80636ca883e014610046578063d5357e0c1461008a578063e77f9871146100ce575b600080fd5b6100886004803603602081101561005c57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061012a565b005b6100cc600480360360208110156100a057600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506102ef565b005b610110600480360360208110156100e457600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506104d2565b604051808215151515815260200191505060405180910390f35b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16146101ec576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260178152602001807f596f7520646f6e2774206861766520726967687473212100000000000000000081525060200191505060405180910390fd5b60001515600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16151514610295576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260228152602001806105296022913960400191505060405180910390fd5b60018060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff02191690831515021790555050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16146103b1576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260178152602001807f596f7520646f6e2774206861766520726967687473212100000000000000000081525060200191505060405180910390fd5b60011515600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16151514610477576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601e8152602001807f4e6f206e65656420746f207265766f6b65207065726d697373696f6e2121000081525060200191505060405180910390fd5b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff02191690831515021790555050565b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16905091905056fe596f7520616c726564792068617665207772697465207065726d697373696f6e2121a165627a7a7230582092a75639f314372b7b0d3feec95e561c22f8bc8c5a646092b3deac18eac31a430029\",\"opcodes\":\"PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH2 0x10 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP CALLER PUSH1 0x0 DUP1 PUSH2 0x100 EXP DUP2 SLOAD DUP2 PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF MUL NOT AND SWAP1 DUP4 PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND MUL OR SWAP1 SSTORE POP PUSH2 0x576 DUP1 PUSH2 0x60 PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH2 0x10 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH2 0x41 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x6CA883E0 EQ PUSH2 0x46 JUMPI DUP1 PUSH4 0xD5357E0C EQ PUSH2 0x8A JUMPI DUP1 PUSH4 0xE77F9871 EQ PUSH2 0xCE JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH2 0x88 PUSH1 0x4 DUP1 CALLDATASIZE SUB PUSH1 0x20 DUP2 LT ISZERO PUSH2 0x5C JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST DUP2 ADD SWAP1 DUP1 DUP1 CALLDATALOAD PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND SWAP1 PUSH1 0x20 ADD SWAP1 SWAP3 SWAP2 SWAP1 POP POP POP PUSH2 0x12A JUMP JUMPDEST STOP JUMPDEST PUSH2 0xCC PUSH1 0x4 DUP1 CALLDATASIZE SUB PUSH1 0x20 DUP2 LT ISZERO PUSH2 0xA0 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST DUP2 ADD SWAP1 DUP1 DUP1 CALLDATALOAD PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND SWAP1 PUSH1 0x20 ADD SWAP1 SWAP3 SWAP2 SWAP1 POP POP POP PUSH2 0x2EF JUMP JUMPDEST STOP JUMPDEST PUSH2 0x110 PUSH1 0x4 DUP1 CALLDATASIZE SUB PUSH1 0x20 DUP2 LT ISZERO PUSH2 0xE4 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST DUP2 ADD SWAP1 DUP1 DUP1 CALLDATALOAD PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND SWAP1 PUSH1 0x20 ADD SWAP1 SWAP3 SWAP2 SWAP1 POP POP POP PUSH2 0x4D2 JUMP JUMPDEST PUSH1 0x40 MLOAD DUP1 DUP3 ISZERO ISZERO ISZERO ISZERO DUP2 MSTORE PUSH1 0x20 ADD SWAP2 POP POP PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 RETURN JUMPDEST PUSH1 0x0 DUP1 SWAP1 SLOAD SWAP1 PUSH2 0x100 EXP SWAP1 DIV PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND CALLER PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND EQ PUSH2 0x1EC JUMPI PUSH1 0x40 MLOAD PUSH32 0x8C379A000000000000000000000000000000000000000000000000000000000 DUP2 MSTORE PUSH1 0x4 ADD DUP1 DUP1 PUSH1 0x20 ADD DUP3 DUP2 SUB DUP3 MSTORE PUSH1 0x17 DUP2 MSTORE PUSH1 0x20 ADD DUP1 PUSH32 0x596F7520646F6E27742068617665207269676874732121000000000000000000 DUP2 MSTORE POP PUSH1 0x20 ADD SWAP2 POP POP PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 REVERT JUMPDEST PUSH1 0x0 ISZERO ISZERO PUSH1 0x1 PUSH1 0x0 DUP4 PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND DUP2 MSTORE PUSH1 0x20 ADD SWAP1 DUP2 MSTORE PUSH1 0x20 ADD PUSH1 0x0 KECCAK256 PUSH1 0x0 SWAP1 SLOAD SWAP1 PUSH2 0x100 EXP SWAP1 DIV PUSH1 0xFF AND ISZERO ISZERO EQ PUSH2 0x295 JUMPI PUSH1 0x40 MLOAD PUSH32 0x8C379A000000000000000000000000000000000000000000000000000000000 DUP2 MSTORE PUSH1 0x4 ADD DUP1 DUP1 PUSH1 0x20 ADD DUP3 DUP2 SUB DUP3 MSTORE PUSH1 0x22 DUP2 MSTORE PUSH1 0x20 ADD DUP1 PUSH2 0x529 PUSH1 0x22 SWAP2 CODECOPY PUSH1 0x40 ADD SWAP2 POP POP PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 REVERT JUMPDEST PUSH1 0x1 DUP1 PUSH1 0x0 DUP4 PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND DUP2 MSTORE PUSH1 0x20 ADD SWAP1 DUP2 MSTORE PUSH1 0x20 ADD PUSH1 0x0 KECCAK256 PUSH1 0x0 PUSH2 0x100 EXP DUP2 SLOAD DUP2 PUSH1 0xFF MUL NOT AND SWAP1 DUP4 ISZERO ISZERO MUL OR SWAP1 SSTORE POP POP JUMP JUMPDEST PUSH1 0x0 DUP1 SWAP1 SLOAD SWAP1 PUSH2 0x100 EXP SWAP1 DIV PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND CALLER PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND EQ PUSH2 0x3B1 JUMPI PUSH1 0x40 MLOAD PUSH32 0x8C379A000000000000000000000000000000000000000000000000000000000 DUP2 MSTORE PUSH1 0x4 ADD DUP1 DUP1 PUSH1 0x20 ADD DUP3 DUP2 SUB DUP3 MSTORE PUSH1 0x17 DUP2 MSTORE PUSH1 0x20 ADD DUP1 PUSH32 0x596F7520646F6E27742068617665207269676874732121000000000000000000 DUP2 MSTORE POP PUSH1 0x20 ADD SWAP2 POP POP PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 REVERT JUMPDEST PUSH1 0x1 ISZERO ISZERO PUSH1 0x1 PUSH1 0x0 DUP4 PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND DUP2 MSTORE PUSH1 0x20 ADD SWAP1 DUP2 MSTORE PUSH1 0x20 ADD PUSH1 0x0 KECCAK256 PUSH1 0x0 SWAP1 SLOAD SWAP1 PUSH2 0x100 EXP SWAP1 DIV PUSH1 0xFF AND ISZERO ISZERO EQ PUSH2 0x477 JUMPI PUSH1 0x40 MLOAD PUSH32 0x8C379A000000000000000000000000000000000000000000000000000000000 DUP2 MSTORE PUSH1 0x4 ADD DUP1 DUP1 PUSH1 0x20 ADD DUP3 DUP2 SUB DUP3 MSTORE PUSH1 0x1E DUP2 MSTORE PUSH1 0x20 ADD DUP1 PUSH32 0x4E6F206E65656420746F207265766F6B65207065726D697373696F6E21210000 DUP2 MSTORE POP PUSH1 0x20 ADD SWAP2 POP POP PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 REVERT JUMPDEST PUSH1 0x0 PUSH1 0x1 PUSH1 0x0 DUP4 PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND DUP2 MSTORE PUSH1 0x20 ADD SWAP1 DUP2 MSTORE PUSH1 0x20 ADD PUSH1 0x0 KECCAK256 PUSH1 0x0 PUSH2 0x100 EXP DUP2 SLOAD DUP2 PUSH1 0xFF MUL NOT AND SWAP1 DUP4 ISZERO ISZERO MUL OR SWAP1 SSTORE POP POP JUMP JUMPDEST PUSH1 0x0 PUSH1 0x1 PUSH1 0x0 DUP4 PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND DUP2 MSTORE PUSH1 0x20 ADD SWAP1 DUP2 MSTORE PUSH1 0x20 ADD PUSH1 0x0 KECCAK256 PUSH1 0x0 SWAP1 SLOAD SWAP1 PUSH2 0x100 EXP SWAP1 DIV PUSH1 0xFF AND SWAP1 POP SWAP2 SWAP1 POP JUMP INVALID MSIZE PUSH16 0x7520616C726564792068617665207772 PUSH10 0x7465207065726D697373 PUSH10 0x6F6E2121A165627A7A72 ADDRESS PC KECCAK256 SWAP3 0xa7 JUMP CODECOPY RETURN EQ CALLDATACOPY 0x2b PUSH28 0xD3FEEC95E561C22F8BC8C5A646092B3DEAC18EAC31A430029000000 \",\"sourceMap\":\"25:809:0:-;;;127:65;8:9:-1;5:2;;;30:1;27;20:12;5:2;127:65:0;175:10;158:14;;:27;;;;;;;;;;;;;;;;;;25:809;;;;;;\"},\"deployedBytecode\":{\"linkReferences\":{},\"object\":\"608060405234801561001057600080fd5b50600436106100415760003560e01c80636ca883e014610046578063d5357e0c1461008a578063e77f9871146100ce575b600080fd5b6100886004803603602081101561005c57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061012a565b005b6100cc600480360360208110156100a057600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506102ef565b005b610110600480360360208110156100e457600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506104d2565b604051808215151515815260200191505060405180910390f35b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16146101ec576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260178152602001807f596f7520646f6e2774206861766520726967687473212100000000000000000081525060200191505060405180910390fd5b60001515600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16151514610295576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260228152602001806105296022913960400191505060405180910390fd5b60018060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff02191690831515021790555050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16146103b1576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260178152602001807f596f7520646f6e2774206861766520726967687473212100000000000000000081525060200191505060405180910390fd5b60011515600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16151514610477576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601e8152602001807f4e6f206e65656420746f207265766f6b65207065726d697373696f6e2121000081525060200191505060405180910390fd5b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff02191690831515021790555050565b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16905091905056fe596f7520616c726564792068617665207772697465207065726d697373696f6e2121a165627a7a7230582092a75639f314372b7b0d3feec95e561c22f8bc8c5a646092b3deac18eac31a430029\",\"opcodes\":\"PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH2 0x10 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH2 0x41 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x6CA883E0 EQ PUSH2 0x46 JUMPI DUP1 PUSH4 0xD5357E0C EQ PUSH2 0x8A JUMPI DUP1 PUSH4 0xE77F9871 EQ PUSH2 0xCE JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH2 0x88 PUSH1 0x4 DUP1 CALLDATASIZE SUB PUSH1 0x20 DUP2 LT ISZERO PUSH2 0x5C JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST DUP2 ADD SWAP1 DUP1 DUP1 CALLDATALOAD PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND SWAP1 PUSH1 0x20 ADD SWAP1 SWAP3 SWAP2 SWAP1 POP POP POP PUSH2 0x12A JUMP JUMPDEST STOP JUMPDEST PUSH2 0xCC PUSH1 0x4 DUP1 CALLDATASIZE SUB PUSH1 0x20 DUP2 LT ISZERO PUSH2 0xA0 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST DUP2 ADD SWAP1 DUP1 DUP1 CALLDATALOAD PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND SWAP1 PUSH1 0x20 ADD SWAP1 SWAP3 SWAP2 SWAP1 POP POP POP PUSH2 0x2EF JUMP JUMPDEST STOP JUMPDEST PUSH2 0x110 PUSH1 0x4 DUP1 CALLDATASIZE SUB PUSH1 0x20 DUP2 LT ISZERO PUSH2 0xE4 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST DUP2 ADD SWAP1 DUP1 DUP1 CALLDATALOAD PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND SWAP1 PUSH1 0x20 ADD SWAP1 SWAP3 SWAP2 SWAP1 POP POP POP PUSH2 0x4D2 JUMP JUMPDEST PUSH1 0x40 MLOAD DUP1 DUP3 ISZERO ISZERO ISZERO ISZERO DUP2 MSTORE PUSH1 0x20 ADD SWAP2 POP POP PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 RETURN JUMPDEST PUSH1 0x0 DUP1 SWAP1 SLOAD SWAP1 PUSH2 0x100 EXP SWAP1 DIV PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND CALLER PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND EQ PUSH2 0x1EC JUMPI PUSH1 0x40 MLOAD PUSH32 0x8C379A000000000000000000000000000000000000000000000000000000000 DUP2 MSTORE PUSH1 0x4 ADD DUP1 DUP1 PUSH1 0x20 ADD DUP3 DUP2 SUB DUP3 MSTORE PUSH1 0x17 DUP2 MSTORE PUSH1 0x20 ADD DUP1 PUSH32 0x596F7520646F6E27742068617665207269676874732121000000000000000000 DUP2 MSTORE POP PUSH1 0x20 ADD SWAP2 POP POP PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 REVERT JUMPDEST PUSH1 0x0 ISZERO ISZERO PUSH1 0x1 PUSH1 0x0 DUP4 PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND DUP2 MSTORE PUSH1 0x20 ADD SWAP1 DUP2 MSTORE PUSH1 0x20 ADD PUSH1 0x0 KECCAK256 PUSH1 0x0 SWAP1 SLOAD SWAP1 PUSH2 0x100 EXP SWAP1 DIV PUSH1 0xFF AND ISZERO ISZERO EQ PUSH2 0x295 JUMPI PUSH1 0x40 MLOAD PUSH32 0x8C379A000000000000000000000000000000000000000000000000000000000 DUP2 MSTORE PUSH1 0x4 ADD DUP1 DUP1 PUSH1 0x20 ADD DUP3 DUP2 SUB DUP3 MSTORE PUSH1 0x22 DUP2 MSTORE PUSH1 0x20 ADD DUP1 PUSH2 0x529 PUSH1 0x22 SWAP2 CODECOPY PUSH1 0x40 ADD SWAP2 POP POP PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 REVERT JUMPDEST PUSH1 0x1 DUP1 PUSH1 0x0 DUP4 PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND DUP2 MSTORE PUSH1 0x20 ADD SWAP1 DUP2 MSTORE PUSH1 0x20 ADD PUSH1 0x0 KECCAK256 PUSH1 0x0 PUSH2 0x100 EXP DUP2 SLOAD DUP2 PUSH1 0xFF MUL NOT AND SWAP1 DUP4 ISZERO ISZERO MUL OR SWAP1 SSTORE POP POP JUMP JUMPDEST PUSH1 0x0 DUP1 SWAP1 SLOAD SWAP1 PUSH2 0x100 EXP SWAP1 DIV PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND CALLER PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND EQ PUSH2 0x3B1 JUMPI PUSH1 0x40 MLOAD PUSH32 0x8C379A000000000000000000000000000000000000000000000000000000000 DUP2 MSTORE PUSH1 0x4 ADD DUP1 DUP1 PUSH1 0x20 ADD DUP3 DUP2 SUB DUP3 MSTORE PUSH1 0x17 DUP2 MSTORE PUSH1 0x20 ADD DUP1 PUSH32 0x596F7520646F6E27742068617665207269676874732121000000000000000000 DUP2 MSTORE POP PUSH1 0x20 ADD SWAP2 POP POP PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 REVERT JUMPDEST PUSH1 0x1 ISZERO ISZERO PUSH1 0x1 PUSH1 0x0 DUP4 PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND DUP2 MSTORE PUSH1 0x20 ADD SWAP1 DUP2 MSTORE PUSH1 0x20 ADD PUSH1 0x0 KECCAK256 PUSH1 0x0 SWAP1 SLOAD SWAP1 PUSH2 0x100 EXP SWAP1 DIV PUSH1 0xFF AND ISZERO ISZERO EQ PUSH2 0x477 JUMPI PUSH1 0x40 MLOAD PUSH32 0x8C379A000000000000000000000000000000000000000000000000000000000 DUP2 MSTORE PUSH1 0x4 ADD DUP1 DUP1 PUSH1 0x20 ADD DUP3 DUP2 SUB DUP3 MSTORE PUSH1 0x1E DUP2 MSTORE PUSH1 0x20 ADD DUP1 PUSH32 0x4E6F206E65656420746F207265766F6B65207065726D697373696F6E21210000 DUP2 MSTORE POP PUSH1 0x20 ADD SWAP2 POP POP PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 REVERT JUMPDEST PUSH1 0x0 PUSH1 0x1 PUSH1 0x0 DUP4 PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND DUP2 MSTORE PUSH1 0x20 ADD SWAP1 DUP2 MSTORE PUSH1 0x20 ADD PUSH1 0x0 KECCAK256 PUSH1 0x0 PUSH2 0x100 EXP DUP2 SLOAD DUP2 PUSH1 0xFF MUL NOT AND SWAP1 DUP4 ISZERO ISZERO MUL OR SWAP1 SSTORE POP POP JUMP JUMPDEST PUSH1 0x0 PUSH1 0x1 PUSH1 0x0 DUP4 PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND DUP2 MSTORE PUSH1 0x20 ADD SWAP1 DUP2 MSTORE PUSH1 0x20 ADD PUSH1 0x0 KECCAK256 PUSH1 0x0 SWAP1 SLOAD SWAP1 PUSH2 0x100 EXP SWAP1 DIV PUSH1 0xFF AND SWAP1 POP SWAP2 SWAP1 POP JUMP INVALID MSIZE PUSH16 0x7520616C726564792068617665207772 PUSH10 0x7465207065726D697373 PUSH10 0x6F6E2121A165627A7A72 ADDRESS PC KECCAK256 SWAP3 0xa7 JUMP CODECOPY RETURN EQ CALLDATACOPY 0x2b PUSH28 0xD3FEEC95E561C22F8BC8C5A646092B3DEAC18EAC31A430029000000 \",\"sourceMap\":\"25:809:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:809:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;202:249;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;202:249:0;;;;;;;;;;;;;;;;;;;:::i;:::-;;461:247;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;461:247:0;;;;;;;;;;;;;;;;;;;:::i;:::-;;718:108;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;718:108:0;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;202:249;285:14;;;;;;;;;;;271:28;;:10;:28;;;263:64;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;366:5;345:26;;:9;:17;355:6;345:17;;;;;;;;;;;;;;;;;;;;;;;;;:26;;;337:73;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;440:4;420:9;:17;430:6;420:17;;;;;;;;;;;;;;;;:24;;;;;;;;;;;;;;;;;;202:249;:::o;461:247::-;546:14;;;;;;;;;;;532:28;;:10;:28;;;524:64;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;627:4;606:25;;:9;:17;616:6;606:17;;;;;;;;;;;;;;;;;;;;;;;;;:25;;;598:68;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;696:5;676:9;:17;686:6;676:17;;;;;;;;;;;;;;;;:25;;;;;;;;;;;;;;;;;;461:247;:::o;718:108::-;780:4;802:9;:17;812:6;802:17;;;;;;;;;;;;;;;;;;;;;;;;;795:24;;718:108;;;:::o\"},\"gasEstimates\":{\"creation\":{\"codeDepositCost\":\"279600\",\"executionCost\":\"20584\",\"totalCost\":\"300184\"},\"external\":{\"canCreateRecords(address)\":\"666\",\"giveWritePermission(address)\":\"infinite\",\"revokeWritePermission(address)\":\"21222\"}},\"legacyAssembly\":{\".code\":[{\"begin\":25,\"end\":834,\"name\":\"PUSH\",\"value\":\"80\"},{\"begin\":25,\"end\":834,\"name\":\"PUSH\",\"value\":\"40\"},{\"begin\":25,\"end\":834,\"name\":\"MSTORE\"},{\"begin\":127,\"end\":192,\"name\":\"CALLVALUE\"},{\"begin\":8,\"end\":17,\"name\":\"DUP1\"},{\"begin\":5,\"end\":7,\"name\":\"ISZERO\"},{\"begin\":5,\"end\":7,\"name\":\"PUSH [tag]\",\"value\":\"1\"},{\"begin\":5,\"end\":7,\"name\":\"JUMPI\"},{\"begin\":30,\"end\":31,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":27,\"end\":28,\"name\":\"DUP1\"},{\"begin\":20,\"end\":32,\"name\":\"REVERT\"},{\"begin\":5,\"end\":7,\"name\":\"tag\",\"value\":\"1\"},{\"begin\":5,\"end\":7,\"name\":\"JUMPDEST\"},{\"begin\":127,\"end\":192,\"name\":\"POP\"},{\"begin\":175,\"end\":185,\"name\":\"CALLER\"},{\"begin\":158,\"end\":172,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":158,\"end\":172,\"name\":\"DUP1\"},{\"begin\":158,\"end\":185,\"name\":\"PUSH\",\"value\":\"100\"},{\"begin\":158,\"end\":185,\"name\":\"EXP\"},{\"begin\":158,\"end\":185,\"name\":\"DUP2\"},{\"begin\":158,\"end\":185,\"name\":\"SLOAD\"},{\"begin\":158,\"end\":185,\"name\":\"DUP2\"},{\"begin\":158,\"end\":185,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":158,\"end\":185,\"name\":\"MUL\"},{\"begin\":158,\"end\":185,\"name\":\"NOT\"},{\"begin\":158,\"end\":185,\"name\":\"AND\"},{\"begin\":158,\"end\":185,\"name\":\"SWAP1\"},{\"begin\":158,\"end\":185,\"name\":\"DUP4\"},{\"begin\":158,\"end\":185,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":158,\"end\":185,\"name\":\"AND\"},{\"begin\":158,\"end\":185,\"name\":\"MUL\"},{\"begin\":158,\"end\":185,\"name\":\"OR\"},{\"begin\":158,\"end\":185,\"name\":\"SWAP1\"},{\"begin\":158,\"end\":185,\"name\":\"SSTORE\"},{\"begin\":158,\"end\":185,\"name\":\"POP\"},{\"begin\":25,\"end\":834,\"name\":\"PUSH #[$]\",\"value\":\"0000000000000000000000000000000000000000000000000000000000000000\"},{\"begin\":25,\"end\":834,\"name\":\"DUP1\"},{\"begin\":25,\"end\":834,\"name\":\"PUSH [$]\",\"value\":\"0000000000000000000000000000000000000000000000000000000000000000\"},{\"begin\":25,\"end\":834,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":25,\"end\":834,\"name\":\"CODECOPY\"},{\"begin\":25,\"end\":834,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":25,\"end\":834,\"name\":\"RETURN\"}],\".data\":{\"0\":{\".auxdata\":\"a165627a7a7230582092a75639f314372b7b0d3feec95e561c22f8bc8c5a646092b3deac18eac31a430029\",\".code\":[{\"begin\":25,\"end\":834,\"name\":\"PUSH\",\"value\":\"80\"},{\"begin\":25,\"end\":834,\"name\":\"PUSH\",\"value\":\"40\"},{\"begin\":25,\"end\":834,\"name\":\"MSTORE\"},{\"begin\":25,\"end\":834,\"name\":\"CALLVALUE\"},{\"begin\":8,\"end\":17,\"name\":\"DUP1\"},{\"begin\":5,\"end\":7,\"name\":\"ISZERO\"},{\"begin\":5,\"end\":7,\"name\":\"PUSH [tag]\",\"value\":\"1\"},{\"begin\":5,\"end\":7,\"name\":\"JUMPI\"},{\"begin\":30,\"end\":31,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":27,\"end\":28,\"name\":\"DUP1\"},{\"begin\":20,\"end\":32,\"name\":\"REVERT\"},{\"begin\":5,\"end\":7,\"name\":\"tag\",\"value\":\"1\"},{\"begin\":5,\"end\":7,\"name\":\"JUMPDEST\"},{\"begin\":25,\"end\":834,\"name\":\"POP\"},{\"begin\":25,\"end\":834,\"name\":\"PUSH\",\"value\":\"4\"},{\"begin\":25,\"end\":834,\"name\":\"CALLDATASIZE\"},{\"begin\":25,\"end\":834,\"name\":\"LT\"},{\"begin\":25,\"end\":834,\"name\":\"PUSH [tag]\",\"value\":\"2\"},{\"begin\":25,\"end\":834,\"name\":\"JUMPI\"},{\"begin\":25,\"end\":834,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":25,\"end\":834,\"name\":\"CALLDATALOAD\"},{\"begin\":25,\"end\":834,\"name\":\"PUSH\",\"value\":\"E0\"},{\"begin\":25,\"end\":834,\"name\":\"SHR\"},{\"begin\":25,\"end\":834,\"name\":\"DUP1\"},{\"begin\":25,\"end\":834,\"name\":\"PUSH\",\"value\":\"6CA883E0\"},{\"begin\":25,\"end\":834,\"name\":\"EQ\"},{\"begin\":25,\"end\":834,\"name\":\"PUSH [tag]\",\"value\":\"3\"},{\"begin\":25,\"end\":834,\"name\":\"JUMPI\"},{\"begin\":25,\"end\":834,\"name\":\"DUP1\"},{\"begin\":25,\"end\":834,\"name\":\"PUSH\",\"value\":\"D5357E0C\"},{\"begin\":25,\"end\":834,\"name\":\"EQ\"},{\"begin\":25,\"end\":834,\"name\":\"PUSH [tag]\",\"value\":\"4\"},{\"begin\":25,\"end\":834,\"name\":\"JUMPI\"},{\"begin\":25,\"end\":834,\"name\":\"DUP1\"},{\"begin\":25,\"end\":834,\"name\":\"PUSH\",\"value\":\"E77F9871\"},{\"begin\":25,\"end\":834,\"name\":\"EQ\"},{\"begin\":25,\"end\":834,\"name\":\"PUSH [tag]\",\"value\":\"5\"},{\"begin\":25,\"end\":834,\"name\":\"JUMPI\"},{\"begin\":25,\"end\":834,\"name\":\"tag\",\"value\":\"2\"},{\"begin\":25,\"end\":834,\"name\":\"JUMPDEST\"},{\"begin\":25,\"end\":834,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":25,\"end\":834,\"name\":\"DUP1\"},{\"begin\":25,\"end\":834,\"name\":\"REVERT\"},{\"begin\":202,\"end\":451,\"name\":\"tag\",\"value\":\"3\"},{\"begin\":202,\"end\":451,\"name\":\"JUMPDEST\"},{\"begin\":202,\"end\":451,\"name\":\"PUSH [tag]\",\"value\":\"6\"},{\"begin\":202,\"end\":451,\"name\":\"PUSH\",\"value\":\"4\"},{\"begin\":202,\"end\":451,\"name\":\"DUP1\"},{\"begin\":202,\"end\":451,\"name\":\"CALLDATASIZE\"},{\"begin\":202,\"end\":451,\"name\":\"SUB\"},{\"begin\":13,\"end\":15,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":8,\"end\":11,\"name\":\"DUP2\"},{\"begin\":5,\"end\":16,\"name\":\"LT\"},{\"begin\":2,\"end\":4,\"name\":\"ISZERO\"},{\"begin\":2,\"end\":4,\"name\":\"PUSH [tag]\",\"value\":\"7\"},{\"begin\":2,\"end\":4,\"name\":\"JUMPI\"},{\"begin\":29,\"end\":30,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":26,\"end\":27,\"name\":\"DUP1\"},{\"begin\":19,\"end\":31,\"name\":\"REVERT\"},{\"begin\":2,\"end\":4,\"name\":\"tag\",\"value\":\"7\"},{\"begin\":2,\"end\":4,\"name\":\"JUMPDEST\"},{\"begin\":202,\"end\":451,\"name\":\"DUP2\"},{\"begin\":202,\"end\":451,\"name\":\"ADD\"},{\"begin\":202,\"end\":451,\"name\":\"SWAP1\"},{\"begin\":202,\"end\":451,\"name\":\"DUP1\"},{\"begin\":202,\"end\":451,\"name\":\"DUP1\"},{\"begin\":202,\"end\":451,\"name\":\"CALLDATALOAD\"},{\"begin\":202,\"end\":451,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":202,\"end\":451,\"name\":\"AND\"},{\"begin\":202,\"end\":451,\"name\":\"SWAP1\"},{\"begin\":202,\"end\":451,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":202,\"end\":451,\"name\":\"ADD\"},{\"begin\":202,\"end\":451,\"name\":\"SWAP1\"},{\"begin\":202,\"end\":451,\"name\":\"SWAP3\"},{\"begin\":202,\"end\":451,\"name\":\"SWAP2\"},{\"begin\":202,\"end\":451,\"name\":\"SWAP1\"},{\"begin\":202,\"end\":451,\"name\":\"POP\"},{\"begin\":202,\"end\":451,\"name\":\"POP\"},{\"begin\":202,\"end\":451,\"name\":\"POP\"},{\"begin\":202,\"end\":451,\"name\":\"PUSH [tag]\",\"value\":\"8\"},{\"begin\":202,\"end\":451,\"name\":\"JUMP\",\"value\":\"[in]\"},{\"begin\":202,\"end\":451,\"name\":\"tag\",\"value\":\"6\"},{\"begin\":202,\"end\":451,\"name\":\"JUMPDEST\"},{\"begin\":202,\"end\":451,\"name\":\"STOP\"},{\"begin\":461,\"end\":708,\"name\":\"tag\",\"value\":\"4\"},{\"begin\":461,\"end\":708,\"name\":\"JUMPDEST\"},{\"begin\":461,\"end\":708,\"name\":\"PUSH [tag]\",\"value\":\"9\"},{\"begin\":461,\"end\":708,\"name\":\"PUSH\",\"value\":\"4\"},{\"begin\":461,\"end\":708,\"name\":\"DUP1\"},{\"begin\":461,\"end\":708,\"name\":\"CALLDATASIZE\"},{\"begin\":461,\"end\":708,\"name\":\"SUB\"},{\"begin\":13,\"end\":15,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":8,\"end\":11,\"name\":\"DUP2\"},{\"begin\":5,\"end\":16,\"name\":\"LT\"},{\"begin\":2,\"end\":4,\"name\":\"ISZERO\"},{\"begin\":2,\"end\":4,\"name\":\"PUSH [tag]\",\"value\":\"10\"},{\"begin\":2,\"end\":4,\"name\":\"JUMPI\"},{\"begin\":29,\"end\":30,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":26,\"end\":27,\"name\":\"DUP1\"},{\"begin\":19,\"end\":31,\"name\":\"REVERT\"},{\"begin\":2,\"end\":4,\"name\":\"tag\",\"value\":\"10\"},{\"begin\":2,\"end\":4,\"name\":\"JUMPDEST\"},{\"begin\":461,\"end\":708,\"name\":\"DUP2\"},{\"begin\":461,\"end\":708,\"name\":\"ADD\"},{\"begin\":461,\"end\":708,\"name\":\"SWAP1\"},{\"begin\":461,\"end\":708,\"name\":\"DUP1\"},{\"begin\":461,\"end\":708,\"name\":\"DUP1\"},{\"begin\":461,\"end\":708,\"name\":\"CALLDATALOAD\"},{\"begin\":461,\"end\":708,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":461,\"end\":708,\"name\":\"AND\"},{\"begin\":461,\"end\":708,\"name\":\"SWAP1\"},{\"begin\":461,\"end\":708,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":461,\"end\":708,\"name\":\"ADD\"},{\"begin\":461,\"end\":708,\"name\":\"SWAP1\"},{\"begin\":461,\"end\":708,\"name\":\"SWAP3\"},{\"begin\":461,\"end\":708,\"name\":\"SWAP2\"},{\"begin\":461,\"end\":708,\"name\":\"SWAP1\"},{\"begin\":461,\"end\":708,\"name\":\"POP\"},{\"begin\":461,\"end\":708,\"name\":\"POP\"},{\"begin\":461,\"end\":708,\"name\":\"POP\"},{\"begin\":461,\"end\":708,\"name\":\"PUSH [tag]\",\"value\":\"11\"},{\"begin\":461,\"end\":708,\"name\":\"JUMP\",\"value\":\"[in]\"},{\"begin\":461,\"end\":708,\"name\":\"tag\",\"value\":\"9\"},{\"begin\":461,\"end\":708,\"name\":\"JUMPDEST\"},{\"begin\":461,\"end\":708,\"name\":\"STOP\"},{\"begin\":718,\"end\":826,\"name\":\"tag\",\"value\":\"5\"},{\"begin\":718,\"end\":826,\"name\":\"JUMPDEST\"},{\"begin\":718,\"end\":826,\"name\":\"PUSH [tag]\",\"value\":\"12\"},{\"begin\":718,\"end\":826,\"name\":\"PUSH\",\"value\":\"4\"},{\"begin\":718,\"end\":826,\"name\":\"DUP1\"},{\"begin\":718,\"end\":826,\"name\":\"CALLDATASIZE\"},{\"begin\":718,\"end\":826,\"name\":\"SUB\"},{\"begin\":13,\"end\":15,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":8,\"end\":11,\"name\":\"DUP2\"},{\"begin\":5,\"end\":16,\"name\":\"LT\"},{\"begin\":2,\"end\":4,\"name\":\"ISZERO\"},{\"begin\":2,\"end\":4,\"name\":\"PUSH [tag]\",\"value\":\"13\"},{\"begin\":2,\"end\":4,\"name\":\"JUMPI\"},{\"begin\":29,\"end\":30,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":26,\"end\":27,\"name\":\"DUP1\"},{\"begin\":19,\"end\":31,\"name\":\"REVERT\"},{\"begin\":2,\"end\":4,\"name\":\"tag\",\"value\":\"13\"},{\"begin\":2,\"end\":4,\"name\":\"JUMPDEST\"},{\"begin\":718,\"end\":826,\"name\":\"DUP2\"},{\"begin\":718,\"end\":826,\"name\":\"ADD\"},{\"begin\":718,\"end\":826,\"name\":\"SWAP1\"},{\"begin\":718,\"end\":826,\"name\":\"DUP1\"},{\"begin\":718,\"end\":826,\"name\":\"DUP1\"},{\"begin\":718,\"end\":826,\"name\":\"CALLDATALOAD\"},{\"begin\":718,\"end\":826,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":718,\"end\":826,\"name\":\"AND\"},{\"begin\":718,\"end\":826,\"name\":\"SWAP1\"},{\"begin\":718,\"end\":826,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":718,\"end\":826,\"name\":\"ADD\"},{\"begin\":718,\"end\":826,\"name\":\"SWAP1\"},{\"begin\":718,\"end\":826,\"name\":\"SWAP3\"},{\"begin\":718,\"end\":826,\"name\":\"SWAP2\"},{\"begin\":718,\"end\":826,\"name\":\"SWAP1\"},{\"begin\":718,\"end\":826,\"name\":\"POP\"},{\"begin\":718,\"end\":826,\"name\":\"POP\"},{\"begin\":718,\"end\":826,\"name\":\"POP\"},{\"begin\":718,\"end\":826,\"name\":\"PUSH [tag]\",\"value\":\"14\"},{\"begin\":718,\"end\":826,\"name\":\"JUMP\",\"value\":\"[in]\"},{\"begin\":718,\"end\":826,\"name\":\"tag\",\"value\":\"12\"},{\"begin\":718,\"end\":826,\"name\":\"JUMPDEST\"},{\"begin\":718,\"end\":826,\"name\":\"PUSH\",\"value\":\"40\"},{\"begin\":718,\"end\":826,\"name\":\"MLOAD\"},{\"begin\":718,\"end\":826,\"name\":\"DUP1\"},{\"begin\":718,\"end\":826,\"name\":\"DUP3\"},{\"begin\":718,\"end\":826,\"name\":\"ISZERO\"},{\"begin\":718,\"end\":826,\"name\":\"ISZERO\"},{\"begin\":718,\"end\":826,\"name\":\"ISZERO\"},{\"begin\":718,\"end\":826,\"name\":\"ISZERO\"},{\"begin\":718,\"end\":826,\"name\":\"DUP2\"},{\"begin\":718,\"end\":826,\"name\":\"MSTORE\"},{\"begin\":718,\"end\":826,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":718,\"end\":826,\"name\":\"ADD\"},{\"begin\":718,\"end\":826,\"name\":\"SWAP2\"},{\"begin\":718,\"end\":826,\"name\":\"POP\"},{\"begin\":718,\"end\":826,\"name\":\"POP\"},{\"begin\":718,\"end\":826,\"name\":\"PUSH\",\"value\":\"40\"},{\"begin\":718,\"end\":826,\"name\":\"MLOAD\"},{\"begin\":718,\"end\":826,\"name\":\"DUP1\"},{\"begin\":718,\"end\":826,\"name\":\"SWAP2\"},{\"begin\":718,\"end\":826,\"name\":\"SUB\"},{\"begin\":718,\"end\":826,\"name\":\"SWAP1\"},{\"begin\":718,\"end\":826,\"name\":\"RETURN\"},{\"begin\":202,\"end\":451,\"name\":\"tag\",\"value\":\"8\"},{\"begin\":202,\"end\":451,\"name\":\"JUMPDEST\"},{\"begin\":285,\"end\":299,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":285,\"end\":299,\"name\":\"DUP1\"},{\"begin\":285,\"end\":299,\"name\":\"SWAP1\"},{\"begin\":285,\"end\":299,\"name\":\"SLOAD\"},{\"begin\":285,\"end\":299,\"name\":\"SWAP1\"},{\"begin\":285,\"end\":299,\"name\":\"PUSH\",\"value\":\"100\"},{\"begin\":285,\"end\":299,\"name\":\"EXP\"},{\"begin\":285,\"end\":299,\"name\":\"SWAP1\"},{\"begin\":285,\"end\":299,\"name\":\"DIV\"},{\"begin\":285,\"end\":299,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":285,\"end\":299,\"name\":\"AND\"},{\"begin\":271,\"end\":299,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":271,\"end\":299,\"name\":\"AND\"},{\"begin\":271,\"end\":281,\"name\":\"CALLER\"},{\"begin\":271,\"end\":299,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":271,\"end\":299,\"name\":\"AND\"},{\"begin\":271,\"end\":299,\"name\":\"EQ\"},{\"begin\":263,\"end\":327,\"name\":\"PUSH [tag]\",\"value\":\"16\"},{\"begin\":263,\"end\":327,\"name\":\"JUMPI\"},{\"begin\":263,\"end\":327,\"name\":\"PUSH\",\"value\":\"40\"},{\"begin\":263,\"end\":327,\"name\":\"MLOAD\"},{\"begin\":263,\"end\":327,\"name\":\"PUSH\",\"value\":\"8C379A000000000000000000000000000000000000000000000000000000000\"},{\"begin\":263,\"end\":327,\"name\":\"DUP2\"},{\"begin\":263,\"end\":327,\"name\":\"MSTORE\"},{\"begin\":263,\"end\":327,\"name\":\"PUSH\",\"value\":\"4\"},{\"begin\":263,\"end\":327,\"name\":\"ADD\"},{\"begin\":263,\"end\":327,\"name\":\"DUP1\"},{\"begin\":263,\"end\":327,\"name\":\"DUP1\"},{\"begin\":263,\"end\":327,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":263,\"end\":327,\"name\":\"ADD\"},{\"begin\":263,\"end\":327,\"name\":\"DUP3\"},{\"begin\":263,\"end\":327,\"name\":\"DUP2\"},{\"begin\":263,\"end\":327,\"name\":\"SUB\"},{\"begin\":263,\"end\":327,\"name\":\"DUP3\"},{\"begin\":263,\"end\":327,\"name\":\"MSTORE\"},{\"begin\":263,\"end\":327,\"name\":\"PUSH\",\"value\":\"17\"},{\"begin\":263,\"end\":327,\"name\":\"DUP2\"},{\"begin\":263,\"end\":327,\"name\":\"MSTORE\"},{\"begin\":263,\"end\":327,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":263,\"end\":327,\"name\":\"ADD\"},{\"begin\":263,\"end\":327,\"name\":\"DUP1\"},{\"begin\":263,\"end\":327,\"name\":\"PUSH\",\"value\":\"596F7520646F6E27742068617665207269676874732121000000000000000000\"},{\"begin\":263,\"end\":327,\"name\":\"DUP2\"},{\"begin\":263,\"end\":327,\"name\":\"MSTORE\"},{\"begin\":263,\"end\":327,\"name\":\"POP\"},{\"begin\":263,\"end\":327,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":263,\"end\":327,\"name\":\"ADD\"},{\"begin\":263,\"end\":327,\"name\":\"SWAP2\"},{\"begin\":263,\"end\":327,\"name\":\"POP\"},{\"begin\":263,\"end\":327,\"name\":\"POP\"},{\"begin\":263,\"end\":327,\"name\":\"PUSH\",\"value\":\"40\"},{\"begin\":263,\"end\":327,\"name\":\"MLOAD\"},{\"begin\":263,\"end\":327,\"name\":\"DUP1\"},{\"begin\":263,\"end\":327,\"name\":\"SWAP2\"},{\"begin\":263,\"end\":327,\"name\":\"SUB\"},{\"begin\":263,\"end\":327,\"name\":\"SWAP1\"},{\"begin\":263,\"end\":327,\"name\":\"REVERT\"},{\"begin\":263,\"end\":327,\"name\":\"tag\",\"value\":\"16\"},{\"begin\":263,\"end\":327,\"name\":\"JUMPDEST\"},{\"begin\":366,\"end\":371,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":345,\"end\":371,\"name\":\"ISZERO\"},{\"begin\":345,\"end\":371,\"name\":\"ISZERO\"},{\"begin\":345,\"end\":354,\"name\":\"PUSH\",\"value\":\"1\"},{\"begin\":345,\"end\":362,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":355,\"end\":361,\"name\":\"DUP4\"},{\"begin\":345,\"end\":362,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":345,\"end\":362,\"name\":\"AND\"},{\"begin\":345,\"end\":362,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":345,\"end\":362,\"name\":\"AND\"},{\"begin\":345,\"end\":362,\"name\":\"DUP2\"},{\"begin\":345,\"end\":362,\"name\":\"MSTORE\"},{\"begin\":345,\"end\":362,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":345,\"end\":362,\"name\":\"ADD\"},{\"begin\":345,\"end\":362,\"name\":\"SWAP1\"},{\"begin\":345,\"end\":362,\"name\":\"DUP2\"},{\"begin\":345,\"end\":362,\"name\":\"MSTORE\"},{\"begin\":345,\"end\":362,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":345,\"end\":362,\"name\":\"ADD\"},{\"begin\":345,\"end\":362,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":345,\"end\":362,\"name\":\"KECCAK256\"},{\"begin\":345,\"end\":362,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":345,\"end\":362,\"name\":\"SWAP1\"},{\"begin\":345,\"end\":362,\"name\":\"SLOAD\"},{\"begin\":345,\"end\":362,\"name\":\"SWAP1\"},{\"begin\":345,\"end\":362,\"name\":\"PUSH\",\"value\":\"100\"},{\"begin\":345,\"end\":362,\"name\":\"EXP\"},{\"begin\":345,\"end\":362,\"name\":\"SWAP1\"},{\"begin\":345,\"end\":362,\"name\":\"DIV\"},{\"begin\":345,\"end\":362,\"name\":\"PUSH\",\"value\":\"FF\"},{\"begin\":345,\"end\":362,\"name\":\"AND\"},{\"begin\":345,\"end\":371,\"name\":\"ISZERO\"},{\"begin\":345,\"end\":371,\"name\":\"ISZERO\"},{\"begin\":345,\"end\":371,\"name\":\"EQ\"},{\"begin\":337,\"end\":410,\"name\":\"PUSH [tag]\",\"value\":\"17\"},{\"begin\":337,\"end\":410,\"name\":\"JUMPI\"},{\"begin\":337,\"end\":410,\"name\":\"PUSH\",\"value\":\"40\"},{\"begin\":337,\"end\":410,\"name\":\"MLOAD\"},{\"begin\":337,\"end\":410,\"name\":\"PUSH\",\"value\":\"8C379A000000000000000000000000000000000000000000000000000000000\"},{\"begin\":337,\"end\":410,\"name\":\"DUP2\"},{\"begin\":337,\"end\":410,\"name\":\"MSTORE\"},{\"begin\":337,\"end\":410,\"name\":\"PUSH\",\"value\":\"4\"},{\"begin\":337,\"end\":410,\"name\":\"ADD\"},{\"begin\":337,\"end\":410,\"name\":\"DUP1\"},{\"begin\":337,\"end\":410,\"name\":\"DUP1\"},{\"begin\":337,\"end\":410,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":337,\"end\":410,\"name\":\"ADD\"},{\"begin\":337,\"end\":410,\"name\":\"DUP3\"},{\"begin\":337,\"end\":410,\"name\":\"DUP2\"},{\"begin\":337,\"end\":410,\"name\":\"SUB\"},{\"begin\":337,\"end\":410,\"name\":\"DUP3\"},{\"begin\":337,\"end\":410,\"name\":\"MSTORE\"},{\"begin\":337,\"end\":410,\"name\":\"PUSH\",\"value\":\"22\"},{\"begin\":337,\"end\":410,\"name\":\"DUP2\"},{\"begin\":337,\"end\":410,\"name\":\"MSTORE\"},{\"begin\":337,\"end\":410,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":337,\"end\":410,\"name\":\"ADD\"},{\"begin\":337,\"end\":410,\"name\":\"DUP1\"},{\"begin\":337,\"end\":410,\"name\":\"PUSH data\",\"value\":\"83863A80EEAD283E4FC35D38C562E82449DE90F4387D2544C8C987A5EDF117A7\"},{\"begin\":337,\"end\":410,\"name\":\"PUSH\",\"value\":\"22\"},{\"begin\":337,\"end\":410,\"name\":\"SWAP2\"},{\"begin\":337,\"end\":410,\"name\":\"CODECOPY\"},{\"begin\":337,\"end\":410,\"name\":\"PUSH\",\"value\":\"40\"},{\"begin\":337,\"end\":410,\"name\":\"ADD\"},{\"begin\":337,\"end\":410,\"name\":\"SWAP2\"},{\"begin\":337,\"end\":410,\"name\":\"POP\"},{\"begin\":337,\"end\":410,\"name\":\"POP\"},{\"begin\":337,\"end\":410,\"name\":\"PUSH\",\"value\":\"40\"},{\"begin\":337,\"end\":410,\"name\":\"MLOAD\"},{\"begin\":337,\"end\":410,\"name\":\"DUP1\"},{\"begin\":337,\"end\":410,\"name\":\"SWAP2\"},{\"begin\":337,\"end\":410,\"name\":\"SUB\"},{\"begin\":337,\"end\":410,\"name\":\"SWAP1\"},{\"begin\":337,\"end\":410,\"name\":\"REVERT\"},{\"begin\":337,\"end\":410,\"name\":\"tag\",\"value\":\"17\"},{\"begin\":337,\"end\":410,\"name\":\"JUMPDEST\"},{\"begin\":440,\"end\":444,\"name\":\"PUSH\",\"value\":\"1\"},{\"begin\":420,\"end\":429,\"name\":\"DUP1\"},{\"begin\":420,\"end\":437,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":430,\"end\":436,\"name\":\"DUP4\"},{\"begin\":420,\"end\":437,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":420,\"end\":437,\"name\":\"AND\"},{\"begin\":420,\"end\":437,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":420,\"end\":437,\"name\":\"AND\"},{\"begin\":420,\"end\":437,\"name\":\"DUP2\"},{\"begin\":420,\"end\":437,\"name\":\"MSTORE\"},{\"begin\":420,\"end\":437,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":420,\"end\":437,\"name\":\"ADD\"},{\"begin\":420,\"end\":437,\"name\":\"SWAP1\"},{\"begin\":420,\"end\":437,\"name\":\"DUP2\"},{\"begin\":420,\"end\":437,\"name\":\"MSTORE\"},{\"begin\":420,\"end\":437,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":420,\"end\":437,\"name\":\"ADD\"},{\"begin\":420,\"end\":437,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":420,\"end\":437,\"name\":\"KECCAK256\"},{\"begin\":420,\"end\":437,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":420,\"end\":444,\"name\":\"PUSH\",\"value\":\"100\"},{\"begin\":420,\"end\":444,\"name\":\"EXP\"},{\"begin\":420,\"end\":444,\"name\":\"DUP2\"},{\"begin\":420,\"end\":444,\"name\":\"SLOAD\"},{\"begin\":420,\"end\":444,\"name\":\"DUP2\"},{\"begin\":420,\"end\":444,\"name\":\"PUSH\",\"value\":\"FF\"},{\"begin\":420,\"end\":444,\"name\":\"MUL\"},{\"begin\":420,\"end\":444,\"name\":\"NOT\"},{\"begin\":420,\"end\":444,\"name\":\"AND\"},{\"begin\":420,\"end\":444,\"name\":\"SWAP1\"},{\"begin\":420,\"end\":444,\"name\":\"DUP4\"},{\"begin\":420,\"end\":444,\"name\":\"ISZERO\"},{\"begin\":420,\"end\":444,\"name\":\"ISZERO\"},{\"begin\":420,\"end\":444,\"name\":\"MUL\"},{\"begin\":420,\"end\":444,\"name\":\"OR\"},{\"begin\":420,\"end\":444,\"name\":\"SWAP1\"},{\"begin\":420,\"end\":444,\"name\":\"SSTORE\"},{\"begin\":420,\"end\":444,\"name\":\"POP\"},{\"begin\":202,\"end\":451,\"name\":\"POP\"},{\"begin\":202,\"end\":451,\"name\":\"JUMP\",\"value\":\"[out]\"},{\"begin\":461,\"end\":708,\"name\":\"tag\",\"value\":\"11\"},{\"begin\":461,\"end\":708,\"name\":\"JUMPDEST\"},{\"begin\":546,\"end\":560,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":546,\"end\":560,\"name\":\"DUP1\"},{\"begin\":546,\"end\":560,\"name\":\"SWAP1\"},{\"begin\":546,\"end\":560,\"name\":\"SLOAD\"},{\"begin\":546,\"end\":560,\"name\":\"SWAP1\"},{\"begin\":546,\"end\":560,\"name\":\"PUSH\",\"value\":\"100\"},{\"begin\":546,\"end\":560,\"name\":\"EXP\"},{\"begin\":546,\"end\":560,\"name\":\"SWAP1\"},{\"begin\":546,\"end\":560,\"name\":\"DIV\"},{\"begin\":546,\"end\":560,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":546,\"end\":560,\"name\":\"AND\"},{\"begin\":532,\"end\":560,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":532,\"end\":560,\"name\":\"AND\"},{\"begin\":532,\"end\":542,\"name\":\"CALLER\"},{\"begin\":532,\"end\":560,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":532,\"end\":560,\"name\":\"AND\"},{\"begin\":532,\"end\":560,\"name\":\"EQ\"},{\"begin\":524,\"end\":588,\"name\":\"PUSH [tag]\",\"value\":\"19\"},{\"begin\":524,\"end\":588,\"name\":\"JUMPI\"},{\"begin\":524,\"end\":588,\"name\":\"PUSH\",\"value\":\"40\"},{\"begin\":524,\"end\":588,\"name\":\"MLOAD\"},{\"begin\":524,\"end\":588,\"name\":\"PUSH\",\"value\":\"8C379A000000000000000000000000000000000000000000000000000000000\"},{\"begin\":524,\"end\":588,\"name\":\"DUP2\"},{\"begin\":524,\"end\":588,\"name\":\"MSTORE\"},{\"begin\":524,\"end\":588,\"name\":\"PUSH\",\"value\":\"4\"},{\"begin\":524,\"end\":588,\"name\":\"ADD\"},{\"begin\":524,\"end\":588,\"name\":\"DUP1\"},{\"begin\":524,\"end\":588,\"name\":\"DUP1\"},{\"begin\":524,\"end\":588,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":524,\"end\":588,\"name\":\"ADD\"},{\"begin\":524,\"end\":588,\"name\":\"DUP3\"},{\"begin\":524,\"end\":588,\"name\":\"DUP2\"},{\"begin\":524,\"end\":588,\"name\":\"SUB\"},{\"begin\":524,\"end\":588,\"name\":\"DUP3\"},{\"begin\":524,\"end\":588,\"name\":\"MSTORE\"},{\"begin\":524,\"end\":588,\"name\":\"PUSH\",\"value\":\"17\"},{\"begin\":524,\"end\":588,\"name\":\"DUP2\"},{\"begin\":524,\"end\":588,\"name\":\"MSTORE\"},{\"begin\":524,\"end\":588,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":524,\"end\":588,\"name\":\"ADD\"},{\"begin\":524,\"end\":588,\"name\":\"DUP1\"},{\"begin\":524,\"end\":588,\"name\":\"PUSH\",\"value\":\"596F7520646F6E27742068617665207269676874732121000000000000000000\"},{\"begin\":524,\"end\":588,\"name\":\"DUP2\"},{\"begin\":524,\"end\":588,\"name\":\"MSTORE\"},{\"begin\":524,\"end\":588,\"name\":\"POP\"},{\"begin\":524,\"end\":588,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":524,\"end\":588,\"name\":\"ADD\"},{\"begin\":524,\"end\":588,\"name\":\"SWAP2\"},{\"begin\":524,\"end\":588,\"name\":\"POP\"},{\"begin\":524,\"end\":588,\"name\":\"POP\"},{\"begin\":524,\"end\":588,\"name\":\"PUSH\",\"value\":\"40\"},{\"begin\":524,\"end\":588,\"name\":\"MLOAD\"},{\"begin\":524,\"end\":588,\"name\":\"DUP1\"},{\"begin\":524,\"end\":588,\"name\":\"SWAP2\"},{\"begin\":524,\"end\":588,\"name\":\"SUB\"},{\"begin\":524,\"end\":588,\"name\":\"SWAP1\"},{\"begin\":524,\"end\":588,\"name\":\"REVERT\"},{\"begin\":524,\"end\":588,\"name\":\"tag\",\"value\":\"19\"},{\"begin\":524,\"end\":588,\"name\":\"JUMPDEST\"},{\"begin\":627,\"end\":631,\"name\":\"PUSH\",\"value\":\"1\"},{\"begin\":606,\"end\":631,\"name\":\"ISZERO\"},{\"begin\":606,\"end\":631,\"name\":\"ISZERO\"},{\"begin\":606,\"end\":615,\"name\":\"PUSH\",\"value\":\"1\"},{\"begin\":606,\"end\":623,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":616,\"end\":622,\"name\":\"DUP4\"},{\"begin\":606,\"end\":623,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":606,\"end\":623,\"name\":\"AND\"},{\"begin\":606,\"end\":623,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":606,\"end\":623,\"name\":\"AND\"},{\"begin\":606,\"end\":623,\"name\":\"DUP2\"},{\"begin\":606,\"end\":623,\"name\":\"MSTORE\"},{\"begin\":606,\"end\":623,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":606,\"end\":623,\"name\":\"ADD\"},{\"begin\":606,\"end\":623,\"name\":\"SWAP1\"},{\"begin\":606,\"end\":623,\"name\":\"DUP2\"},{\"begin\":606,\"end\":623,\"name\":\"MSTORE\"},{\"begin\":606,\"end\":623,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":606,\"end\":623,\"name\":\"ADD\"},{\"begin\":606,\"end\":623,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":606,\"end\":623,\"name\":\"KECCAK256\"},{\"begin\":606,\"end\":623,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":606,\"end\":623,\"name\":\"SWAP1\"},{\"begin\":606,\"end\":623,\"name\":\"SLOAD\"},{\"begin\":606,\"end\":623,\"name\":\"SWAP1\"},{\"begin\":606,\"end\":623,\"name\":\"PUSH\",\"value\":\"100\"},{\"begin\":606,\"end\":623,\"name\":\"EXP\"},{\"begin\":606,\"end\":623,\"name\":\"SWAP1\"},{\"begin\":606,\"end\":623,\"name\":\"DIV\"},{\"begin\":606,\"end\":623,\"name\":\"PUSH\",\"value\":\"FF\"},{\"begin\":606,\"end\":623,\"name\":\"AND\"},{\"begin\":606,\"end\":631,\"name\":\"ISZERO\"},{\"begin\":606,\"end\":631,\"name\":\"ISZERO\"},{\"begin\":606,\"end\":631,\"name\":\"EQ\"},{\"begin\":598,\"end\":666,\"name\":\"PUSH [tag]\",\"value\":\"20\"},{\"begin\":598,\"end\":666,\"name\":\"JUMPI\"},{\"begin\":598,\"end\":666,\"name\":\"PUSH\",\"value\":\"40\"},{\"begin\":598,\"end\":666,\"name\":\"MLOAD\"},{\"begin\":598,\"end\":666,\"name\":\"PUSH\",\"value\":\"8C379A000000000000000000000000000000000000000000000000000000000\"},{\"begin\":598,\"end\":666,\"name\":\"DUP2\"},{\"begin\":598,\"end\":666,\"name\":\"MSTORE\"},{\"begin\":598,\"end\":666,\"name\":\"PUSH\",\"value\":\"4\"},{\"begin\":598,\"end\":666,\"name\":\"ADD\"},{\"begin\":598,\"end\":666,\"name\":\"DUP1\"},{\"begin\":598,\"end\":666,\"name\":\"DUP1\"},{\"begin\":598,\"end\":666,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":598,\"end\":666,\"name\":\"ADD\"},{\"begin\":598,\"end\":666,\"name\":\"DUP3\"},{\"begin\":598,\"end\":666,\"name\":\"DUP2\"},{\"begin\":598,\"end\":666,\"name\":\"SUB\"},{\"begin\":598,\"end\":666,\"name\":\"DUP3\"},{\"begin\":598,\"end\":666,\"name\":\"MSTORE\"},{\"begin\":598,\"end\":666,\"name\":\"PUSH\",\"value\":\"1E\"},{\"begin\":598,\"end\":666,\"name\":\"DUP2\"},{\"begin\":598,\"end\":666,\"name\":\"MSTORE\"},{\"begin\":598,\"end\":666,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":598,\"end\":666,\"name\":\"ADD\"},{\"begin\":598,\"end\":666,\"name\":\"DUP1\"},{\"begin\":598,\"end\":666,\"name\":\"PUSH\",\"value\":\"4E6F206E65656420746F207265766F6B65207065726D697373696F6E21210000\"},{\"begin\":598,\"end\":666,\"name\":\"DUP2\"},{\"begin\":598,\"end\":666,\"name\":\"MSTORE\"},{\"begin\":598,\"end\":666,\"name\":\"POP\"},{\"begin\":598,\"end\":666,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":598,\"end\":666,\"name\":\"ADD\"},{\"begin\":598,\"end\":666,\"name\":\"SWAP2\"},{\"begin\":598,\"end\":666,\"name\":\"POP\"},{\"begin\":598,\"end\":666,\"name\":\"POP\"},{\"begin\":598,\"end\":666,\"name\":\"PUSH\",\"value\":\"40\"},{\"begin\":598,\"end\":666,\"name\":\"MLOAD\"},{\"begin\":598,\"end\":666,\"name\":\"DUP1\"},{\"begin\":598,\"end\":666,\"name\":\"SWAP2\"},{\"begin\":598,\"end\":666,\"name\":\"SUB\"},{\"begin\":598,\"end\":666,\"name\":\"SWAP1\"},{\"begin\":598,\"end\":666,\"name\":\"REVERT\"},{\"begin\":598,\"end\":666,\"name\":\"tag\",\"value\":\"20\"},{\"begin\":598,\"end\":666,\"name\":\"JUMPDEST\"},{\"begin\":696,\"end\":701,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":676,\"end\":685,\"name\":\"PUSH\",\"value\":\"1\"},{\"begin\":676,\"end\":693,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":686,\"end\":692,\"name\":\"DUP4\"},{\"begin\":676,\"end\":693,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":676,\"end\":693,\"name\":\"AND\"},{\"begin\":676,\"end\":693,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":676,\"end\":693,\"name\":\"AND\"},{\"begin\":676,\"end\":693,\"name\":\"DUP2\"},{\"begin\":676,\"end\":693,\"name\":\"MSTORE\"},{\"begin\":676,\"end\":693,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":676,\"end\":693,\"name\":\"ADD\"},{\"begin\":676,\"end\":693,\"name\":\"SWAP1\"},{\"begin\":676,\"end\":693,\"name\":\"DUP2\"},{\"begin\":676,\"end\":693,\"name\":\"MSTORE\"},{\"begin\":676,\"end\":693,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":676,\"end\":693,\"name\":\"ADD\"},{\"begin\":676,\"end\":693,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":676,\"end\":693,\"name\":\"KECCAK256\"},{\"begin\":676,\"end\":693,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":676,\"end\":701,\"name\":\"PUSH\",\"value\":\"100\"},{\"begin\":676,\"end\":701,\"name\":\"EXP\"},{\"begin\":676,\"end\":701,\"name\":\"DUP2\"},{\"begin\":676,\"end\":701,\"name\":\"SLOAD\"},{\"begin\":676,\"end\":701,\"name\":\"DUP2\"},{\"begin\":676,\"end\":701,\"name\":\"PUSH\",\"value\":\"FF\"},{\"begin\":676,\"end\":701,\"name\":\"MUL\"},{\"begin\":676,\"end\":701,\"name\":\"NOT\"},{\"begin\":676,\"end\":701,\"name\":\"AND\"},{\"begin\":676,\"end\":701,\"name\":\"SWAP1\"},{\"begin\":676,\"end\":701,\"name\":\"DUP4\"},{\"begin\":676,\"end\":701,\"name\":\"ISZERO\"},{\"begin\":676,\"end\":701,\"name\":\"ISZERO\"},{\"begin\":676,\"end\":701,\"name\":\"MUL\"},{\"begin\":676,\"end\":701,\"name\":\"OR\"},{\"begin\":676,\"end\":701,\"name\":\"SWAP1\"},{\"begin\":676,\"end\":701,\"name\":\"SSTORE\"},{\"begin\":676,\"end\":701,\"name\":\"POP\"},{\"begin\":461,\"end\":708,\"name\":\"POP\"},{\"begin\":461,\"end\":708,\"name\":\"JUMP\",\"value\":\"[out]\"},{\"begin\":718,\"end\":826,\"name\":\"tag\",\"value\":\"14\"},{\"begin\":718,\"end\":826,\"name\":\"JUMPDEST\"},{\"begin\":780,\"end\":784,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":802,\"end\":811,\"name\":\"PUSH\",\"value\":\"1\"},{\"begin\":802,\"end\":819,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":812,\"end\":818,\"name\":\"DUP4\"},{\"begin\":802,\"end\":819,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":802,\"end\":819,\"name\":\"AND\"},{\"begin\":802,\"end\":819,\"name\":\"PUSH\",\"value\":\"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\"},{\"begin\":802,\"end\":819,\"name\":\"AND\"},{\"begin\":802,\"end\":819,\"name\":\"DUP2\"},{\"begin\":802,\"end\":819,\"name\":\"MSTORE\"},{\"begin\":802,\"end\":819,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":802,\"end\":819,\"name\":\"ADD\"},{\"begin\":802,\"end\":819,\"name\":\"SWAP1\"},{\"begin\":802,\"end\":819,\"name\":\"DUP2\"},{\"begin\":802,\"end\":819,\"name\":\"MSTORE\"},{\"begin\":802,\"end\":819,\"name\":\"PUSH\",\"value\":\"20\"},{\"begin\":802,\"end\":819,\"name\":\"ADD\"},{\"begin\":802,\"end\":819,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":802,\"end\":819,\"name\":\"KECCAK256\"},{\"begin\":802,\"end\":819,\"name\":\"PUSH\",\"value\":\"0\"},{\"begin\":802,\"end\":819,\"name\":\"SWAP1\"},{\"begin\":802,\"end\":819,\"name\":\"SLOAD\"},{\"begin\":802,\"end\":819,\"name\":\"SWAP1\"},{\"begin\":802,\"end\":819,\"name\":\"PUSH\",\"value\":\"100\"},{\"begin\":802,\"end\":819,\"name\":\"EXP\"},{\"begin\":802,\"end\":819,\"name\":\"SWAP1\"},{\"begin\":802,\"end\":819,\"name\":\"DIV\"},{\"begin\":802,\"end\":819,\"name\":\"PUSH\",\"value\":\"FF\"},{\"begin\":802,\"end\":819,\"name\":\"AND\"},{\"begin\":795,\"end\":819,\"name\":\"SWAP1\"},{\"begin\":795,\"end\":819,\"name\":\"POP\"},{\"begin\":718,\"end\":826,\"name\":\"SWAP2\"},{\"begin\":718,\"end\":826,\"name\":\"SWAP1\"},{\"begin\":718,\"end\":826,\"name\":\"POP\"},{\"begin\":718,\"end\":826,\"name\":\"JUMP\",\"value\":\"[out]\"}],\".data\":{\"83863A80EEAD283E4FC35D38C562E82449DE90F4387D2544C8C987A5EDF117A7\":\"596f7520616c726564792068617665207772697465207065726d697373696f6e2121\"}}}},\"methodIdentifiers\":{\"canCreateRecords(address)\":\"e77f9871\",\"giveWritePermission(address)\":\"6ca883e0\",\"revokeWritePermission(address)\":\"d5357e0c\"}},\"metadata\":\"{\\\"compiler\\\":{\\\"version\\\":\\\"0.5.7+commit.6da8b019\\\"},\\\"language\\\":\\\"Solidity\\\",\\\"output\\\":{\\\"abi\\\":[{\\\"constant\\\":false,\\\"inputs\\\":[{\\\"name\\\":\\\"writer\\\",\\\"type\\\":\\\"address\\\"}],\\\"name\\\":\\\"giveWritePermission\\\",\\\"outputs\\\":[],\\\"payable\\\":false,\\\"stateMutability\\\":\\\"nonpayable\\\",\\\"type\\\":\\\"function\\\"},{\\\"constant\\\":false,\\\"inputs\\\":[{\\\"name\\\":\\\"writer\\\",\\\"type\\\":\\\"address\\\"}],\\\"name\\\":\\\"revokeWritePermission\\\",\\\"outputs\\\":[],\\\"payable\\\":false,\\\"stateMutability\\\":\\\"nonpayable\\\",\\\"type\\\":\\\"function\\\"},{\\\"constant\\\":true,\\\"inputs\\\":[{\\\"name\\\":\\\"writer\\\",\\\"type\\\":\\\"address\\\"}],\\\"name\\\":\\\"canCreateRecords\\\",\\\"outputs\\\":[{\\\"name\\\":\\\"\\\",\\\"type\\\":\\\"bool\\\"}],\\\"payable\\\":false,\\\"stateMutability\\\":\\\"view\\\",\\\"type\\\":\\\"function\\\"},{\\\"inputs\\\":[],\\\"payable\\\":false,\\\"stateMutability\\\":\\\"nonpayable\\\",\\\"type\\\":\\\"constructor\\\"}],\\\"devdoc\\\":{\\\"methods\\\":{}},\\\"userdoc\\\":{\\\"methods\\\":{}}},\\\"settings\\\":{\\\"compilationTarget\\\":{\\\"patient.sol\\\":\\\"patient\\\"},\\\"evmVersion\\\":\\\"petersburg\\\",\\\"libraries\\\":{},\\\"optimizer\\\":{\\\"enabled\\\":false,\\\"runs\\\":200},\\\"remappings\\\":[]},\\\"sources\\\":{\\\"patient.sol\\\":{\\\"keccak256\\\":\\\"0x43aa9f96b5bb765adfee46996448a5c2631085066303690a2ac915af513321bf\\\",\\\"urls\\\":[\\\"bzzr://b0f506177e059ce044a5e8ae32955edc4881fba440f559fbdcb81c9108430d1d\\\"]}},\\\"version\\\":1}\",\"userdoc\":{\"methods\":{}}}\n";
-		// const compiled = require(compiled_contract);
-		const compiled = JSON.parse(contract_data);
+    const interface = compiled.abi;
+    // console.log(interface);
+    var key;
+    const contract = new web3.eth.Contract(interface, record.record_addr);
+    console.log(contract);
+    await contract.methods.getDecryptionKey().call({from: $("#eth_addr").val()},async (err,res) => {
+    	if(err) console.log("permission denied. "+err);
+    	else {
+    		console.log("got key "+ res);
+    		// key = web3.utils.bytesToHex(res);
+    		key = res;
+    		const Cryptr = require('cryptr');
+		    const cryptr = new Cryptr(key);
+		    const decrypted_data = cryptr.decrypt(record.note);
+		    console.log("record decrypted!! : "+decrypted_data);
 
-		const interface = compiled.abi;
+		    $("#post_view").html("<p>Record found.<br> Patient name: "+record.fullname+"<br>Record name: "+record.record_name+"<br>Patient address: "+record.pat_addr+"<br>Doctor's address: "+record.doc_addr+"<br>Doctor's note: "+decrypted_data+"</p>");
+    	}
+    });
 
-		const web3 = new Web3(web3Provider);
+    
+    	// <form class='form-horizontal' id='share_form'><div class='form-group'><label class='control-label col-sm-2' for='share'>Share</label><div class='col-sm-6'><input type='text' class='form-control' id='share_addr' name='share_addr'></div></div><div class='form-group'><div class='col-sm-offset-2 col-sm-10'><button type='submit' id='share_submit' class='btn btn-default'>Share</button></div></div></form>");
 
-		// const web3 = new Web3(web3.currentProvider);
-		console.log(web3.eth);
-
-		const contract = new web3.eth.Contract(interface, contractAddr);
-		console.log(contract);
-		// console.log("I am alive!!");
-		const doctorAddr = $("#doc_addr").val();
-		const patientAddr = $("#patient_addr").val();
-
-		const txObject = {
-			gas: "1000000",
-			from: patientAddr
-		};
-		contract.methods.giveWritePermission(doctorAddr).send(txObject, (err, res) => {
-              if(err) console.log(err);
-              else console.log(res);
-          })
-		// contract.methods.canCreateRecords(doctorAddr).call((err, res) => {
-		// 	if(err) console.log(err);
-		// 	else console.log(res);
-		// })
 	}
-		
+	$("#share_form").submit(async function(event){
+		event.preventDefault();
+		await share($("#share_addr").val());
+	});
+	
 })
-
-},{"web3":396}]},{},[405]);
+},{"cryptr":215,"web3":397}]},{},[406]);

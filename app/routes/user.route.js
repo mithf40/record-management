@@ -38,6 +38,16 @@ module.exports = function(app) {
 	//Retrieve contract address
 	app.get('/patient/api/registers/contract', users.findContractAddress);
 
+	app.get('/patient/api/records/view',users.find_record_addr);
+
+	app.get('/view', (req,res) => {
+		res.sendFile(path + "view.html");
+	});
+
+	app.get('/share', (req,res) => {
+		res.sendFile(path + "share.html");
+	});
+
 	app.get('/register', (req,res) => {
 		res.sendFile(path + "register.html");
 	});

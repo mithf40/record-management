@@ -15,7 +15,7 @@ exports.save = (req, res) => {
     pat_addr: req.body.pat_addr,
     doc_addr: req.body.doc_addr,
     note: req.body.note,
-    record_addr: req.body.record_addr 
+    record_addr: req.body.record_addr
   },{
     attributes: {include: ['fullname', 'record_name', 'pat_addr', 'doc_addr', 'note', 'record_addr']}
   }).then(record => {
@@ -71,4 +71,14 @@ exports.findContractAddress = (req, res) => {
     res.send(users);
   });
 
+};
+
+exports.find_record_addr = (req, res) => {
+  records.findAll({
+    attributes: {include: ['fullname', 'record_name', 'pat_addr', 'doc_addr', 'note', 'record_addr']},
+    where: {record_name: req.query.record_name}
+  }).then(rec => {
+    console.log("record found "+rec);
+    res.send(rec);
+  });
 };

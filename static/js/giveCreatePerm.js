@@ -86,14 +86,8 @@ $( document ).ready(function() {
 			from: patientAddr
 		};
 		contract.methods.giveWritePermission(doctorAddr).send(txObject, (err, res) => {
-              if(err) {
-                console.log(err);
-                $('#postPermit').html("Something went wrong :(");
-              }
-              else{ 
-                console.log(res);
-                $('#postPermit').html("Successfully gave create permission to " + doctorAddr);
-              }
+              if(err) console.log(err);
+              else console.log(res);
           })
 		// contract.methods.canCreateRecords(doctorAddr).call((err, res) => {
 		// 	if(err) console.log(err);

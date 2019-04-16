@@ -17,6 +17,7 @@ module.exports = (sequelize, Sequelize) => {
     },
     record_addr: {
       type: Sequelize.STRING
+
     } 
   });
   const register = sequelize.define('register',{
@@ -27,7 +28,7 @@ module.exports = (sequelize, Sequelize) => {
       type: Sequelize.STRING
     }
   })
-  const tables = {}
+  const tables = {};
   tables.register = register;
   tables.records =  records;
   return tables;
